@@ -7,329 +7,175 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB3412F01E08C45200DA5E5E /* AboutHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412521E08C45200DA5E5E /* AboutHandler.swift */; };
-		BB3412F11E08C45200DA5E5E /* AppEvent_AboutEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412531E08C45200DA5E5E /* AppEvent_AboutEvent.swift */; };
-		BB3412F21E08C45200DA5E5E /* AppEvent_AppForegroundEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412541E08C45200DA5E5E /* AppEvent_AppForegroundEvent.swift */; };
-		BB3412F31E08C45200DA5E5E /* AppEvent_AppHiddenEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412551E08C45200DA5E5E /* AppEvent_AppHiddenEvent.swift */; };
-		BB3412F41E08C45200DA5E5E /* AppEvent_AppReOpenedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412561E08C45200DA5E5E /* AppEvent_AppReOpenedEvent.swift */; };
-		BB3412F51E08C45200DA5E5E /* AppEvent_FilesEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412571E08C45200DA5E5E /* AppEvent_FilesEvent.swift */; };
-		BB3412F61E08C45200DA5E5E /* AppEvent_FullScreenEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412581E08C45200DA5E5E /* AppEvent_FullScreenEvent.swift */; };
-		BB3412F71E08C45200DA5E5E /* AppEvent_OpenFilesEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412591E08C45200DA5E5E /* AppEvent_OpenFilesEvent.swift */; };
-		BB3412F81E08C45200DA5E5E /* AppEvent_OpenURIEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34125A1E08C45200DA5E5E /* AppEvent_OpenURIEvent.swift */; };
-		BB3412F91E08C45200DA5E5E /* AppEvent_PreferencesEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34125B1E08C45200DA5E5E /* AppEvent_PreferencesEvent.swift */; };
-		BB3412FA1E08C45200DA5E5E /* AppEvent_PrintFilesEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34125C1E08C45200DA5E5E /* AppEvent_PrintFilesEvent.swift */; };
-		BB3412FB1E08C45200DA5E5E /* AppEvent_QuitEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34125D1E08C45200DA5E5E /* AppEvent_QuitEvent.swift */; };
-		BB3412FC1E08C45200DA5E5E /* AppEvent_ScreenSleepEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34125E1E08C45200DA5E5E /* AppEvent_ScreenSleepEvent.swift */; };
-		BB3412FD1E08C45200DA5E5E /* AppEvent_SystemSleepEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34125F1E08C45200DA5E5E /* AppEvent_SystemSleepEvent.swift */; };
-		BB3412FE1E08C45200DA5E5E /* AppEvent_UserSessionEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412601E08C45200DA5E5E /* AppEvent_UserSessionEvent.swift */; };
-		BB3412FF1E08C45200DA5E5E /* AppEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412611E08C45200DA5E5E /* AppEvent.swift */; };
-		BB3413001E08C45200DA5E5E /* AppEventListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412621E08C45200DA5E5E /* AppEventListener.swift */; };
-		BB3413011E08C45200DA5E5E /* AppForegroundListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412631E08C45200DA5E5E /* AppForegroundListener.swift */; };
-		BB3413021E08C45200DA5E5E /* AppHiddenListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412641E08C45200DA5E5E /* AppHiddenListener.swift */; };
-		BB3413031E08C45200DA5E5E /* AppleSystemLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412651E08C45200DA5E5E /* AppleSystemLog.swift */; };
-		BB3413041E08C45200DA5E5E /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412661E08C45200DA5E5E /* Application.swift */; };
-		BB3413051E08C45200DA5E5E /* ApplicationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412671E08C45200DA5E5E /* ApplicationAdapter.swift */; };
-		BB3413061E08C45200DA5E5E /* ApplicationBeanInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412681E08C45200DA5E5E /* ApplicationBeanInfo.swift */; };
-		BB3413071E08C45200DA5E5E /* ApplicationEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412691E08C45200DA5E5E /* ApplicationEvent.swift */; };
-		BB3413081E08C45200DA5E5E /* ApplicationListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34126A1E08C45200DA5E5E /* ApplicationListener.swift */; };
-		BB3413091E08C45200DA5E5E /* AppReOpenedListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34126B1E08C45200DA5E5E /* AppReOpenedListener.swift */; };
-		BB34130A1E08C45200DA5E5E /* AquaBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34126C1E08C45200DA5E5E /* AquaBorder.swift */; };
-		BB34130B1E08C45200DA5E5E /* AquaButtonBorder_Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34126D1E08C45200DA5E5E /* AquaButtonBorder_Dynamic.swift */; };
-		BB34130C1E08C45200DA5E5E /* AquaButtonBorder_Named.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34126E1E08C45200DA5E5E /* AquaButtonBorder_Named.swift */; };
-		BB34130D1E08C45200DA5E5E /* AquaButtonBorder_Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34126F1E08C45200DA5E5E /* AquaButtonBorder_Toggle.swift */; };
-		BB34130E1E08C45200DA5E5E /* AquaButtonBorder_Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412701E08C45200DA5E5E /* AquaButtonBorder_Toolbar.swift */; };
-		BB34130F1E08C45200DA5E5E /* AquaButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412711E08C45200DA5E5E /* AquaButtonBorder.swift */; };
-		BB3413101E08C45200DA5E5E /* AquaButtonCheckBoxUI_CheckBoxButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412721E08C45200DA5E5E /* AquaButtonCheckBoxUI_CheckBoxButtonBorder.swift */; };
-		BB3413111E08C45200DA5E5E /* AquaButtonCheckBoxUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412731E08C45200DA5E5E /* AquaButtonCheckBoxUI.swift */; };
-		BB3413121E08C45200DA5E5E /* AquaButtonExtendedTypes_SegmentedNamedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412741E08C45200DA5E5E /* AquaButtonExtendedTypes_SegmentedNamedBorder.swift */; };
-		BB3413131E08C45200DA5E5E /* AquaButtonExtendedTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412751E08C45200DA5E5E /* AquaButtonExtendedTypes.swift */; };
-		BB3413141E08C45200DA5E5E /* AquaButtonLabeledUI_LabeledButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412761E08C45200DA5E5E /* AquaButtonLabeledUI_LabeledButtonBorder.swift */; };
-		BB3413151E08C45200DA5E5E /* AquaButtonLabeledUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412771E08C45200DA5E5E /* AquaButtonLabeledUI.swift */; };
-		BB3413161E08C45200DA5E5E /* AquaButtonRadioUI_RadioButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412781E08C45200DA5E5E /* AquaButtonRadioUI_RadioButtonBorder.swift */; };
-		BB3413171E08C45200DA5E5E /* AquaButtonRadioUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412791E08C45200DA5E5E /* AquaButtonRadioUI.swift */; };
-		BB3413181E08C45200DA5E5E /* AquaButtonToggleUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34127A1E08C45200DA5E5E /* AquaButtonToggleUI.swift */; };
-		BB3413191E08C45200DA5E5E /* AquaButtonUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34127B1E08C45200DA5E5E /* AquaButtonUI.swift */; };
-		BB34131A1E08C45200DA5E5E /* AquaCachingPainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34127C1E08C45200DA5E5E /* AquaCachingPainter.swift */; };
-		BB34131B1E08C45200DA5E5E /* AquaCaret.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34127D1E08C45200DA5E5E /* AquaCaret.swift */; };
-		BB34131C1E08C45200DA5E5E /* AquaComboBoxUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34127E1E08C45200DA5E5E /* AquaComboBoxUI.swift */; };
-		BB34131D1E08C45200DA5E5E /* AquaEditorPaneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34127F1E08C45200DA5E5E /* AquaEditorPaneUI.swift */; };
-		BB34131E1E08C45200DA5E5E /* AquaFileChooserUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412801E08C45200DA5E5E /* AquaFileChooserUI.swift */; };
-		BB34131F1E08C45200DA5E5E /* AquaFocus.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412811E08C45200DA5E5E /* AquaFocus.swift */; };
-		BB3413201E08C45200DA5E5E /* AquaFocusHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412821E08C45200DA5E5E /* AquaFocusHandler.swift */; };
-		BB3413211E08C45200DA5E5E /* AquaFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412831E08C45200DA5E5E /* AquaFonts.swift */; };
-		BB3413221E08C45200DA5E5E /* AquaGroupBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412841E08C45200DA5E5E /* AquaGroupBorder.swift */; };
-		BB3413231E08C45200DA5E5E /* AquaHighlighter_AquaHighlightPainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412851E08C45200DA5E5E /* AquaHighlighter_AquaHighlightPainter.swift */; };
-		BB3413241E08C45200DA5E5E /* AquaHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412861E08C45200DA5E5E /* AquaHighlighter.swift */; };
-		BB3413251E08C45200DA5E5E /* AquaIcon_JRSUIControlSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412871E08C45200DA5E5E /* AquaIcon_JRSUIControlSpec.swift */; };
-		BB3413261E08C45200DA5E5E /* AquaIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412881E08C45200DA5E5E /* AquaIcon.swift */; };
-		BB3413271E08C45200DA5E5E /* AquaImageFactory_SlicedImageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412891E08C45200DA5E5E /* AquaImageFactory_SlicedImageControl.swift */; };
-		BB3413281E08C45200DA5E5E /* AquaImageFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34128A1E08C45200DA5E5E /* AquaImageFactory.swift */; };
-		BB3413291E08C45200DA5E5E /* AquaInternalFrameBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34128B1E08C45200DA5E5E /* AquaInternalFrameBorder.swift */; };
-		BB34132A1E08C45200DA5E5E /* AquaInternalFrameBorderMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34128C1E08C45200DA5E5E /* AquaInternalFrameBorderMetrics.swift */; };
-		BB34132B1E08C45200DA5E5E /* AquaInternalFrameDockIconUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34128D1E08C45200DA5E5E /* AquaInternalFrameDockIconUI.swift */; };
-		BB34132C1E08C45200DA5E5E /* AquaInternalFrameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34128E1E08C45200DA5E5E /* AquaInternalFrameManager.swift */; };
-		BB34132D1E08C45200DA5E5E /* AquaInternalFramePaneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34128F1E08C45200DA5E5E /* AquaInternalFramePaneUI.swift */; };
-		BB34132E1E08C45200DA5E5E /* AquaInternalFrameUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412901E08C45200DA5E5E /* AquaInternalFrameUI.swift */; };
-		BB34132F1E08C45200DA5E5E /* AquaKeyBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412911E08C45200DA5E5E /* AquaKeyBindings.swift */; };
-		BB3413301E08C45200DA5E5E /* AquaLabelUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412921E08C45200DA5E5E /* AquaLabelUI.swift */; };
-		BB3413311E08C45200DA5E5E /* AquaListUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412931E08C45200DA5E5E /* AquaListUI.swift */; };
-		BB3413321E08C45200DA5E5E /* AquaLookAndFeel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412941E08C45200DA5E5E /* AquaLookAndFeel.swift */; };
-		BB3413331E08C45200DA5E5E /* AquaMenuBarBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412951E08C45200DA5E5E /* AquaMenuBarBorder.swift */; };
-		BB3413341E08C45200DA5E5E /* AquaMenuBarUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412961E08C45200DA5E5E /* AquaMenuBarUI.swift */; };
-		BB3413351E08C45200DA5E5E /* AquaMenuBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412971E08C45200DA5E5E /* AquaMenuBorder.swift */; };
-		BB3413361E08C45200DA5E5E /* AquaMenuItemUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412981E08C45200DA5E5E /* AquaMenuItemUI.swift */; };
-		BB3413371E08C45200DA5E5E /* AquaMenuPainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412991E08C45200DA5E5E /* AquaMenuPainter.swift */; };
-		BB3413381E08C45200DA5E5E /* AquaMenuUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34129A1E08C45200DA5E5E /* AquaMenuUI.swift */; };
-		BB3413391E08C45200DA5E5E /* AquaMnemonicHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34129B1E08C45200DA5E5E /* AquaMnemonicHandler.swift */; };
-		BB34133A1E08C45200DA5E5E /* AquaNativeResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34129C1E08C45200DA5E5E /* AquaNativeResources.swift */; };
-		BB34133B1E08C45200DA5E5E /* AquaOptionPaneUI_AquaButtonAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34129D1E08C45200DA5E5E /* AquaOptionPaneUI_AquaButtonAreaLayout.swift */; };
-		BB34133C1E08C45200DA5E5E /* AquaOptionPaneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34129E1E08C45200DA5E5E /* AquaOptionPaneUI.swift */; };
-		BB34133D1E08C45200DA5E5E /* AquaPanelUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34129F1E08C45200DA5E5E /* AquaPanelUI.swift */; };
-		BB34133E1E08C45200DA5E5E /* AquaPopupMenuSeparatorUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412A01E08C45200DA5E5E /* AquaPopupMenuSeparatorUI.swift */; };
-		BB34133F1E08C45200DA5E5E /* AquaPopupMenuUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412A11E08C45200DA5E5E /* AquaPopupMenuUI.swift */; };
-		BB3413401E08C45200DA5E5E /* AquaProgressBarUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412A21E08C45200DA5E5E /* AquaProgressBarUI.swift */; };
-		BB3413411E08C45200DA5E5E /* AquaRootPaneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412A31E08C45200DA5E5E /* AquaRootPaneUI.swift */; };
-		BB3413421E08C45200DA5E5E /* AquaScrollBarUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412A41E08C45200DA5E5E /* AquaScrollBarUI.swift */; };
-		BB3413431E08C45200DA5E5E /* AquaScrollPaneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412A51E08C45200DA5E5E /* AquaScrollPaneUI.swift */; };
-		BB3413441E08C45200DA5E5E /* AquaScrollRegionBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412A61E08C45200DA5E5E /* AquaScrollRegionBorder.swift */; };
-		BB3413451E08C45200DA5E5E /* AquaSliderUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412A71E08C45200DA5E5E /* AquaSliderUI.swift */; };
-		BB3413461E08C45200DA5E5E /* AquaSpinnerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412A81E08C45200DA5E5E /* AquaSpinnerUI.swift */; };
-		BB3413471E08C45200DA5E5E /* AquaSplitPaneDividerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412A91E08C45200DA5E5E /* AquaSplitPaneDividerUI.swift */; };
-		BB3413481E08C45200DA5E5E /* AquaSplitPaneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412AA1E08C45200DA5E5E /* AquaSplitPaneUI.swift */; };
-		BB3413491E08C45200DA5E5E /* AquaTabbedPaneContrastUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412AB1E08C45200DA5E5E /* AquaTabbedPaneContrastUI.swift */; };
-		BB34134A1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_FocusHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412AC1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_FocusHandler.swift */; };
-		BB34134B1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_MouseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412AD1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_MouseHandler.swift */; };
-		BB34134C1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_PropertyChangeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412AE1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_PropertyChangeHandler.swift */; };
-		BB34134D1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_TabbedPaneLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412AF1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_TabbedPaneLayout.swift */; };
-		BB34134E1E08C45300DA5E5E /* AquaTabbedPaneCopyFromBasicUI_TabSelectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412B01E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_TabSelectionHandler.swift */; };
-		BB34134F1E08C45300DA5E5E /* AquaTabbedPaneCopyFromBasicUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412B11E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI.swift */; };
-		BB3413501E08C45300DA5E5E /* AquaTabbedPaneUI_MouseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412B21E08C45200DA5E5E /* AquaTabbedPaneUI_MouseHandler.swift */; };
-		BB3413511E08C45300DA5E5E /* AquaTabbedPaneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412B31E08C45200DA5E5E /* AquaTabbedPaneUI.swift */; };
-		BB3413521E08C45300DA5E5E /* AquaTableHeaderBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412B41E08C45200DA5E5E /* AquaTableHeaderBorder.swift */; };
-		BB3413531E08C45300DA5E5E /* AquaTableHeaderUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412B51E08C45200DA5E5E /* AquaTableHeaderUI.swift */; };
-		BB3413541E08C45300DA5E5E /* AquaTableUI_FocusHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412B61E08C45200DA5E5E /* AquaTableUI_FocusHandler.swift */; };
-		BB3413551E08C45300DA5E5E /* AquaTableUI_MouseInputHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412B71E08C45200DA5E5E /* AquaTableUI_MouseInputHandler.swift */; };
-		BB3413561E08C45300DA5E5E /* AquaTableUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412B81E08C45200DA5E5E /* AquaTableUI.swift */; };
-		BB3413571E08C45300DA5E5E /* AquaTextAreaUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412B91E08C45200DA5E5E /* AquaTextAreaUI.swift */; };
-		BB3413581E08C45300DA5E5E /* AquaTextFieldBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412BA1E08C45200DA5E5E /* AquaTextFieldBorder.swift */; };
-		BB3413591E08C45300DA5E5E /* AquaTextFieldFormattedUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412BB1E08C45200DA5E5E /* AquaTextFieldFormattedUI.swift */; };
-		BB34135A1E08C45300DA5E5E /* AquaTextFieldSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412BC1E08C45200DA5E5E /* AquaTextFieldSearch.swift */; };
-		BB34135B1E08C45300DA5E5E /* AquaTextFieldUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412BD1E08C45200DA5E5E /* AquaTextFieldUI.swift */; };
-		BB34135C1E08C45300DA5E5E /* AquaTextPaneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412BE1E08C45200DA5E5E /* AquaTextPaneUI.swift */; };
-		BB34135D1E08C45300DA5E5E /* AquaTextPasswordFieldUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412BF1E08C45200DA5E5E /* AquaTextPasswordFieldUI.swift */; };
-		BB34135E1E08C45300DA5E5E /* AquaToolBarSeparatorUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412C01E08C45200DA5E5E /* AquaToolBarSeparatorUI.swift */; };
-		BB34135F1E08C45300DA5E5E /* AquaToolBarUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412C11E08C45200DA5E5E /* AquaToolBarUI.swift */; };
-		BB3413601E08C45300DA5E5E /* AquaToolTipUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412C21E08C45200DA5E5E /* AquaToolTipUI.swift */; };
-		BB3413611E08C45300DA5E5E /* AquaTreeUI_MacPropertyChangeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412C31E08C45200DA5E5E /* AquaTreeUI_MacPropertyChangeHandler.swift */; };
-		BB3413621E08C45300DA5E5E /* AquaTreeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412C41E08C45200DA5E5E /* AquaTreeUI.swift */; };
-		BB3413631E08C45300DA5E5E /* AquaUtilControlSize_SizeDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412C51E08C45200DA5E5E /* AquaUtilControlSize_SizeDescriptor.swift */; };
-		BB3413641E08C45300DA5E5E /* AquaUtilControlSize_SizeVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412C61E08C45200DA5E5E /* AquaUtilControlSize_SizeVariant.swift */; };
-		BB3413651E08C45300DA5E5E /* AquaUtilControlSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412C71E08C45200DA5E5E /* AquaUtilControlSize.swift */; };
-		BB3413661E08C45300DA5E5E /* AquaUtils_LazyKeyedSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412C81E08C45200DA5E5E /* AquaUtils_LazyKeyedSingleton.swift */; };
-		BB3413671E08C45300DA5E5E /* AquaUtils_LazySingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412C91E08C45200DA5E5E /* AquaUtils_LazySingleton.swift */; };
-		BB3413681E08C45300DA5E5E /* AquaUtils_LazySingletonFromDefaultConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412CA1E08C45200DA5E5E /* AquaUtils_LazySingletonFromDefaultConstructor.swift */; };
-		BB3413691E08C45300DA5E5E /* AquaUtils_ShadowBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412CB1E08C45200DA5E5E /* AquaUtils_ShadowBorder.swift */; };
-		BB34136A1E08C45300DA5E5E /* AquaUtils_SlicedShadowBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412CC1E08C45200DA5E5E /* AquaUtils_SlicedShadowBorder.swift */; };
-		BB34136B1E08C45300DA5E5E /* AquaUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412CD1E08C45200DA5E5E /* AquaUtils.swift */; };
-		BB34136C1E08C45300DA5E5E /* CocoaComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412CE1E08C45200DA5E5E /* CocoaComponent.swift */; };
-		BB34136D1E08C45300DA5E5E /* Dispatch_Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412CF1E08C45200DA5E5E /* Dispatch_Priority.swift */; };
-		BB34136E1E08C45300DA5E5E /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412D01E08C45200DA5E5E /* Dispatch.swift */; };
-		BB34136F1E08C45300DA5E5E /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412D11E08C45200DA5E5E /* FileManager.swift */; };
-		BB3413701E08C45300DA5E5E /* FullScreenAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412D21E08C45200DA5E5E /* FullScreenAdapter.swift */; };
-		BB3413711E08C45300DA5E5E /* FullScreenListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412D31E08C45200DA5E5E /* FullScreenListener.swift */; };
-		BB3413721E08C45300DA5E5E /* FullScreenUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412D41E08C45200DA5E5E /* FullScreenUtilities.swift */; };
-		BB3413731E08C45300DA5E5E /* GestureAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412D51E08C45200DA5E5E /* GestureAdapter.swift */; };
-		BB3413741E08C45300DA5E5E /* GestureEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412D61E08C45200DA5E5E /* GestureEvent.swift */; };
-		BB3413751E08C45300DA5E5E /* GestureListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412D71E08C45200DA5E5E /* GestureListener.swift */; };
-		BB3413761E08C45300DA5E5E /* GesturePhaseEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412D81E08C45200DA5E5E /* GesturePhaseEvent.swift */; };
-		BB3413771E08C45300DA5E5E /* GesturePhaseListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412D91E08C45200DA5E5E /* GesturePhaseListener.swift */; };
-		BB3413781E08C45300DA5E5E /* GestureUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412DA1E08C45200DA5E5E /* GestureUtilities.swift */; };
-		BB3413791E08C45300DA5E5E /* MacOSXResourceBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412DB1E08C45200DA5E5E /* MacOSXResourceBundle.swift */; };
-		BB34137A1E08C45300DA5E5E /* MagnificationEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412DC1E08C45200DA5E5E /* MagnificationEvent.swift */; };
-		BB34137B1E08C45300DA5E5E /* MagnificationListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412DD1E08C45200DA5E5E /* MagnificationListener.swift */; };
-		BB34137C1E08C45300DA5E5E /* OpenFilesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412DE1E08C45200DA5E5E /* OpenFilesHandler.swift */; };
-		BB34137D1E08C45300DA5E5E /* OpenURIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412DF1E08C45200DA5E5E /* OpenURIHandler.swift */; };
-		BB34137E1E08C45300DA5E5E /* PreferencesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412E01E08C45200DA5E5E /* PreferencesHandler.swift */; };
-		BB34137F1E08C45300DA5E5E /* PrintFilesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412E11E08C45200DA5E5E /* PrintFilesHandler.swift */; };
-		BB3413801E08C45300DA5E5E /* QuitHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412E21E08C45200DA5E5E /* QuitHandler.swift */; };
-		BB3413811E08C45300DA5E5E /* QuitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412E31E08C45200DA5E5E /* QuitResponse.swift */; };
-		BB3413821E08C45300DA5E5E /* QuitStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412E41E08C45200DA5E5E /* QuitStrategy.swift */; };
-		BB3413831E08C45300DA5E5E /* RotationEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412E51E08C45200DA5E5E /* RotationEvent.swift */; };
-		BB3413841E08C45300DA5E5E /* RotationListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412E61E08C45200DA5E5E /* RotationListener.swift */; };
-		BB3413851E08C45300DA5E5E /* ScreenMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412E71E08C45200DA5E5E /* ScreenMenuBar.swift */; };
-		BB3413861E08C45300DA5E5E /* ScreenMenuBarProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412E81E08C45200DA5E5E /* ScreenMenuBarProvider.swift */; };
-		BB3413871E08C45300DA5E5E /* ScreenMenuItemUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412E91E08C45200DA5E5E /* ScreenMenuItemUI.swift */; };
-		BB3413881E08C45300DA5E5E /* ScreenSleepListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412EA1E08C45200DA5E5E /* ScreenSleepListener.swift */; };
-		BB3413891E08C45300DA5E5E /* SwipeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412EB1E08C45200DA5E5E /* SwipeEvent.swift */; };
-		BB34138A1E08C45300DA5E5E /* SwipeListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412EC1E08C45200DA5E5E /* SwipeListener.swift */; };
-		BB34138B1E08C45300DA5E5E /* SystemSleepListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412ED1E08C45200DA5E5E /* SystemSleepListener.swift */; };
-		BB34138C1E08C45300DA5E5E /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412EE1E08C45200DA5E5E /* Usage.swift */; };
-		BB34138D1E08C45300DA5E5E /* UserSessionListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3412EF1E08C45200DA5E5E /* UserSessionListener.swift */; };
 		BBBBDD391D51DB2F00767B95 /* javax_swing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBBDD381D51DB2F00767B95 /* javax_swing.framework */; };
 		BBBF38E31D49DB73004142AE /* com_apple.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBF38E11D49DB73004142AE /* com_apple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE6BB1201F33D9CD00CA6A8F /* AboutHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB07E1F33D9CD00CA6A8F /* AboutHandler.swift */; };
+		CE6BB1211F33D9CD00CA6A8F /* AppEvent_AboutEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB07F1F33D9CD00CA6A8F /* AppEvent_AboutEvent.swift */; };
+		CE6BB1221F33D9CD00CA6A8F /* AppEvent_AppForegroundEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0801F33D9CD00CA6A8F /* AppEvent_AppForegroundEvent.swift */; };
+		CE6BB1231F33D9CD00CA6A8F /* AppEvent_AppHiddenEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0811F33D9CD00CA6A8F /* AppEvent_AppHiddenEvent.swift */; };
+		CE6BB1241F33D9CD00CA6A8F /* AppEvent_AppReOpenedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0821F33D9CD00CA6A8F /* AppEvent_AppReOpenedEvent.swift */; };
+		CE6BB1251F33D9CD00CA6A8F /* AppEvent_FilesEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0831F33D9CD00CA6A8F /* AppEvent_FilesEvent.swift */; };
+		CE6BB1261F33D9CD00CA6A8F /* AppEvent_FullScreenEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0841F33D9CD00CA6A8F /* AppEvent_FullScreenEvent.swift */; };
+		CE6BB1271F33D9CD00CA6A8F /* AppEvent_OpenFilesEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0851F33D9CD00CA6A8F /* AppEvent_OpenFilesEvent.swift */; };
+		CE6BB1281F33D9CD00CA6A8F /* AppEvent_OpenURIEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0861F33D9CD00CA6A8F /* AppEvent_OpenURIEvent.swift */; };
+		CE6BB1291F33D9CD00CA6A8F /* AppEvent_PreferencesEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0871F33D9CD00CA6A8F /* AppEvent_PreferencesEvent.swift */; };
+		CE6BB12A1F33D9CD00CA6A8F /* AppEvent_PrintFilesEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0881F33D9CD00CA6A8F /* AppEvent_PrintFilesEvent.swift */; };
+		CE6BB12B1F33D9CD00CA6A8F /* AppEvent_QuitEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0891F33D9CD00CA6A8F /* AppEvent_QuitEvent.swift */; };
+		CE6BB12C1F33D9CD00CA6A8F /* AppEvent_ScreenSleepEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB08A1F33D9CD00CA6A8F /* AppEvent_ScreenSleepEvent.swift */; };
+		CE6BB12D1F33D9CD00CA6A8F /* AppEvent_SystemSleepEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB08B1F33D9CD00CA6A8F /* AppEvent_SystemSleepEvent.swift */; };
+		CE6BB12E1F33D9CD00CA6A8F /* AppEvent_UserSessionEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB08C1F33D9CD00CA6A8F /* AppEvent_UserSessionEvent.swift */; };
+		CE6BB12F1F33D9CD00CA6A8F /* AppEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB08D1F33D9CD00CA6A8F /* AppEvent.swift */; };
+		CE6BB1301F33D9CD00CA6A8F /* AppEventListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB08E1F33D9CD00CA6A8F /* AppEventListener.swift */; };
+		CE6BB1311F33D9CD00CA6A8F /* AppForegroundListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB08F1F33D9CD00CA6A8F /* AppForegroundListener.swift */; };
+		CE6BB1321F33D9CD00CA6A8F /* AppHiddenListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0901F33D9CD00CA6A8F /* AppHiddenListener.swift */; };
+		CE6BB1331F33D9CD00CA6A8F /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0911F33D9CD00CA6A8F /* Application.swift */; };
+		CE6BB1341F33D9CD00CA6A8F /* ApplicationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0921F33D9CD00CA6A8F /* ApplicationAdapter.swift */; };
+		CE6BB1351F33D9CD00CA6A8F /* ApplicationBeanInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0931F33D9CD00CA6A8F /* ApplicationBeanInfo.swift */; };
+		CE6BB1361F33D9CD00CA6A8F /* ApplicationEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0941F33D9CD00CA6A8F /* ApplicationEvent.swift */; };
+		CE6BB1371F33D9CD00CA6A8F /* ApplicationListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0951F33D9CD00CA6A8F /* ApplicationListener.swift */; };
+		CE6BB1381F33D9CD00CA6A8F /* AppReOpenedListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0961F33D9CD00CA6A8F /* AppReOpenedListener.swift */; };
+		CE6BB1391F33D9CD00CA6A8F /* aqua_de.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0971F33D9CD00CA6A8F /* aqua_de.swift */; };
+		CE6BB13A1F33D9CD00CA6A8F /* aqua_es.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0981F33D9CD00CA6A8F /* aqua_es.swift */; };
+		CE6BB13B1F33D9CD00CA6A8F /* aqua_fr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0991F33D9CD00CA6A8F /* aqua_fr.swift */; };
+		CE6BB13C1F33D9CD00CA6A8F /* aqua_it.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB09A1F33D9CD00CA6A8F /* aqua_it.swift */; };
+		CE6BB13D1F33D9CD00CA6A8F /* aqua_ja.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB09B1F33D9CD00CA6A8F /* aqua_ja.swift */; };
+		CE6BB13E1F33D9CD00CA6A8F /* aqua_ko.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB09C1F33D9CD00CA6A8F /* aqua_ko.swift */; };
+		CE6BB13F1F33D9CD00CA6A8F /* aqua_pt_BR.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB09D1F33D9CD00CA6A8F /* aqua_pt_BR.swift */; };
+		CE6BB1401F33D9CD00CA6A8F /* aqua_sv.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB09E1F33D9CD00CA6A8F /* aqua_sv.swift */; };
+		CE6BB1411F33D9CD00CA6A8F /* aqua_zh_CN.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB09F1F33D9CD00CA6A8F /* aqua_zh_CN.swift */; };
+		CE6BB1421F33D9CD00CA6A8F /* aqua_zh_TW.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0A01F33D9CD00CA6A8F /* aqua_zh_TW.swift */; };
+		CE6BB1431F33D9CD00CA6A8F /* aqua.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0A11F33D9CD00CA6A8F /* aqua.swift */; };
+		CE6BB1441F33D9CD00CA6A8F /* AquaBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0A21F33D9CD00CA6A8F /* AquaBorder.swift */; };
+		CE6BB1451F33D9CD00CA6A8F /* AquaButtonBorder_Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0A31F33D9CD00CA6A8F /* AquaButtonBorder_Dynamic.swift */; };
+		CE6BB1461F33D9CD00CA6A8F /* AquaButtonBorder_Named.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0A41F33D9CD00CA6A8F /* AquaButtonBorder_Named.swift */; };
+		CE6BB1471F33D9CD00CA6A8F /* AquaButtonBorder_Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0A51F33D9CD00CA6A8F /* AquaButtonBorder_Toggle.swift */; };
+		CE6BB1481F33D9CD00CA6A8F /* AquaButtonBorder_Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0A61F33D9CD00CA6A8F /* AquaButtonBorder_Toolbar.swift */; };
+		CE6BB1491F33D9CD00CA6A8F /* AquaButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0A71F33D9CD00CA6A8F /* AquaButtonBorder.swift */; };
+		CE6BB14A1F33D9CD00CA6A8F /* AquaButtonCheckBoxUI_CheckBoxButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0A81F33D9CD00CA6A8F /* AquaButtonCheckBoxUI_CheckBoxButtonBorder.swift */; };
+		CE6BB14B1F33D9CD00CA6A8F /* AquaButtonCheckBoxUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0A91F33D9CD00CA6A8F /* AquaButtonCheckBoxUI.swift */; };
+		CE6BB14C1F33D9CD00CA6A8F /* AquaButtonExtendedTypes_SegmentedNamedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0AA1F33D9CD00CA6A8F /* AquaButtonExtendedTypes_SegmentedNamedBorder.swift */; };
+		CE6BB14D1F33D9CD00CA6A8F /* AquaButtonExtendedTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0AB1F33D9CD00CA6A8F /* AquaButtonExtendedTypes.swift */; };
+		CE6BB14E1F33D9CD00CA6A8F /* AquaButtonLabeledUI_LabeledButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0AC1F33D9CD00CA6A8F /* AquaButtonLabeledUI_LabeledButtonBorder.swift */; };
+		CE6BB14F1F33D9CD00CA6A8F /* AquaButtonLabeledUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0AD1F33D9CD00CA6A8F /* AquaButtonLabeledUI.swift */; };
+		CE6BB1501F33D9CD00CA6A8F /* AquaButtonRadioUI_RadioButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0AE1F33D9CD00CA6A8F /* AquaButtonRadioUI_RadioButtonBorder.swift */; };
+		CE6BB1511F33D9CD00CA6A8F /* AquaButtonRadioUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0AF1F33D9CD00CA6A8F /* AquaButtonRadioUI.swift */; };
+		CE6BB1521F33D9CD00CA6A8F /* AquaButtonToggleUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0B01F33D9CD00CA6A8F /* AquaButtonToggleUI.swift */; };
+		CE6BB1531F33D9CD00CA6A8F /* AquaButtonUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0B11F33D9CD00CA6A8F /* AquaButtonUI.swift */; };
+		CE6BB1541F33D9CD00CA6A8F /* AquaCaret.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0B21F33D9CD00CA6A8F /* AquaCaret.swift */; };
+		CE6BB1551F33D9CD00CA6A8F /* AquaComboBoxUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0B31F33D9CD00CA6A8F /* AquaComboBoxUI.swift */; };
+		CE6BB1561F33D9CD00CA6A8F /* AquaEditorPaneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0B41F33D9CD00CA6A8F /* AquaEditorPaneUI.swift */; };
+		CE6BB1571F33D9CD00CA6A8F /* AquaFileChooserUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0B51F33D9CD00CA6A8F /* AquaFileChooserUI.swift */; };
+		CE6BB1581F33D9CD00CA6A8F /* AquaFocus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0B61F33D9CD00CA6A8F /* AquaFocus.swift */; };
+		CE6BB1591F33D9CD00CA6A8F /* AquaFocusHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0B71F33D9CD00CA6A8F /* AquaFocusHandler.swift */; };
+		CE6BB15A1F33D9CD00CA6A8F /* AquaFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0B81F33D9CD00CA6A8F /* AquaFonts.swift */; };
+		CE6BB15B1F33D9CD00CA6A8F /* AquaGroupBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0B91F33D9CD00CA6A8F /* AquaGroupBorder.swift */; };
+		CE6BB15C1F33D9CD00CA6A8F /* AquaHighlighter_AquaHighlightPainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0BA1F33D9CD00CA6A8F /* AquaHighlighter_AquaHighlightPainter.swift */; };
+		CE6BB15D1F33D9CD00CA6A8F /* AquaHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0BB1F33D9CD00CA6A8F /* AquaHighlighter.swift */; };
+		CE6BB15E1F33D9CD00CA6A8F /* AquaIcon_JRSUIControlSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0BC1F33D9CD00CA6A8F /* AquaIcon_JRSUIControlSpec.swift */; };
+		CE6BB15F1F33D9CD00CA6A8F /* AquaIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0BD1F33D9CD00CA6A8F /* AquaIcon.swift */; };
+		CE6BB1601F33D9CD00CA6A8F /* AquaImageFactory_NineSliceMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0BE1F33D9CD00CA6A8F /* AquaImageFactory_NineSliceMetrics.swift */; };
+		CE6BB1611F33D9CD00CA6A8F /* AquaImageFactory_RecyclableSlicedImageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0BF1F33D9CD00CA6A8F /* AquaImageFactory_RecyclableSlicedImageControl.swift */; };
+		CE6BB1621F33D9CD00CA6A8F /* AquaImageFactory_SlicedImageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0C01F33D9CD00CA6A8F /* AquaImageFactory_SlicedImageControl.swift */; };
+		CE6BB1631F33D9CD00CA6A8F /* AquaImageFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0C11F33D9CD00CA6A8F /* AquaImageFactory.swift */; };
+		CE6BB1641F33D9CD00CA6A8F /* AquaInternalFrameBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0C21F33D9CD00CA6A8F /* AquaInternalFrameBorder.swift */; };
+		CE6BB1651F33D9CD00CA6A8F /* AquaInternalFrameBorderMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0C31F33D9CD00CA6A8F /* AquaInternalFrameBorderMetrics.swift */; };
+		CE6BB1661F33D9CD00CA6A8F /* AquaInternalFrameDockIconUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0C41F33D9CD00CA6A8F /* AquaInternalFrameDockIconUI.swift */; };
+		CE6BB1671F33D9CD00CA6A8F /* AquaInternalFrameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0C51F33D9CD00CA6A8F /* AquaInternalFrameManager.swift */; };
+		CE6BB1681F33D9CD00CA6A8F /* AquaInternalFramePaneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0C61F33D9CD00CA6A8F /* AquaInternalFramePaneUI.swift */; };
+		CE6BB1691F33D9CD00CA6A8F /* AquaInternalFrameUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0C71F33D9CD00CA6A8F /* AquaInternalFrameUI.swift */; };
+		CE6BB16A1F33D9CD00CA6A8F /* AquaKeyBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0C81F33D9CD00CA6A8F /* AquaKeyBindings.swift */; };
+		CE6BB16B1F33D9CD00CA6A8F /* AquaLabelUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0C91F33D9CD00CA6A8F /* AquaLabelUI.swift */; };
+		CE6BB16C1F33D9CD00CA6A8F /* AquaListUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0CA1F33D9CD00CA6A8F /* AquaListUI.swift */; };
+		CE6BB16D1F33D9CD00CA6A8F /* AquaLookAndFeel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0CB1F33D9CD00CA6A8F /* AquaLookAndFeel.swift */; };
+		CE6BB16E1F33D9CD00CA6A8F /* AquaMenuBarBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0CC1F33D9CD00CA6A8F /* AquaMenuBarBorder.swift */; };
+		CE6BB16F1F33D9CD00CA6A8F /* AquaMenuBarUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0CD1F33D9CD00CA6A8F /* AquaMenuBarUI.swift */; };
+		CE6BB1701F33D9CD00CA6A8F /* AquaMenuBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0CE1F33D9CD00CA6A8F /* AquaMenuBorder.swift */; };
+		CE6BB1711F33D9CD00CA6A8F /* AquaMenuItemUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0CF1F33D9CD00CA6A8F /* AquaMenuItemUI.swift */; };
+		CE6BB1721F33D9CD00CA6A8F /* AquaMenuPainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0D01F33D9CD00CA6A8F /* AquaMenuPainter.swift */; };
+		CE6BB1731F33D9CD00CA6A8F /* AquaMenuUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0D11F33D9CD00CA6A8F /* AquaMenuUI.swift */; };
+		CE6BB1741F33D9CD00CA6A8F /* AquaMnemonicHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0D21F33D9CD00CA6A8F /* AquaMnemonicHandler.swift */; };
+		CE6BB1751F33D9CD00CA6A8F /* AquaNativeResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0D31F33D9CD00CA6A8F /* AquaNativeResources.swift */; };
+		CE6BB1761F33D9CD00CA6A8F /* AquaOptionPaneUI_AquaButtonAreaLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0D41F33D9CD00CA6A8F /* AquaOptionPaneUI_AquaButtonAreaLayout.swift */; };
+		CE6BB1771F33D9CD00CA6A8F /* AquaOptionPaneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0D51F33D9CD00CA6A8F /* AquaOptionPaneUI.swift */; };
+		CE6BB1781F33D9CD00CA6A8F /* AquaPanelUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0D61F33D9CD00CA6A8F /* AquaPanelUI.swift */; };
+		CE6BB1791F33D9CD00CA6A8F /* AquaPopupMenuSeparatorUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0D71F33D9CD00CA6A8F /* AquaPopupMenuSeparatorUI.swift */; };
+		CE6BB17A1F33D9CD00CA6A8F /* AquaPopupMenuUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0D81F33D9CD00CA6A8F /* AquaPopupMenuUI.swift */; };
+		CE6BB17B1F33D9CD00CA6A8F /* AquaProgressBarUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0D91F33D9CD00CA6A8F /* AquaProgressBarUI.swift */; };
+		CE6BB17C1F33D9CD00CA6A8F /* AquaRootPaneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0DA1F33D9CD00CA6A8F /* AquaRootPaneUI.swift */; };
+		CE6BB17D1F33D9CD00CA6A8F /* AquaScrollBarUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0DB1F33D9CD00CA6A8F /* AquaScrollBarUI.swift */; };
+		CE6BB17E1F33D9CD00CA6A8F /* AquaScrollPaneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0DC1F33D9CD00CA6A8F /* AquaScrollPaneUI.swift */; };
+		CE6BB17F1F33D9CD00CA6A8F /* AquaScrollRegionBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0DD1F33D9CD00CA6A8F /* AquaScrollRegionBorder.swift */; };
+		CE6BB1801F33D9CD00CA6A8F /* AquaSliderUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0DE1F33D9CD00CA6A8F /* AquaSliderUI.swift */; };
+		CE6BB1811F33D9CD00CA6A8F /* AquaSpinnerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0DF1F33D9CD00CA6A8F /* AquaSpinnerUI.swift */; };
+		CE6BB1821F33D9CD00CA6A8F /* AquaSplitPaneDividerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0E01F33D9CD00CA6A8F /* AquaSplitPaneDividerUI.swift */; };
+		CE6BB1831F33D9CD00CA6A8F /* AquaSplitPaneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0E11F33D9CD00CA6A8F /* AquaSplitPaneUI.swift */; };
+		CE6BB1841F33D9CD00CA6A8F /* AquaTabbedPaneContrastUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0E21F33D9CD00CA6A8F /* AquaTabbedPaneContrastUI.swift */; };
+		CE6BB1851F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_FocusHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0E31F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_FocusHandler.swift */; };
+		CE6BB1861F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_MouseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0E41F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_MouseHandler.swift */; };
+		CE6BB1871F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_PropertyChangeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0E51F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_PropertyChangeHandler.swift */; };
+		CE6BB1881F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_TabbedPaneLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0E61F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_TabbedPaneLayout.swift */; };
+		CE6BB1891F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_TabSelectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0E71F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_TabSelectionHandler.swift */; };
+		CE6BB18A1F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0E81F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI.swift */; };
+		CE6BB18B1F33D9CD00CA6A8F /* AquaTabbedPaneUI_MouseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0E91F33D9CD00CA6A8F /* AquaTabbedPaneUI_MouseHandler.swift */; };
+		CE6BB18C1F33D9CD00CA6A8F /* AquaTabbedPaneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0EA1F33D9CD00CA6A8F /* AquaTabbedPaneUI.swift */; };
+		CE6BB18D1F33D9CD00CA6A8F /* AquaTableHeaderBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0EB1F33D9CD00CA6A8F /* AquaTableHeaderBorder.swift */; };
+		CE6BB18E1F33D9CD00CA6A8F /* AquaTableHeaderUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0EC1F33D9CD00CA6A8F /* AquaTableHeaderUI.swift */; };
+		CE6BB18F1F33D9CD00CA6A8F /* AquaTableUI_FocusHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0ED1F33D9CD00CA6A8F /* AquaTableUI_FocusHandler.swift */; };
+		CE6BB1901F33D9CD00CA6A8F /* AquaTableUI_MouseInputHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0EE1F33D9CD00CA6A8F /* AquaTableUI_MouseInputHandler.swift */; };
+		CE6BB1911F33D9CD00CA6A8F /* AquaTableUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0EF1F33D9CD00CA6A8F /* AquaTableUI.swift */; };
+		CE6BB1921F33D9CD00CA6A8F /* AquaTextAreaUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0F01F33D9CD00CA6A8F /* AquaTextAreaUI.swift */; };
+		CE6BB1931F33D9CD00CA6A8F /* AquaTextFieldBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0F11F33D9CD00CA6A8F /* AquaTextFieldBorder.swift */; };
+		CE6BB1941F33D9CD00CA6A8F /* AquaTextFieldFormattedUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0F21F33D9CD00CA6A8F /* AquaTextFieldFormattedUI.swift */; };
+		CE6BB1951F33D9CD00CA6A8F /* AquaTextFieldSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0F31F33D9CD00CA6A8F /* AquaTextFieldSearch.swift */; };
+		CE6BB1961F33D9CD00CA6A8F /* AquaTextFieldUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0F41F33D9CD00CA6A8F /* AquaTextFieldUI.swift */; };
+		CE6BB1971F33D9CD00CA6A8F /* AquaTextPaneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0F51F33D9CD00CA6A8F /* AquaTextPaneUI.swift */; };
+		CE6BB1981F33D9CD00CA6A8F /* AquaTextPasswordFieldUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0F61F33D9CD00CA6A8F /* AquaTextPasswordFieldUI.swift */; };
+		CE6BB1991F33D9CD00CA6A8F /* AquaToolBarSeparatorUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0F71F33D9CD00CA6A8F /* AquaToolBarSeparatorUI.swift */; };
+		CE6BB19A1F33D9CD00CA6A8F /* AquaToolBarUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0F81F33D9CD00CA6A8F /* AquaToolBarUI.swift */; };
+		CE6BB19B1F33D9CD00CA6A8F /* AquaToolTipUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0F91F33D9CD00CA6A8F /* AquaToolTipUI.swift */; };
+		CE6BB19C1F33D9CD00CA6A8F /* AquaTreeUI_MacPropertyChangeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0FA1F33D9CD00CA6A8F /* AquaTreeUI_MacPropertyChangeHandler.swift */; };
+		CE6BB19D1F33D9CD00CA6A8F /* AquaTreeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0FB1F33D9CD00CA6A8F /* AquaTreeUI.swift */; };
+		CE6BB19E1F33D9CD00CA6A8F /* AquaUtilControlSize_SizeDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0FC1F33D9CD00CA6A8F /* AquaUtilControlSize_SizeDescriptor.swift */; };
+		CE6BB19F1F33D9CD00CA6A8F /* AquaUtilControlSize_SizeVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0FD1F33D9CD00CA6A8F /* AquaUtilControlSize_SizeVariant.swift */; };
+		CE6BB1A01F33D9CD00CA6A8F /* AquaUtilControlSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0FE1F33D9CD00CA6A8F /* AquaUtilControlSize.swift */; };
+		CE6BB1A11F33D9CD00CA6A8F /* ClientPropertyApplicator_Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB0FF1F33D9CD00CA6A8F /* ClientPropertyApplicator_Property.swift */; };
+		CE6BB1A21F33D9CD00CA6A8F /* ClientPropertyApplicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1001F33D9CD00CA6A8F /* ClientPropertyApplicator.swift */; };
+		CE6BB1A31F33D9CD00CA6A8F /* Dispatch_Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1011F33D9CD00CA6A8F /* Dispatch_Priority.swift */; };
+		CE6BB1A41F33D9CD00CA6A8F /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1021F33D9CD00CA6A8F /* Dispatch.swift */; };
+		CE6BB1A51F33D9CD00CA6A8F /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1031F33D9CD00CA6A8F /* FileManager.swift */; };
+		CE6BB1A61F33D9CD00CA6A8F /* FullScreenAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1041F33D9CD00CA6A8F /* FullScreenAdapter.swift */; };
+		CE6BB1A71F33D9CD00CA6A8F /* FullScreenListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1051F33D9CD00CA6A8F /* FullScreenListener.swift */; };
+		CE6BB1A81F33D9CD00CA6A8F /* FullScreenUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1061F33D9CD00CA6A8F /* FullScreenUtilities.swift */; };
+		CE6BB1A91F33D9CD00CA6A8F /* GestureAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1071F33D9CD00CA6A8F /* GestureAdapter.swift */; };
+		CE6BB1AA1F33D9CD00CA6A8F /* GestureEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1081F33D9CD00CA6A8F /* GestureEvent.swift */; };
+		CE6BB1AB1F33D9CD00CA6A8F /* GestureListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1091F33D9CD00CA6A8F /* GestureListener.swift */; };
+		CE6BB1AC1F33D9CD00CA6A8F /* GesturePhaseEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB10A1F33D9CD00CA6A8F /* GesturePhaseEvent.swift */; };
+		CE6BB1AD1F33D9CD00CA6A8F /* GesturePhaseListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB10B1F33D9CD00CA6A8F /* GesturePhaseListener.swift */; };
+		CE6BB1AE1F33D9CD00CA6A8F /* GestureUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB10C1F33D9CD00CA6A8F /* GestureUtilities.swift */; };
+		CE6BB1AF1F33D9CD00CA6A8F /* MagnificationEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB10D1F33D9CD00CA6A8F /* MagnificationEvent.swift */; };
+		CE6BB1B01F33D9CD00CA6A8F /* MagnificationListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB10E1F33D9CD00CA6A8F /* MagnificationListener.swift */; };
+		CE6BB1B11F33D9CD00CA6A8F /* OpenFilesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB10F1F33D9CD00CA6A8F /* OpenFilesHandler.swift */; };
+		CE6BB1B21F33D9CD00CA6A8F /* OpenURIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1101F33D9CD00CA6A8F /* OpenURIHandler.swift */; };
+		CE6BB1B31F33D9CD00CA6A8F /* PreferencesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1111F33D9CD00CA6A8F /* PreferencesHandler.swift */; };
+		CE6BB1B41F33D9CD00CA6A8F /* PrintFilesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1121F33D9CD00CA6A8F /* PrintFilesHandler.swift */; };
+		CE6BB1B51F33D9CD00CA6A8F /* QuitHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1131F33D9CD00CA6A8F /* QuitHandler.swift */; };
+		CE6BB1B61F33D9CD00CA6A8F /* QuitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1141F33D9CD00CA6A8F /* QuitResponse.swift */; };
+		CE6BB1B71F33D9CD00CA6A8F /* QuitStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1151F33D9CD00CA6A8F /* QuitStrategy.swift */; };
+		CE6BB1B81F33D9CD00CA6A8F /* RotationEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1161F33D9CD00CA6A8F /* RotationEvent.swift */; };
+		CE6BB1B91F33D9CD00CA6A8F /* RotationListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1171F33D9CD00CA6A8F /* RotationListener.swift */; };
+		CE6BB1BA1F33D9CD00CA6A8F /* ScreenMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1181F33D9CD00CA6A8F /* ScreenMenuBar.swift */; };
+		CE6BB1BB1F33D9CD00CA6A8F /* ScreenMenuBarProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB1191F33D9CD00CA6A8F /* ScreenMenuBarProvider.swift */; };
+		CE6BB1BC1F33D9CD00CA6A8F /* ScreenMenuItemUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB11A1F33D9CD00CA6A8F /* ScreenMenuItemUI.swift */; };
+		CE6BB1BD1F33D9CD00CA6A8F /* ScreenSleepListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB11B1F33D9CD00CA6A8F /* ScreenSleepListener.swift */; };
+		CE6BB1BE1F33D9CD00CA6A8F /* SwipeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB11C1F33D9CD00CA6A8F /* SwipeEvent.swift */; };
+		CE6BB1BF1F33D9CD00CA6A8F /* SwipeListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB11D1F33D9CD00CA6A8F /* SwipeListener.swift */; };
+		CE6BB1C01F33D9CD00CA6A8F /* SystemSleepListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB11E1F33D9CD00CA6A8F /* SystemSleepListener.swift */; };
+		CE6BB1C11F33D9CD00CA6A8F /* UserSessionListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BB11F1F33D9CD00CA6A8F /* UserSessionListener.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB19B43B1D6633E8002F5586 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BB2A86ED1D4EAE430062D8E8 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		BB3412521E08C45200DA5E5E /* AboutHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutHandler.swift; path = Sources/AboutHandler.swift; sourceTree = "<group>"; };
-		BB3412531E08C45200DA5E5E /* AppEvent_AboutEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_AboutEvent.swift; path = Sources/AppEvent_AboutEvent.swift; sourceTree = "<group>"; };
-		BB3412541E08C45200DA5E5E /* AppEvent_AppForegroundEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_AppForegroundEvent.swift; path = Sources/AppEvent_AppForegroundEvent.swift; sourceTree = "<group>"; };
-		BB3412551E08C45200DA5E5E /* AppEvent_AppHiddenEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_AppHiddenEvent.swift; path = Sources/AppEvent_AppHiddenEvent.swift; sourceTree = "<group>"; };
-		BB3412561E08C45200DA5E5E /* AppEvent_AppReOpenedEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_AppReOpenedEvent.swift; path = Sources/AppEvent_AppReOpenedEvent.swift; sourceTree = "<group>"; };
-		BB3412571E08C45200DA5E5E /* AppEvent_FilesEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_FilesEvent.swift; path = Sources/AppEvent_FilesEvent.swift; sourceTree = "<group>"; };
-		BB3412581E08C45200DA5E5E /* AppEvent_FullScreenEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_FullScreenEvent.swift; path = Sources/AppEvent_FullScreenEvent.swift; sourceTree = "<group>"; };
-		BB3412591E08C45200DA5E5E /* AppEvent_OpenFilesEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_OpenFilesEvent.swift; path = Sources/AppEvent_OpenFilesEvent.swift; sourceTree = "<group>"; };
-		BB34125A1E08C45200DA5E5E /* AppEvent_OpenURIEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_OpenURIEvent.swift; path = Sources/AppEvent_OpenURIEvent.swift; sourceTree = "<group>"; };
-		BB34125B1E08C45200DA5E5E /* AppEvent_PreferencesEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_PreferencesEvent.swift; path = Sources/AppEvent_PreferencesEvent.swift; sourceTree = "<group>"; };
-		BB34125C1E08C45200DA5E5E /* AppEvent_PrintFilesEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_PrintFilesEvent.swift; path = Sources/AppEvent_PrintFilesEvent.swift; sourceTree = "<group>"; };
-		BB34125D1E08C45200DA5E5E /* AppEvent_QuitEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_QuitEvent.swift; path = Sources/AppEvent_QuitEvent.swift; sourceTree = "<group>"; };
-		BB34125E1E08C45200DA5E5E /* AppEvent_ScreenSleepEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_ScreenSleepEvent.swift; path = Sources/AppEvent_ScreenSleepEvent.swift; sourceTree = "<group>"; };
-		BB34125F1E08C45200DA5E5E /* AppEvent_SystemSleepEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_SystemSleepEvent.swift; path = Sources/AppEvent_SystemSleepEvent.swift; sourceTree = "<group>"; };
-		BB3412601E08C45200DA5E5E /* AppEvent_UserSessionEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_UserSessionEvent.swift; path = Sources/AppEvent_UserSessionEvent.swift; sourceTree = "<group>"; };
-		BB3412611E08C45200DA5E5E /* AppEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent.swift; path = Sources/AppEvent.swift; sourceTree = "<group>"; };
-		BB3412621E08C45200DA5E5E /* AppEventListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEventListener.swift; path = Sources/AppEventListener.swift; sourceTree = "<group>"; };
-		BB3412631E08C45200DA5E5E /* AppForegroundListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppForegroundListener.swift; path = Sources/AppForegroundListener.swift; sourceTree = "<group>"; };
-		BB3412641E08C45200DA5E5E /* AppHiddenListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppHiddenListener.swift; path = Sources/AppHiddenListener.swift; sourceTree = "<group>"; };
-		BB3412651E08C45200DA5E5E /* AppleSystemLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppleSystemLog.swift; path = Sources/AppleSystemLog.swift; sourceTree = "<group>"; };
-		BB3412661E08C45200DA5E5E /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Application.swift; path = Sources/Application.swift; sourceTree = "<group>"; };
-		BB3412671E08C45200DA5E5E /* ApplicationAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationAdapter.swift; path = Sources/ApplicationAdapter.swift; sourceTree = "<group>"; };
-		BB3412681E08C45200DA5E5E /* ApplicationBeanInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationBeanInfo.swift; path = Sources/ApplicationBeanInfo.swift; sourceTree = "<group>"; };
-		BB3412691E08C45200DA5E5E /* ApplicationEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationEvent.swift; path = Sources/ApplicationEvent.swift; sourceTree = "<group>"; };
-		BB34126A1E08C45200DA5E5E /* ApplicationListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationListener.swift; path = Sources/ApplicationListener.swift; sourceTree = "<group>"; };
-		BB34126B1E08C45200DA5E5E /* AppReOpenedListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppReOpenedListener.swift; path = Sources/AppReOpenedListener.swift; sourceTree = "<group>"; };
-		BB34126C1E08C45200DA5E5E /* AquaBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaBorder.swift; path = Sources/AquaBorder.swift; sourceTree = "<group>"; };
-		BB34126D1E08C45200DA5E5E /* AquaButtonBorder_Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonBorder_Dynamic.swift; path = Sources/AquaButtonBorder_Dynamic.swift; sourceTree = "<group>"; };
-		BB34126E1E08C45200DA5E5E /* AquaButtonBorder_Named.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonBorder_Named.swift; path = Sources/AquaButtonBorder_Named.swift; sourceTree = "<group>"; };
-		BB34126F1E08C45200DA5E5E /* AquaButtonBorder_Toggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonBorder_Toggle.swift; path = Sources/AquaButtonBorder_Toggle.swift; sourceTree = "<group>"; };
-		BB3412701E08C45200DA5E5E /* AquaButtonBorder_Toolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonBorder_Toolbar.swift; path = Sources/AquaButtonBorder_Toolbar.swift; sourceTree = "<group>"; };
-		BB3412711E08C45200DA5E5E /* AquaButtonBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonBorder.swift; path = Sources/AquaButtonBorder.swift; sourceTree = "<group>"; };
-		BB3412721E08C45200DA5E5E /* AquaButtonCheckBoxUI_CheckBoxButtonBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonCheckBoxUI_CheckBoxButtonBorder.swift; path = Sources/AquaButtonCheckBoxUI_CheckBoxButtonBorder.swift; sourceTree = "<group>"; };
-		BB3412731E08C45200DA5E5E /* AquaButtonCheckBoxUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonCheckBoxUI.swift; path = Sources/AquaButtonCheckBoxUI.swift; sourceTree = "<group>"; };
-		BB3412741E08C45200DA5E5E /* AquaButtonExtendedTypes_SegmentedNamedBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonExtendedTypes_SegmentedNamedBorder.swift; path = Sources/AquaButtonExtendedTypes_SegmentedNamedBorder.swift; sourceTree = "<group>"; };
-		BB3412751E08C45200DA5E5E /* AquaButtonExtendedTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonExtendedTypes.swift; path = Sources/AquaButtonExtendedTypes.swift; sourceTree = "<group>"; };
-		BB3412761E08C45200DA5E5E /* AquaButtonLabeledUI_LabeledButtonBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonLabeledUI_LabeledButtonBorder.swift; path = Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift; sourceTree = "<group>"; };
-		BB3412771E08C45200DA5E5E /* AquaButtonLabeledUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonLabeledUI.swift; path = Sources/AquaButtonLabeledUI.swift; sourceTree = "<group>"; };
-		BB3412781E08C45200DA5E5E /* AquaButtonRadioUI_RadioButtonBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonRadioUI_RadioButtonBorder.swift; path = Sources/AquaButtonRadioUI_RadioButtonBorder.swift; sourceTree = "<group>"; };
-		BB3412791E08C45200DA5E5E /* AquaButtonRadioUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonRadioUI.swift; path = Sources/AquaButtonRadioUI.swift; sourceTree = "<group>"; };
-		BB34127A1E08C45200DA5E5E /* AquaButtonToggleUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonToggleUI.swift; path = Sources/AquaButtonToggleUI.swift; sourceTree = "<group>"; };
-		BB34127B1E08C45200DA5E5E /* AquaButtonUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonUI.swift; path = Sources/AquaButtonUI.swift; sourceTree = "<group>"; };
-		BB34127C1E08C45200DA5E5E /* AquaCachingPainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaCachingPainter.swift; path = Sources/AquaCachingPainter.swift; sourceTree = "<group>"; };
-		BB34127D1E08C45200DA5E5E /* AquaCaret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaCaret.swift; path = Sources/AquaCaret.swift; sourceTree = "<group>"; };
-		BB34127E1E08C45200DA5E5E /* AquaComboBoxUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaComboBoxUI.swift; path = Sources/AquaComboBoxUI.swift; sourceTree = "<group>"; };
-		BB34127F1E08C45200DA5E5E /* AquaEditorPaneUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaEditorPaneUI.swift; path = Sources/AquaEditorPaneUI.swift; sourceTree = "<group>"; };
-		BB3412801E08C45200DA5E5E /* AquaFileChooserUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaFileChooserUI.swift; path = Sources/AquaFileChooserUI.swift; sourceTree = "<group>"; };
-		BB3412811E08C45200DA5E5E /* AquaFocus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaFocus.swift; path = Sources/AquaFocus.swift; sourceTree = "<group>"; };
-		BB3412821E08C45200DA5E5E /* AquaFocusHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaFocusHandler.swift; path = Sources/AquaFocusHandler.swift; sourceTree = "<group>"; };
-		BB3412831E08C45200DA5E5E /* AquaFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaFonts.swift; path = Sources/AquaFonts.swift; sourceTree = "<group>"; };
-		BB3412841E08C45200DA5E5E /* AquaGroupBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaGroupBorder.swift; path = Sources/AquaGroupBorder.swift; sourceTree = "<group>"; };
-		BB3412851E08C45200DA5E5E /* AquaHighlighter_AquaHighlightPainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaHighlighter_AquaHighlightPainter.swift; path = Sources/AquaHighlighter_AquaHighlightPainter.swift; sourceTree = "<group>"; };
-		BB3412861E08C45200DA5E5E /* AquaHighlighter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaHighlighter.swift; path = Sources/AquaHighlighter.swift; sourceTree = "<group>"; };
-		BB3412871E08C45200DA5E5E /* AquaIcon_JRSUIControlSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaIcon_JRSUIControlSpec.swift; path = Sources/AquaIcon_JRSUIControlSpec.swift; sourceTree = "<group>"; };
-		BB3412881E08C45200DA5E5E /* AquaIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaIcon.swift; path = Sources/AquaIcon.swift; sourceTree = "<group>"; };
-		BB3412891E08C45200DA5E5E /* AquaImageFactory_SlicedImageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaImageFactory_SlicedImageControl.swift; path = Sources/AquaImageFactory_SlicedImageControl.swift; sourceTree = "<group>"; };
-		BB34128A1E08C45200DA5E5E /* AquaImageFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaImageFactory.swift; path = Sources/AquaImageFactory.swift; sourceTree = "<group>"; };
-		BB34128B1E08C45200DA5E5E /* AquaInternalFrameBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaInternalFrameBorder.swift; path = Sources/AquaInternalFrameBorder.swift; sourceTree = "<group>"; };
-		BB34128C1E08C45200DA5E5E /* AquaInternalFrameBorderMetrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaInternalFrameBorderMetrics.swift; path = Sources/AquaInternalFrameBorderMetrics.swift; sourceTree = "<group>"; };
-		BB34128D1E08C45200DA5E5E /* AquaInternalFrameDockIconUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaInternalFrameDockIconUI.swift; path = Sources/AquaInternalFrameDockIconUI.swift; sourceTree = "<group>"; };
-		BB34128E1E08C45200DA5E5E /* AquaInternalFrameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaInternalFrameManager.swift; path = Sources/AquaInternalFrameManager.swift; sourceTree = "<group>"; };
-		BB34128F1E08C45200DA5E5E /* AquaInternalFramePaneUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaInternalFramePaneUI.swift; path = Sources/AquaInternalFramePaneUI.swift; sourceTree = "<group>"; };
-		BB3412901E08C45200DA5E5E /* AquaInternalFrameUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaInternalFrameUI.swift; path = Sources/AquaInternalFrameUI.swift; sourceTree = "<group>"; };
-		BB3412911E08C45200DA5E5E /* AquaKeyBindings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaKeyBindings.swift; path = Sources/AquaKeyBindings.swift; sourceTree = "<group>"; };
-		BB3412921E08C45200DA5E5E /* AquaLabelUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaLabelUI.swift; path = Sources/AquaLabelUI.swift; sourceTree = "<group>"; };
-		BB3412931E08C45200DA5E5E /* AquaListUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaListUI.swift; path = Sources/AquaListUI.swift; sourceTree = "<group>"; };
-		BB3412941E08C45200DA5E5E /* AquaLookAndFeel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaLookAndFeel.swift; path = Sources/AquaLookAndFeel.swift; sourceTree = "<group>"; };
-		BB3412951E08C45200DA5E5E /* AquaMenuBarBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaMenuBarBorder.swift; path = Sources/AquaMenuBarBorder.swift; sourceTree = "<group>"; };
-		BB3412961E08C45200DA5E5E /* AquaMenuBarUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaMenuBarUI.swift; path = Sources/AquaMenuBarUI.swift; sourceTree = "<group>"; };
-		BB3412971E08C45200DA5E5E /* AquaMenuBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaMenuBorder.swift; path = Sources/AquaMenuBorder.swift; sourceTree = "<group>"; };
-		BB3412981E08C45200DA5E5E /* AquaMenuItemUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaMenuItemUI.swift; path = Sources/AquaMenuItemUI.swift; sourceTree = "<group>"; };
-		BB3412991E08C45200DA5E5E /* AquaMenuPainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaMenuPainter.swift; path = Sources/AquaMenuPainter.swift; sourceTree = "<group>"; };
-		BB34129A1E08C45200DA5E5E /* AquaMenuUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaMenuUI.swift; path = Sources/AquaMenuUI.swift; sourceTree = "<group>"; };
-		BB34129B1E08C45200DA5E5E /* AquaMnemonicHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaMnemonicHandler.swift; path = Sources/AquaMnemonicHandler.swift; sourceTree = "<group>"; };
-		BB34129C1E08C45200DA5E5E /* AquaNativeResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaNativeResources.swift; path = Sources/AquaNativeResources.swift; sourceTree = "<group>"; };
-		BB34129D1E08C45200DA5E5E /* AquaOptionPaneUI_AquaButtonAreaLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaOptionPaneUI_AquaButtonAreaLayout.swift; path = Sources/AquaOptionPaneUI_AquaButtonAreaLayout.swift; sourceTree = "<group>"; };
-		BB34129E1E08C45200DA5E5E /* AquaOptionPaneUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaOptionPaneUI.swift; path = Sources/AquaOptionPaneUI.swift; sourceTree = "<group>"; };
-		BB34129F1E08C45200DA5E5E /* AquaPanelUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaPanelUI.swift; path = Sources/AquaPanelUI.swift; sourceTree = "<group>"; };
-		BB3412A01E08C45200DA5E5E /* AquaPopupMenuSeparatorUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaPopupMenuSeparatorUI.swift; path = Sources/AquaPopupMenuSeparatorUI.swift; sourceTree = "<group>"; };
-		BB3412A11E08C45200DA5E5E /* AquaPopupMenuUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaPopupMenuUI.swift; path = Sources/AquaPopupMenuUI.swift; sourceTree = "<group>"; };
-		BB3412A21E08C45200DA5E5E /* AquaProgressBarUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaProgressBarUI.swift; path = Sources/AquaProgressBarUI.swift; sourceTree = "<group>"; };
-		BB3412A31E08C45200DA5E5E /* AquaRootPaneUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaRootPaneUI.swift; path = Sources/AquaRootPaneUI.swift; sourceTree = "<group>"; };
-		BB3412A41E08C45200DA5E5E /* AquaScrollBarUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaScrollBarUI.swift; path = Sources/AquaScrollBarUI.swift; sourceTree = "<group>"; };
-		BB3412A51E08C45200DA5E5E /* AquaScrollPaneUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaScrollPaneUI.swift; path = Sources/AquaScrollPaneUI.swift; sourceTree = "<group>"; };
-		BB3412A61E08C45200DA5E5E /* AquaScrollRegionBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaScrollRegionBorder.swift; path = Sources/AquaScrollRegionBorder.swift; sourceTree = "<group>"; };
-		BB3412A71E08C45200DA5E5E /* AquaSliderUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaSliderUI.swift; path = Sources/AquaSliderUI.swift; sourceTree = "<group>"; };
-		BB3412A81E08C45200DA5E5E /* AquaSpinnerUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaSpinnerUI.swift; path = Sources/AquaSpinnerUI.swift; sourceTree = "<group>"; };
-		BB3412A91E08C45200DA5E5E /* AquaSplitPaneDividerUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaSplitPaneDividerUI.swift; path = Sources/AquaSplitPaneDividerUI.swift; sourceTree = "<group>"; };
-		BB3412AA1E08C45200DA5E5E /* AquaSplitPaneUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaSplitPaneUI.swift; path = Sources/AquaSplitPaneUI.swift; sourceTree = "<group>"; };
-		BB3412AB1E08C45200DA5E5E /* AquaTabbedPaneContrastUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneContrastUI.swift; path = Sources/AquaTabbedPaneContrastUI.swift; sourceTree = "<group>"; };
-		BB3412AC1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_FocusHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneCopyFromBasicUI_FocusHandler.swift; path = Sources/AquaTabbedPaneCopyFromBasicUI_FocusHandler.swift; sourceTree = "<group>"; };
-		BB3412AD1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_MouseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneCopyFromBasicUI_MouseHandler.swift; path = Sources/AquaTabbedPaneCopyFromBasicUI_MouseHandler.swift; sourceTree = "<group>"; };
-		BB3412AE1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_PropertyChangeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneCopyFromBasicUI_PropertyChangeHandler.swift; path = Sources/AquaTabbedPaneCopyFromBasicUI_PropertyChangeHandler.swift; sourceTree = "<group>"; };
-		BB3412AF1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_TabbedPaneLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneCopyFromBasicUI_TabbedPaneLayout.swift; path = Sources/AquaTabbedPaneCopyFromBasicUI_TabbedPaneLayout.swift; sourceTree = "<group>"; };
-		BB3412B01E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_TabSelectionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneCopyFromBasicUI_TabSelectionHandler.swift; path = Sources/AquaTabbedPaneCopyFromBasicUI_TabSelectionHandler.swift; sourceTree = "<group>"; };
-		BB3412B11E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneCopyFromBasicUI.swift; path = Sources/AquaTabbedPaneCopyFromBasicUI.swift; sourceTree = "<group>"; };
-		BB3412B21E08C45200DA5E5E /* AquaTabbedPaneUI_MouseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneUI_MouseHandler.swift; path = Sources/AquaTabbedPaneUI_MouseHandler.swift; sourceTree = "<group>"; };
-		BB3412B31E08C45200DA5E5E /* AquaTabbedPaneUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneUI.swift; path = Sources/AquaTabbedPaneUI.swift; sourceTree = "<group>"; };
-		BB3412B41E08C45200DA5E5E /* AquaTableHeaderBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTableHeaderBorder.swift; path = Sources/AquaTableHeaderBorder.swift; sourceTree = "<group>"; };
-		BB3412B51E08C45200DA5E5E /* AquaTableHeaderUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTableHeaderUI.swift; path = Sources/AquaTableHeaderUI.swift; sourceTree = "<group>"; };
-		BB3412B61E08C45200DA5E5E /* AquaTableUI_FocusHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTableUI_FocusHandler.swift; path = Sources/AquaTableUI_FocusHandler.swift; sourceTree = "<group>"; };
-		BB3412B71E08C45200DA5E5E /* AquaTableUI_MouseInputHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTableUI_MouseInputHandler.swift; path = Sources/AquaTableUI_MouseInputHandler.swift; sourceTree = "<group>"; };
-		BB3412B81E08C45200DA5E5E /* AquaTableUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTableUI.swift; path = Sources/AquaTableUI.swift; sourceTree = "<group>"; };
-		BB3412B91E08C45200DA5E5E /* AquaTextAreaUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTextAreaUI.swift; path = Sources/AquaTextAreaUI.swift; sourceTree = "<group>"; };
-		BB3412BA1E08C45200DA5E5E /* AquaTextFieldBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTextFieldBorder.swift; path = Sources/AquaTextFieldBorder.swift; sourceTree = "<group>"; };
-		BB3412BB1E08C45200DA5E5E /* AquaTextFieldFormattedUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTextFieldFormattedUI.swift; path = Sources/AquaTextFieldFormattedUI.swift; sourceTree = "<group>"; };
-		BB3412BC1E08C45200DA5E5E /* AquaTextFieldSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTextFieldSearch.swift; path = Sources/AquaTextFieldSearch.swift; sourceTree = "<group>"; };
-		BB3412BD1E08C45200DA5E5E /* AquaTextFieldUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTextFieldUI.swift; path = Sources/AquaTextFieldUI.swift; sourceTree = "<group>"; };
-		BB3412BE1E08C45200DA5E5E /* AquaTextPaneUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTextPaneUI.swift; path = Sources/AquaTextPaneUI.swift; sourceTree = "<group>"; };
-		BB3412BF1E08C45200DA5E5E /* AquaTextPasswordFieldUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTextPasswordFieldUI.swift; path = Sources/AquaTextPasswordFieldUI.swift; sourceTree = "<group>"; };
-		BB3412C01E08C45200DA5E5E /* AquaToolBarSeparatorUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaToolBarSeparatorUI.swift; path = Sources/AquaToolBarSeparatorUI.swift; sourceTree = "<group>"; };
-		BB3412C11E08C45200DA5E5E /* AquaToolBarUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaToolBarUI.swift; path = Sources/AquaToolBarUI.swift; sourceTree = "<group>"; };
-		BB3412C21E08C45200DA5E5E /* AquaToolTipUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaToolTipUI.swift; path = Sources/AquaToolTipUI.swift; sourceTree = "<group>"; };
-		BB3412C31E08C45200DA5E5E /* AquaTreeUI_MacPropertyChangeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTreeUI_MacPropertyChangeHandler.swift; path = Sources/AquaTreeUI_MacPropertyChangeHandler.swift; sourceTree = "<group>"; };
-		BB3412C41E08C45200DA5E5E /* AquaTreeUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTreeUI.swift; path = Sources/AquaTreeUI.swift; sourceTree = "<group>"; };
-		BB3412C51E08C45200DA5E5E /* AquaUtilControlSize_SizeDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaUtilControlSize_SizeDescriptor.swift; path = Sources/AquaUtilControlSize_SizeDescriptor.swift; sourceTree = "<group>"; };
-		BB3412C61E08C45200DA5E5E /* AquaUtilControlSize_SizeVariant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaUtilControlSize_SizeVariant.swift; path = Sources/AquaUtilControlSize_SizeVariant.swift; sourceTree = "<group>"; };
-		BB3412C71E08C45200DA5E5E /* AquaUtilControlSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaUtilControlSize.swift; path = Sources/AquaUtilControlSize.swift; sourceTree = "<group>"; };
-		BB3412C81E08C45200DA5E5E /* AquaUtils_LazyKeyedSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaUtils_LazyKeyedSingleton.swift; path = Sources/AquaUtils_LazyKeyedSingleton.swift; sourceTree = "<group>"; };
-		BB3412C91E08C45200DA5E5E /* AquaUtils_LazySingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaUtils_LazySingleton.swift; path = Sources/AquaUtils_LazySingleton.swift; sourceTree = "<group>"; };
-		BB3412CA1E08C45200DA5E5E /* AquaUtils_LazySingletonFromDefaultConstructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaUtils_LazySingletonFromDefaultConstructor.swift; path = Sources/AquaUtils_LazySingletonFromDefaultConstructor.swift; sourceTree = "<group>"; };
-		BB3412CB1E08C45200DA5E5E /* AquaUtils_ShadowBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaUtils_ShadowBorder.swift; path = Sources/AquaUtils_ShadowBorder.swift; sourceTree = "<group>"; };
-		BB3412CC1E08C45200DA5E5E /* AquaUtils_SlicedShadowBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaUtils_SlicedShadowBorder.swift; path = Sources/AquaUtils_SlicedShadowBorder.swift; sourceTree = "<group>"; };
-		BB3412CD1E08C45200DA5E5E /* AquaUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaUtils.swift; path = Sources/AquaUtils.swift; sourceTree = "<group>"; };
-		BB3412CE1E08C45200DA5E5E /* CocoaComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CocoaComponent.swift; path = Sources/CocoaComponent.swift; sourceTree = "<group>"; };
-		BB3412CF1E08C45200DA5E5E /* Dispatch_Priority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dispatch_Priority.swift; path = Sources/Dispatch_Priority.swift; sourceTree = "<group>"; };
-		BB3412D01E08C45200DA5E5E /* Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dispatch.swift; path = Sources/Dispatch.swift; sourceTree = "<group>"; };
-		BB3412D11E08C45200DA5E5E /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileManager.swift; path = Sources/FileManager.swift; sourceTree = "<group>"; };
-		BB3412D21E08C45200DA5E5E /* FullScreenAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullScreenAdapter.swift; path = Sources/FullScreenAdapter.swift; sourceTree = "<group>"; };
-		BB3412D31E08C45200DA5E5E /* FullScreenListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullScreenListener.swift; path = Sources/FullScreenListener.swift; sourceTree = "<group>"; };
-		BB3412D41E08C45200DA5E5E /* FullScreenUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullScreenUtilities.swift; path = Sources/FullScreenUtilities.swift; sourceTree = "<group>"; };
-		BB3412D51E08C45200DA5E5E /* GestureAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GestureAdapter.swift; path = Sources/GestureAdapter.swift; sourceTree = "<group>"; };
-		BB3412D61E08C45200DA5E5E /* GestureEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GestureEvent.swift; path = Sources/GestureEvent.swift; sourceTree = "<group>"; };
-		BB3412D71E08C45200DA5E5E /* GestureListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GestureListener.swift; path = Sources/GestureListener.swift; sourceTree = "<group>"; };
-		BB3412D81E08C45200DA5E5E /* GesturePhaseEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GesturePhaseEvent.swift; path = Sources/GesturePhaseEvent.swift; sourceTree = "<group>"; };
-		BB3412D91E08C45200DA5E5E /* GesturePhaseListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GesturePhaseListener.swift; path = Sources/GesturePhaseListener.swift; sourceTree = "<group>"; };
-		BB3412DA1E08C45200DA5E5E /* GestureUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GestureUtilities.swift; path = Sources/GestureUtilities.swift; sourceTree = "<group>"; };
-		BB3412DB1E08C45200DA5E5E /* MacOSXResourceBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MacOSXResourceBundle.swift; path = Sources/MacOSXResourceBundle.swift; sourceTree = "<group>"; };
-		BB3412DC1E08C45200DA5E5E /* MagnificationEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MagnificationEvent.swift; path = Sources/MagnificationEvent.swift; sourceTree = "<group>"; };
-		BB3412DD1E08C45200DA5E5E /* MagnificationListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MagnificationListener.swift; path = Sources/MagnificationListener.swift; sourceTree = "<group>"; };
-		BB3412DE1E08C45200DA5E5E /* OpenFilesHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenFilesHandler.swift; path = Sources/OpenFilesHandler.swift; sourceTree = "<group>"; };
-		BB3412DF1E08C45200DA5E5E /* OpenURIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenURIHandler.swift; path = Sources/OpenURIHandler.swift; sourceTree = "<group>"; };
-		BB3412E01E08C45200DA5E5E /* PreferencesHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreferencesHandler.swift; path = Sources/PreferencesHandler.swift; sourceTree = "<group>"; };
-		BB3412E11E08C45200DA5E5E /* PrintFilesHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrintFilesHandler.swift; path = Sources/PrintFilesHandler.swift; sourceTree = "<group>"; };
-		BB3412E21E08C45200DA5E5E /* QuitHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuitHandler.swift; path = Sources/QuitHandler.swift; sourceTree = "<group>"; };
-		BB3412E31E08C45200DA5E5E /* QuitResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuitResponse.swift; path = Sources/QuitResponse.swift; sourceTree = "<group>"; };
-		BB3412E41E08C45200DA5E5E /* QuitStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuitStrategy.swift; path = Sources/QuitStrategy.swift; sourceTree = "<group>"; };
-		BB3412E51E08C45200DA5E5E /* RotationEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RotationEvent.swift; path = Sources/RotationEvent.swift; sourceTree = "<group>"; };
-		BB3412E61E08C45200DA5E5E /* RotationListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RotationListener.swift; path = Sources/RotationListener.swift; sourceTree = "<group>"; };
-		BB3412E71E08C45200DA5E5E /* ScreenMenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenMenuBar.swift; path = Sources/ScreenMenuBar.swift; sourceTree = "<group>"; };
-		BB3412E81E08C45200DA5E5E /* ScreenMenuBarProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenMenuBarProvider.swift; path = Sources/ScreenMenuBarProvider.swift; sourceTree = "<group>"; };
-		BB3412E91E08C45200DA5E5E /* ScreenMenuItemUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenMenuItemUI.swift; path = Sources/ScreenMenuItemUI.swift; sourceTree = "<group>"; };
-		BB3412EA1E08C45200DA5E5E /* ScreenSleepListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenSleepListener.swift; path = Sources/ScreenSleepListener.swift; sourceTree = "<group>"; };
-		BB3412EB1E08C45200DA5E5E /* SwipeEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeEvent.swift; path = Sources/SwipeEvent.swift; sourceTree = "<group>"; };
-		BB3412EC1E08C45200DA5E5E /* SwipeListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeListener.swift; path = Sources/SwipeListener.swift; sourceTree = "<group>"; };
-		BB3412ED1E08C45200DA5E5E /* SystemSleepListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SystemSleepListener.swift; path = Sources/SystemSleepListener.swift; sourceTree = "<group>"; };
-		BB3412EE1E08C45200DA5E5E /* Usage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Usage.swift; path = Sources/Usage.swift; sourceTree = "<group>"; };
-		BB3412EF1E08C45200DA5E5E /* UserSessionListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserSessionListener.swift; path = Sources/UserSessionListener.swift; sourceTree = "<group>"; };
 		BBBBDD381D51DB2F00767B95 /* javax_swing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = javax_swing.framework; path = "../../../Library/Developer/Xcode/DerivedData/SwiftJava-bhwyspxgviouaubrunixdmmpgggl/Build/Products/Debug/javax_swing.framework"; sourceTree = "<group>"; };
 		BBBF38C81D49DAC7004142AE /* com_apple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = com_apple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBF38E11D49DB73004142AE /* com_apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = com_apple.h; sourceTree = "<group>"; };
@@ -337,6 +183,168 @@
 		BBBF3A2C1D49DCF2004142AE /* build.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build.log; sourceTree = "<group>"; };
 		BBBF3A2F1D49DE8D004142AE /* java_lang.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = java_lang.framework; path = "../../../Library/Developer/Xcode/DerivedData/SwiftJava-bhwyspxgviouaubrunixdmmpgggl/Build/Products/Debug/java_lang.framework"; sourceTree = "<group>"; };
 		BBBF3A311D49DEA2004142AE /* java_swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = java_swift.framework; path = "../../../Library/Developer/Xcode/DerivedData/SwiftJava-bhwyspxgviouaubrunixdmmpgggl/Build/Products/Debug/java_swift.framework"; sourceTree = "<group>"; };
+		CE6BB07E1F33D9CD00CA6A8F /* AboutHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutHandler.swift; path = Sources/AboutHandler.swift; sourceTree = "<group>"; };
+		CE6BB07F1F33D9CD00CA6A8F /* AppEvent_AboutEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_AboutEvent.swift; path = Sources/AppEvent_AboutEvent.swift; sourceTree = "<group>"; };
+		CE6BB0801F33D9CD00CA6A8F /* AppEvent_AppForegroundEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_AppForegroundEvent.swift; path = Sources/AppEvent_AppForegroundEvent.swift; sourceTree = "<group>"; };
+		CE6BB0811F33D9CD00CA6A8F /* AppEvent_AppHiddenEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_AppHiddenEvent.swift; path = Sources/AppEvent_AppHiddenEvent.swift; sourceTree = "<group>"; };
+		CE6BB0821F33D9CD00CA6A8F /* AppEvent_AppReOpenedEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_AppReOpenedEvent.swift; path = Sources/AppEvent_AppReOpenedEvent.swift; sourceTree = "<group>"; };
+		CE6BB0831F33D9CD00CA6A8F /* AppEvent_FilesEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_FilesEvent.swift; path = Sources/AppEvent_FilesEvent.swift; sourceTree = "<group>"; };
+		CE6BB0841F33D9CD00CA6A8F /* AppEvent_FullScreenEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_FullScreenEvent.swift; path = Sources/AppEvent_FullScreenEvent.swift; sourceTree = "<group>"; };
+		CE6BB0851F33D9CD00CA6A8F /* AppEvent_OpenFilesEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_OpenFilesEvent.swift; path = Sources/AppEvent_OpenFilesEvent.swift; sourceTree = "<group>"; };
+		CE6BB0861F33D9CD00CA6A8F /* AppEvent_OpenURIEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_OpenURIEvent.swift; path = Sources/AppEvent_OpenURIEvent.swift; sourceTree = "<group>"; };
+		CE6BB0871F33D9CD00CA6A8F /* AppEvent_PreferencesEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_PreferencesEvent.swift; path = Sources/AppEvent_PreferencesEvent.swift; sourceTree = "<group>"; };
+		CE6BB0881F33D9CD00CA6A8F /* AppEvent_PrintFilesEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_PrintFilesEvent.swift; path = Sources/AppEvent_PrintFilesEvent.swift; sourceTree = "<group>"; };
+		CE6BB0891F33D9CD00CA6A8F /* AppEvent_QuitEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_QuitEvent.swift; path = Sources/AppEvent_QuitEvent.swift; sourceTree = "<group>"; };
+		CE6BB08A1F33D9CD00CA6A8F /* AppEvent_ScreenSleepEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_ScreenSleepEvent.swift; path = Sources/AppEvent_ScreenSleepEvent.swift; sourceTree = "<group>"; };
+		CE6BB08B1F33D9CD00CA6A8F /* AppEvent_SystemSleepEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_SystemSleepEvent.swift; path = Sources/AppEvent_SystemSleepEvent.swift; sourceTree = "<group>"; };
+		CE6BB08C1F33D9CD00CA6A8F /* AppEvent_UserSessionEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent_UserSessionEvent.swift; path = Sources/AppEvent_UserSessionEvent.swift; sourceTree = "<group>"; };
+		CE6BB08D1F33D9CD00CA6A8F /* AppEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEvent.swift; path = Sources/AppEvent.swift; sourceTree = "<group>"; };
+		CE6BB08E1F33D9CD00CA6A8F /* AppEventListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppEventListener.swift; path = Sources/AppEventListener.swift; sourceTree = "<group>"; };
+		CE6BB08F1F33D9CD00CA6A8F /* AppForegroundListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppForegroundListener.swift; path = Sources/AppForegroundListener.swift; sourceTree = "<group>"; };
+		CE6BB0901F33D9CD00CA6A8F /* AppHiddenListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppHiddenListener.swift; path = Sources/AppHiddenListener.swift; sourceTree = "<group>"; };
+		CE6BB0911F33D9CD00CA6A8F /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Application.swift; path = Sources/Application.swift; sourceTree = "<group>"; };
+		CE6BB0921F33D9CD00CA6A8F /* ApplicationAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationAdapter.swift; path = Sources/ApplicationAdapter.swift; sourceTree = "<group>"; };
+		CE6BB0931F33D9CD00CA6A8F /* ApplicationBeanInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationBeanInfo.swift; path = Sources/ApplicationBeanInfo.swift; sourceTree = "<group>"; };
+		CE6BB0941F33D9CD00CA6A8F /* ApplicationEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationEvent.swift; path = Sources/ApplicationEvent.swift; sourceTree = "<group>"; };
+		CE6BB0951F33D9CD00CA6A8F /* ApplicationListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationListener.swift; path = Sources/ApplicationListener.swift; sourceTree = "<group>"; };
+		CE6BB0961F33D9CD00CA6A8F /* AppReOpenedListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppReOpenedListener.swift; path = Sources/AppReOpenedListener.swift; sourceTree = "<group>"; };
+		CE6BB0971F33D9CD00CA6A8F /* aqua_de.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = aqua_de.swift; path = Sources/aqua_de.swift; sourceTree = "<group>"; };
+		CE6BB0981F33D9CD00CA6A8F /* aqua_es.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = aqua_es.swift; path = Sources/aqua_es.swift; sourceTree = "<group>"; };
+		CE6BB0991F33D9CD00CA6A8F /* aqua_fr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = aqua_fr.swift; path = Sources/aqua_fr.swift; sourceTree = "<group>"; };
+		CE6BB09A1F33D9CD00CA6A8F /* aqua_it.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = aqua_it.swift; path = Sources/aqua_it.swift; sourceTree = "<group>"; };
+		CE6BB09B1F33D9CD00CA6A8F /* aqua_ja.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = aqua_ja.swift; path = Sources/aqua_ja.swift; sourceTree = "<group>"; };
+		CE6BB09C1F33D9CD00CA6A8F /* aqua_ko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = aqua_ko.swift; path = Sources/aqua_ko.swift; sourceTree = "<group>"; };
+		CE6BB09D1F33D9CD00CA6A8F /* aqua_pt_BR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = aqua_pt_BR.swift; path = Sources/aqua_pt_BR.swift; sourceTree = "<group>"; };
+		CE6BB09E1F33D9CD00CA6A8F /* aqua_sv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = aqua_sv.swift; path = Sources/aqua_sv.swift; sourceTree = "<group>"; };
+		CE6BB09F1F33D9CD00CA6A8F /* aqua_zh_CN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = aqua_zh_CN.swift; path = Sources/aqua_zh_CN.swift; sourceTree = "<group>"; };
+		CE6BB0A01F33D9CD00CA6A8F /* aqua_zh_TW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = aqua_zh_TW.swift; path = Sources/aqua_zh_TW.swift; sourceTree = "<group>"; };
+		CE6BB0A11F33D9CD00CA6A8F /* aqua.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = aqua.swift; path = Sources/aqua.swift; sourceTree = "<group>"; };
+		CE6BB0A21F33D9CD00CA6A8F /* AquaBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaBorder.swift; path = Sources/AquaBorder.swift; sourceTree = "<group>"; };
+		CE6BB0A31F33D9CD00CA6A8F /* AquaButtonBorder_Dynamic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonBorder_Dynamic.swift; path = Sources/AquaButtonBorder_Dynamic.swift; sourceTree = "<group>"; };
+		CE6BB0A41F33D9CD00CA6A8F /* AquaButtonBorder_Named.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonBorder_Named.swift; path = Sources/AquaButtonBorder_Named.swift; sourceTree = "<group>"; };
+		CE6BB0A51F33D9CD00CA6A8F /* AquaButtonBorder_Toggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonBorder_Toggle.swift; path = Sources/AquaButtonBorder_Toggle.swift; sourceTree = "<group>"; };
+		CE6BB0A61F33D9CD00CA6A8F /* AquaButtonBorder_Toolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonBorder_Toolbar.swift; path = Sources/AquaButtonBorder_Toolbar.swift; sourceTree = "<group>"; };
+		CE6BB0A71F33D9CD00CA6A8F /* AquaButtonBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonBorder.swift; path = Sources/AquaButtonBorder.swift; sourceTree = "<group>"; };
+		CE6BB0A81F33D9CD00CA6A8F /* AquaButtonCheckBoxUI_CheckBoxButtonBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonCheckBoxUI_CheckBoxButtonBorder.swift; path = Sources/AquaButtonCheckBoxUI_CheckBoxButtonBorder.swift; sourceTree = "<group>"; };
+		CE6BB0A91F33D9CD00CA6A8F /* AquaButtonCheckBoxUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonCheckBoxUI.swift; path = Sources/AquaButtonCheckBoxUI.swift; sourceTree = "<group>"; };
+		CE6BB0AA1F33D9CD00CA6A8F /* AquaButtonExtendedTypes_SegmentedNamedBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonExtendedTypes_SegmentedNamedBorder.swift; path = Sources/AquaButtonExtendedTypes_SegmentedNamedBorder.swift; sourceTree = "<group>"; };
+		CE6BB0AB1F33D9CD00CA6A8F /* AquaButtonExtendedTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonExtendedTypes.swift; path = Sources/AquaButtonExtendedTypes.swift; sourceTree = "<group>"; };
+		CE6BB0AC1F33D9CD00CA6A8F /* AquaButtonLabeledUI_LabeledButtonBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonLabeledUI_LabeledButtonBorder.swift; path = Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift; sourceTree = "<group>"; };
+		CE6BB0AD1F33D9CD00CA6A8F /* AquaButtonLabeledUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonLabeledUI.swift; path = Sources/AquaButtonLabeledUI.swift; sourceTree = "<group>"; };
+		CE6BB0AE1F33D9CD00CA6A8F /* AquaButtonRadioUI_RadioButtonBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonRadioUI_RadioButtonBorder.swift; path = Sources/AquaButtonRadioUI_RadioButtonBorder.swift; sourceTree = "<group>"; };
+		CE6BB0AF1F33D9CD00CA6A8F /* AquaButtonRadioUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonRadioUI.swift; path = Sources/AquaButtonRadioUI.swift; sourceTree = "<group>"; };
+		CE6BB0B01F33D9CD00CA6A8F /* AquaButtonToggleUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonToggleUI.swift; path = Sources/AquaButtonToggleUI.swift; sourceTree = "<group>"; };
+		CE6BB0B11F33D9CD00CA6A8F /* AquaButtonUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaButtonUI.swift; path = Sources/AquaButtonUI.swift; sourceTree = "<group>"; };
+		CE6BB0B21F33D9CD00CA6A8F /* AquaCaret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaCaret.swift; path = Sources/AquaCaret.swift; sourceTree = "<group>"; };
+		CE6BB0B31F33D9CD00CA6A8F /* AquaComboBoxUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaComboBoxUI.swift; path = Sources/AquaComboBoxUI.swift; sourceTree = "<group>"; };
+		CE6BB0B41F33D9CD00CA6A8F /* AquaEditorPaneUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaEditorPaneUI.swift; path = Sources/AquaEditorPaneUI.swift; sourceTree = "<group>"; };
+		CE6BB0B51F33D9CD00CA6A8F /* AquaFileChooserUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaFileChooserUI.swift; path = Sources/AquaFileChooserUI.swift; sourceTree = "<group>"; };
+		CE6BB0B61F33D9CD00CA6A8F /* AquaFocus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaFocus.swift; path = Sources/AquaFocus.swift; sourceTree = "<group>"; };
+		CE6BB0B71F33D9CD00CA6A8F /* AquaFocusHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaFocusHandler.swift; path = Sources/AquaFocusHandler.swift; sourceTree = "<group>"; };
+		CE6BB0B81F33D9CD00CA6A8F /* AquaFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaFonts.swift; path = Sources/AquaFonts.swift; sourceTree = "<group>"; };
+		CE6BB0B91F33D9CD00CA6A8F /* AquaGroupBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaGroupBorder.swift; path = Sources/AquaGroupBorder.swift; sourceTree = "<group>"; };
+		CE6BB0BA1F33D9CD00CA6A8F /* AquaHighlighter_AquaHighlightPainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaHighlighter_AquaHighlightPainter.swift; path = Sources/AquaHighlighter_AquaHighlightPainter.swift; sourceTree = "<group>"; };
+		CE6BB0BB1F33D9CD00CA6A8F /* AquaHighlighter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaHighlighter.swift; path = Sources/AquaHighlighter.swift; sourceTree = "<group>"; };
+		CE6BB0BC1F33D9CD00CA6A8F /* AquaIcon_JRSUIControlSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaIcon_JRSUIControlSpec.swift; path = Sources/AquaIcon_JRSUIControlSpec.swift; sourceTree = "<group>"; };
+		CE6BB0BD1F33D9CD00CA6A8F /* AquaIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaIcon.swift; path = Sources/AquaIcon.swift; sourceTree = "<group>"; };
+		CE6BB0BE1F33D9CD00CA6A8F /* AquaImageFactory_NineSliceMetrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaImageFactory_NineSliceMetrics.swift; path = Sources/AquaImageFactory_NineSliceMetrics.swift; sourceTree = "<group>"; };
+		CE6BB0BF1F33D9CD00CA6A8F /* AquaImageFactory_RecyclableSlicedImageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaImageFactory_RecyclableSlicedImageControl.swift; path = Sources/AquaImageFactory_RecyclableSlicedImageControl.swift; sourceTree = "<group>"; };
+		CE6BB0C01F33D9CD00CA6A8F /* AquaImageFactory_SlicedImageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaImageFactory_SlicedImageControl.swift; path = Sources/AquaImageFactory_SlicedImageControl.swift; sourceTree = "<group>"; };
+		CE6BB0C11F33D9CD00CA6A8F /* AquaImageFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaImageFactory.swift; path = Sources/AquaImageFactory.swift; sourceTree = "<group>"; };
+		CE6BB0C21F33D9CD00CA6A8F /* AquaInternalFrameBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaInternalFrameBorder.swift; path = Sources/AquaInternalFrameBorder.swift; sourceTree = "<group>"; };
+		CE6BB0C31F33D9CD00CA6A8F /* AquaInternalFrameBorderMetrics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaInternalFrameBorderMetrics.swift; path = Sources/AquaInternalFrameBorderMetrics.swift; sourceTree = "<group>"; };
+		CE6BB0C41F33D9CD00CA6A8F /* AquaInternalFrameDockIconUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaInternalFrameDockIconUI.swift; path = Sources/AquaInternalFrameDockIconUI.swift; sourceTree = "<group>"; };
+		CE6BB0C51F33D9CD00CA6A8F /* AquaInternalFrameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaInternalFrameManager.swift; path = Sources/AquaInternalFrameManager.swift; sourceTree = "<group>"; };
+		CE6BB0C61F33D9CD00CA6A8F /* AquaInternalFramePaneUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaInternalFramePaneUI.swift; path = Sources/AquaInternalFramePaneUI.swift; sourceTree = "<group>"; };
+		CE6BB0C71F33D9CD00CA6A8F /* AquaInternalFrameUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaInternalFrameUI.swift; path = Sources/AquaInternalFrameUI.swift; sourceTree = "<group>"; };
+		CE6BB0C81F33D9CD00CA6A8F /* AquaKeyBindings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaKeyBindings.swift; path = Sources/AquaKeyBindings.swift; sourceTree = "<group>"; };
+		CE6BB0C91F33D9CD00CA6A8F /* AquaLabelUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaLabelUI.swift; path = Sources/AquaLabelUI.swift; sourceTree = "<group>"; };
+		CE6BB0CA1F33D9CD00CA6A8F /* AquaListUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaListUI.swift; path = Sources/AquaListUI.swift; sourceTree = "<group>"; };
+		CE6BB0CB1F33D9CD00CA6A8F /* AquaLookAndFeel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaLookAndFeel.swift; path = Sources/AquaLookAndFeel.swift; sourceTree = "<group>"; };
+		CE6BB0CC1F33D9CD00CA6A8F /* AquaMenuBarBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaMenuBarBorder.swift; path = Sources/AquaMenuBarBorder.swift; sourceTree = "<group>"; };
+		CE6BB0CD1F33D9CD00CA6A8F /* AquaMenuBarUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaMenuBarUI.swift; path = Sources/AquaMenuBarUI.swift; sourceTree = "<group>"; };
+		CE6BB0CE1F33D9CD00CA6A8F /* AquaMenuBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaMenuBorder.swift; path = Sources/AquaMenuBorder.swift; sourceTree = "<group>"; };
+		CE6BB0CF1F33D9CD00CA6A8F /* AquaMenuItemUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaMenuItemUI.swift; path = Sources/AquaMenuItemUI.swift; sourceTree = "<group>"; };
+		CE6BB0D01F33D9CD00CA6A8F /* AquaMenuPainter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaMenuPainter.swift; path = Sources/AquaMenuPainter.swift; sourceTree = "<group>"; };
+		CE6BB0D11F33D9CD00CA6A8F /* AquaMenuUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaMenuUI.swift; path = Sources/AquaMenuUI.swift; sourceTree = "<group>"; };
+		CE6BB0D21F33D9CD00CA6A8F /* AquaMnemonicHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaMnemonicHandler.swift; path = Sources/AquaMnemonicHandler.swift; sourceTree = "<group>"; };
+		CE6BB0D31F33D9CD00CA6A8F /* AquaNativeResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaNativeResources.swift; path = Sources/AquaNativeResources.swift; sourceTree = "<group>"; };
+		CE6BB0D41F33D9CD00CA6A8F /* AquaOptionPaneUI_AquaButtonAreaLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaOptionPaneUI_AquaButtonAreaLayout.swift; path = Sources/AquaOptionPaneUI_AquaButtonAreaLayout.swift; sourceTree = "<group>"; };
+		CE6BB0D51F33D9CD00CA6A8F /* AquaOptionPaneUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaOptionPaneUI.swift; path = Sources/AquaOptionPaneUI.swift; sourceTree = "<group>"; };
+		CE6BB0D61F33D9CD00CA6A8F /* AquaPanelUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaPanelUI.swift; path = Sources/AquaPanelUI.swift; sourceTree = "<group>"; };
+		CE6BB0D71F33D9CD00CA6A8F /* AquaPopupMenuSeparatorUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaPopupMenuSeparatorUI.swift; path = Sources/AquaPopupMenuSeparatorUI.swift; sourceTree = "<group>"; };
+		CE6BB0D81F33D9CD00CA6A8F /* AquaPopupMenuUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaPopupMenuUI.swift; path = Sources/AquaPopupMenuUI.swift; sourceTree = "<group>"; };
+		CE6BB0D91F33D9CD00CA6A8F /* AquaProgressBarUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaProgressBarUI.swift; path = Sources/AquaProgressBarUI.swift; sourceTree = "<group>"; };
+		CE6BB0DA1F33D9CD00CA6A8F /* AquaRootPaneUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaRootPaneUI.swift; path = Sources/AquaRootPaneUI.swift; sourceTree = "<group>"; };
+		CE6BB0DB1F33D9CD00CA6A8F /* AquaScrollBarUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaScrollBarUI.swift; path = Sources/AquaScrollBarUI.swift; sourceTree = "<group>"; };
+		CE6BB0DC1F33D9CD00CA6A8F /* AquaScrollPaneUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaScrollPaneUI.swift; path = Sources/AquaScrollPaneUI.swift; sourceTree = "<group>"; };
+		CE6BB0DD1F33D9CD00CA6A8F /* AquaScrollRegionBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaScrollRegionBorder.swift; path = Sources/AquaScrollRegionBorder.swift; sourceTree = "<group>"; };
+		CE6BB0DE1F33D9CD00CA6A8F /* AquaSliderUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaSliderUI.swift; path = Sources/AquaSliderUI.swift; sourceTree = "<group>"; };
+		CE6BB0DF1F33D9CD00CA6A8F /* AquaSpinnerUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaSpinnerUI.swift; path = Sources/AquaSpinnerUI.swift; sourceTree = "<group>"; };
+		CE6BB0E01F33D9CD00CA6A8F /* AquaSplitPaneDividerUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaSplitPaneDividerUI.swift; path = Sources/AquaSplitPaneDividerUI.swift; sourceTree = "<group>"; };
+		CE6BB0E11F33D9CD00CA6A8F /* AquaSplitPaneUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaSplitPaneUI.swift; path = Sources/AquaSplitPaneUI.swift; sourceTree = "<group>"; };
+		CE6BB0E21F33D9CD00CA6A8F /* AquaTabbedPaneContrastUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneContrastUI.swift; path = Sources/AquaTabbedPaneContrastUI.swift; sourceTree = "<group>"; };
+		CE6BB0E31F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_FocusHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneCopyFromBasicUI_FocusHandler.swift; path = Sources/AquaTabbedPaneCopyFromBasicUI_FocusHandler.swift; sourceTree = "<group>"; };
+		CE6BB0E41F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_MouseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneCopyFromBasicUI_MouseHandler.swift; path = Sources/AquaTabbedPaneCopyFromBasicUI_MouseHandler.swift; sourceTree = "<group>"; };
+		CE6BB0E51F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_PropertyChangeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneCopyFromBasicUI_PropertyChangeHandler.swift; path = Sources/AquaTabbedPaneCopyFromBasicUI_PropertyChangeHandler.swift; sourceTree = "<group>"; };
+		CE6BB0E61F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_TabbedPaneLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneCopyFromBasicUI_TabbedPaneLayout.swift; path = Sources/AquaTabbedPaneCopyFromBasicUI_TabbedPaneLayout.swift; sourceTree = "<group>"; };
+		CE6BB0E71F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_TabSelectionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneCopyFromBasicUI_TabSelectionHandler.swift; path = Sources/AquaTabbedPaneCopyFromBasicUI_TabSelectionHandler.swift; sourceTree = "<group>"; };
+		CE6BB0E81F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneCopyFromBasicUI.swift; path = Sources/AquaTabbedPaneCopyFromBasicUI.swift; sourceTree = "<group>"; };
+		CE6BB0E91F33D9CD00CA6A8F /* AquaTabbedPaneUI_MouseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneUI_MouseHandler.swift; path = Sources/AquaTabbedPaneUI_MouseHandler.swift; sourceTree = "<group>"; };
+		CE6BB0EA1F33D9CD00CA6A8F /* AquaTabbedPaneUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTabbedPaneUI.swift; path = Sources/AquaTabbedPaneUI.swift; sourceTree = "<group>"; };
+		CE6BB0EB1F33D9CD00CA6A8F /* AquaTableHeaderBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTableHeaderBorder.swift; path = Sources/AquaTableHeaderBorder.swift; sourceTree = "<group>"; };
+		CE6BB0EC1F33D9CD00CA6A8F /* AquaTableHeaderUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTableHeaderUI.swift; path = Sources/AquaTableHeaderUI.swift; sourceTree = "<group>"; };
+		CE6BB0ED1F33D9CD00CA6A8F /* AquaTableUI_FocusHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTableUI_FocusHandler.swift; path = Sources/AquaTableUI_FocusHandler.swift; sourceTree = "<group>"; };
+		CE6BB0EE1F33D9CD00CA6A8F /* AquaTableUI_MouseInputHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTableUI_MouseInputHandler.swift; path = Sources/AquaTableUI_MouseInputHandler.swift; sourceTree = "<group>"; };
+		CE6BB0EF1F33D9CD00CA6A8F /* AquaTableUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTableUI.swift; path = Sources/AquaTableUI.swift; sourceTree = "<group>"; };
+		CE6BB0F01F33D9CD00CA6A8F /* AquaTextAreaUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTextAreaUI.swift; path = Sources/AquaTextAreaUI.swift; sourceTree = "<group>"; };
+		CE6BB0F11F33D9CD00CA6A8F /* AquaTextFieldBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTextFieldBorder.swift; path = Sources/AquaTextFieldBorder.swift; sourceTree = "<group>"; };
+		CE6BB0F21F33D9CD00CA6A8F /* AquaTextFieldFormattedUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTextFieldFormattedUI.swift; path = Sources/AquaTextFieldFormattedUI.swift; sourceTree = "<group>"; };
+		CE6BB0F31F33D9CD00CA6A8F /* AquaTextFieldSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTextFieldSearch.swift; path = Sources/AquaTextFieldSearch.swift; sourceTree = "<group>"; };
+		CE6BB0F41F33D9CD00CA6A8F /* AquaTextFieldUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTextFieldUI.swift; path = Sources/AquaTextFieldUI.swift; sourceTree = "<group>"; };
+		CE6BB0F51F33D9CD00CA6A8F /* AquaTextPaneUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTextPaneUI.swift; path = Sources/AquaTextPaneUI.swift; sourceTree = "<group>"; };
+		CE6BB0F61F33D9CD00CA6A8F /* AquaTextPasswordFieldUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTextPasswordFieldUI.swift; path = Sources/AquaTextPasswordFieldUI.swift; sourceTree = "<group>"; };
+		CE6BB0F71F33D9CD00CA6A8F /* AquaToolBarSeparatorUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaToolBarSeparatorUI.swift; path = Sources/AquaToolBarSeparatorUI.swift; sourceTree = "<group>"; };
+		CE6BB0F81F33D9CD00CA6A8F /* AquaToolBarUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaToolBarUI.swift; path = Sources/AquaToolBarUI.swift; sourceTree = "<group>"; };
+		CE6BB0F91F33D9CD00CA6A8F /* AquaToolTipUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaToolTipUI.swift; path = Sources/AquaToolTipUI.swift; sourceTree = "<group>"; };
+		CE6BB0FA1F33D9CD00CA6A8F /* AquaTreeUI_MacPropertyChangeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTreeUI_MacPropertyChangeHandler.swift; path = Sources/AquaTreeUI_MacPropertyChangeHandler.swift; sourceTree = "<group>"; };
+		CE6BB0FB1F33D9CD00CA6A8F /* AquaTreeUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaTreeUI.swift; path = Sources/AquaTreeUI.swift; sourceTree = "<group>"; };
+		CE6BB0FC1F33D9CD00CA6A8F /* AquaUtilControlSize_SizeDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaUtilControlSize_SizeDescriptor.swift; path = Sources/AquaUtilControlSize_SizeDescriptor.swift; sourceTree = "<group>"; };
+		CE6BB0FD1F33D9CD00CA6A8F /* AquaUtilControlSize_SizeVariant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaUtilControlSize_SizeVariant.swift; path = Sources/AquaUtilControlSize_SizeVariant.swift; sourceTree = "<group>"; };
+		CE6BB0FE1F33D9CD00CA6A8F /* AquaUtilControlSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AquaUtilControlSize.swift; path = Sources/AquaUtilControlSize.swift; sourceTree = "<group>"; };
+		CE6BB0FF1F33D9CD00CA6A8F /* ClientPropertyApplicator_Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClientPropertyApplicator_Property.swift; path = Sources/ClientPropertyApplicator_Property.swift; sourceTree = "<group>"; };
+		CE6BB1001F33D9CD00CA6A8F /* ClientPropertyApplicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClientPropertyApplicator.swift; path = Sources/ClientPropertyApplicator.swift; sourceTree = "<group>"; };
+		CE6BB1011F33D9CD00CA6A8F /* Dispatch_Priority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dispatch_Priority.swift; path = Sources/Dispatch_Priority.swift; sourceTree = "<group>"; };
+		CE6BB1021F33D9CD00CA6A8F /* Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dispatch.swift; path = Sources/Dispatch.swift; sourceTree = "<group>"; };
+		CE6BB1031F33D9CD00CA6A8F /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileManager.swift; path = Sources/FileManager.swift; sourceTree = "<group>"; };
+		CE6BB1041F33D9CD00CA6A8F /* FullScreenAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullScreenAdapter.swift; path = Sources/FullScreenAdapter.swift; sourceTree = "<group>"; };
+		CE6BB1051F33D9CD00CA6A8F /* FullScreenListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullScreenListener.swift; path = Sources/FullScreenListener.swift; sourceTree = "<group>"; };
+		CE6BB1061F33D9CD00CA6A8F /* FullScreenUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullScreenUtilities.swift; path = Sources/FullScreenUtilities.swift; sourceTree = "<group>"; };
+		CE6BB1071F33D9CD00CA6A8F /* GestureAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GestureAdapter.swift; path = Sources/GestureAdapter.swift; sourceTree = "<group>"; };
+		CE6BB1081F33D9CD00CA6A8F /* GestureEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GestureEvent.swift; path = Sources/GestureEvent.swift; sourceTree = "<group>"; };
+		CE6BB1091F33D9CD00CA6A8F /* GestureListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GestureListener.swift; path = Sources/GestureListener.swift; sourceTree = "<group>"; };
+		CE6BB10A1F33D9CD00CA6A8F /* GesturePhaseEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GesturePhaseEvent.swift; path = Sources/GesturePhaseEvent.swift; sourceTree = "<group>"; };
+		CE6BB10B1F33D9CD00CA6A8F /* GesturePhaseListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GesturePhaseListener.swift; path = Sources/GesturePhaseListener.swift; sourceTree = "<group>"; };
+		CE6BB10C1F33D9CD00CA6A8F /* GestureUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GestureUtilities.swift; path = Sources/GestureUtilities.swift; sourceTree = "<group>"; };
+		CE6BB10D1F33D9CD00CA6A8F /* MagnificationEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MagnificationEvent.swift; path = Sources/MagnificationEvent.swift; sourceTree = "<group>"; };
+		CE6BB10E1F33D9CD00CA6A8F /* MagnificationListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MagnificationListener.swift; path = Sources/MagnificationListener.swift; sourceTree = "<group>"; };
+		CE6BB10F1F33D9CD00CA6A8F /* OpenFilesHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenFilesHandler.swift; path = Sources/OpenFilesHandler.swift; sourceTree = "<group>"; };
+		CE6BB1101F33D9CD00CA6A8F /* OpenURIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenURIHandler.swift; path = Sources/OpenURIHandler.swift; sourceTree = "<group>"; };
+		CE6BB1111F33D9CD00CA6A8F /* PreferencesHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreferencesHandler.swift; path = Sources/PreferencesHandler.swift; sourceTree = "<group>"; };
+		CE6BB1121F33D9CD00CA6A8F /* PrintFilesHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrintFilesHandler.swift; path = Sources/PrintFilesHandler.swift; sourceTree = "<group>"; };
+		CE6BB1131F33D9CD00CA6A8F /* QuitHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuitHandler.swift; path = Sources/QuitHandler.swift; sourceTree = "<group>"; };
+		CE6BB1141F33D9CD00CA6A8F /* QuitResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuitResponse.swift; path = Sources/QuitResponse.swift; sourceTree = "<group>"; };
+		CE6BB1151F33D9CD00CA6A8F /* QuitStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuitStrategy.swift; path = Sources/QuitStrategy.swift; sourceTree = "<group>"; };
+		CE6BB1161F33D9CD00CA6A8F /* RotationEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RotationEvent.swift; path = Sources/RotationEvent.swift; sourceTree = "<group>"; };
+		CE6BB1171F33D9CD00CA6A8F /* RotationListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RotationListener.swift; path = Sources/RotationListener.swift; sourceTree = "<group>"; };
+		CE6BB1181F33D9CD00CA6A8F /* ScreenMenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenMenuBar.swift; path = Sources/ScreenMenuBar.swift; sourceTree = "<group>"; };
+		CE6BB1191F33D9CD00CA6A8F /* ScreenMenuBarProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenMenuBarProvider.swift; path = Sources/ScreenMenuBarProvider.swift; sourceTree = "<group>"; };
+		CE6BB11A1F33D9CD00CA6A8F /* ScreenMenuItemUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenMenuItemUI.swift; path = Sources/ScreenMenuItemUI.swift; sourceTree = "<group>"; };
+		CE6BB11B1F33D9CD00CA6A8F /* ScreenSleepListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenSleepListener.swift; path = Sources/ScreenSleepListener.swift; sourceTree = "<group>"; };
+		CE6BB11C1F33D9CD00CA6A8F /* SwipeEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeEvent.swift; path = Sources/SwipeEvent.swift; sourceTree = "<group>"; };
+		CE6BB11D1F33D9CD00CA6A8F /* SwipeListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeListener.swift; path = Sources/SwipeListener.swift; sourceTree = "<group>"; };
+		CE6BB11E1F33D9CD00CA6A8F /* SystemSleepListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SystemSleepListener.swift; path = Sources/SystemSleepListener.swift; sourceTree = "<group>"; };
+		CE6BB11F1F33D9CD00CA6A8F /* UserSessionListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserSessionListener.swift; path = Sources/UserSessionListener.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -376,164 +384,168 @@
 		BBBF38E51D49DB8D004142AE /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				BB3412521E08C45200DA5E5E /* AboutHandler.swift */,
-				BB3412531E08C45200DA5E5E /* AppEvent_AboutEvent.swift */,
-				BB3412541E08C45200DA5E5E /* AppEvent_AppForegroundEvent.swift */,
-				BB3412551E08C45200DA5E5E /* AppEvent_AppHiddenEvent.swift */,
-				BB3412561E08C45200DA5E5E /* AppEvent_AppReOpenedEvent.swift */,
-				BB3412571E08C45200DA5E5E /* AppEvent_FilesEvent.swift */,
-				BB3412581E08C45200DA5E5E /* AppEvent_FullScreenEvent.swift */,
-				BB3412591E08C45200DA5E5E /* AppEvent_OpenFilesEvent.swift */,
-				BB34125A1E08C45200DA5E5E /* AppEvent_OpenURIEvent.swift */,
-				BB34125B1E08C45200DA5E5E /* AppEvent_PreferencesEvent.swift */,
-				BB34125C1E08C45200DA5E5E /* AppEvent_PrintFilesEvent.swift */,
-				BB34125D1E08C45200DA5E5E /* AppEvent_QuitEvent.swift */,
-				BB34125E1E08C45200DA5E5E /* AppEvent_ScreenSleepEvent.swift */,
-				BB34125F1E08C45200DA5E5E /* AppEvent_SystemSleepEvent.swift */,
-				BB3412601E08C45200DA5E5E /* AppEvent_UserSessionEvent.swift */,
-				BB3412611E08C45200DA5E5E /* AppEvent.swift */,
-				BB3412621E08C45200DA5E5E /* AppEventListener.swift */,
-				BB3412631E08C45200DA5E5E /* AppForegroundListener.swift */,
-				BB3412641E08C45200DA5E5E /* AppHiddenListener.swift */,
-				BB3412651E08C45200DA5E5E /* AppleSystemLog.swift */,
-				BB3412661E08C45200DA5E5E /* Application.swift */,
-				BB3412671E08C45200DA5E5E /* ApplicationAdapter.swift */,
-				BB3412681E08C45200DA5E5E /* ApplicationBeanInfo.swift */,
-				BB3412691E08C45200DA5E5E /* ApplicationEvent.swift */,
-				BB34126A1E08C45200DA5E5E /* ApplicationListener.swift */,
-				BB34126B1E08C45200DA5E5E /* AppReOpenedListener.swift */,
-				BB34126C1E08C45200DA5E5E /* AquaBorder.swift */,
-				BB34126D1E08C45200DA5E5E /* AquaButtonBorder_Dynamic.swift */,
-				BB34126E1E08C45200DA5E5E /* AquaButtonBorder_Named.swift */,
-				BB34126F1E08C45200DA5E5E /* AquaButtonBorder_Toggle.swift */,
-				BB3412701E08C45200DA5E5E /* AquaButtonBorder_Toolbar.swift */,
-				BB3412711E08C45200DA5E5E /* AquaButtonBorder.swift */,
-				BB3412721E08C45200DA5E5E /* AquaButtonCheckBoxUI_CheckBoxButtonBorder.swift */,
-				BB3412731E08C45200DA5E5E /* AquaButtonCheckBoxUI.swift */,
-				BB3412741E08C45200DA5E5E /* AquaButtonExtendedTypes_SegmentedNamedBorder.swift */,
-				BB3412751E08C45200DA5E5E /* AquaButtonExtendedTypes.swift */,
-				BB3412761E08C45200DA5E5E /* AquaButtonLabeledUI_LabeledButtonBorder.swift */,
-				BB3412771E08C45200DA5E5E /* AquaButtonLabeledUI.swift */,
-				BB3412781E08C45200DA5E5E /* AquaButtonRadioUI_RadioButtonBorder.swift */,
-				BB3412791E08C45200DA5E5E /* AquaButtonRadioUI.swift */,
-				BB34127A1E08C45200DA5E5E /* AquaButtonToggleUI.swift */,
-				BB34127B1E08C45200DA5E5E /* AquaButtonUI.swift */,
-				BB34127C1E08C45200DA5E5E /* AquaCachingPainter.swift */,
-				BB34127D1E08C45200DA5E5E /* AquaCaret.swift */,
-				BB34127E1E08C45200DA5E5E /* AquaComboBoxUI.swift */,
-				BB34127F1E08C45200DA5E5E /* AquaEditorPaneUI.swift */,
-				BB3412801E08C45200DA5E5E /* AquaFileChooserUI.swift */,
-				BB3412811E08C45200DA5E5E /* AquaFocus.swift */,
-				BB3412821E08C45200DA5E5E /* AquaFocusHandler.swift */,
-				BB3412831E08C45200DA5E5E /* AquaFonts.swift */,
-				BB3412841E08C45200DA5E5E /* AquaGroupBorder.swift */,
-				BB3412851E08C45200DA5E5E /* AquaHighlighter_AquaHighlightPainter.swift */,
-				BB3412861E08C45200DA5E5E /* AquaHighlighter.swift */,
-				BB3412871E08C45200DA5E5E /* AquaIcon_JRSUIControlSpec.swift */,
-				BB3412881E08C45200DA5E5E /* AquaIcon.swift */,
-				BB3412891E08C45200DA5E5E /* AquaImageFactory_SlicedImageControl.swift */,
-				BB34128A1E08C45200DA5E5E /* AquaImageFactory.swift */,
-				BB34128B1E08C45200DA5E5E /* AquaInternalFrameBorder.swift */,
-				BB34128C1E08C45200DA5E5E /* AquaInternalFrameBorderMetrics.swift */,
-				BB34128D1E08C45200DA5E5E /* AquaInternalFrameDockIconUI.swift */,
-				BB34128E1E08C45200DA5E5E /* AquaInternalFrameManager.swift */,
-				BB34128F1E08C45200DA5E5E /* AquaInternalFramePaneUI.swift */,
-				BB3412901E08C45200DA5E5E /* AquaInternalFrameUI.swift */,
-				BB3412911E08C45200DA5E5E /* AquaKeyBindings.swift */,
-				BB3412921E08C45200DA5E5E /* AquaLabelUI.swift */,
-				BB3412931E08C45200DA5E5E /* AquaListUI.swift */,
-				BB3412941E08C45200DA5E5E /* AquaLookAndFeel.swift */,
-				BB3412951E08C45200DA5E5E /* AquaMenuBarBorder.swift */,
-				BB3412961E08C45200DA5E5E /* AquaMenuBarUI.swift */,
-				BB3412971E08C45200DA5E5E /* AquaMenuBorder.swift */,
-				BB3412981E08C45200DA5E5E /* AquaMenuItemUI.swift */,
-				BB3412991E08C45200DA5E5E /* AquaMenuPainter.swift */,
-				BB34129A1E08C45200DA5E5E /* AquaMenuUI.swift */,
-				BB34129B1E08C45200DA5E5E /* AquaMnemonicHandler.swift */,
-				BB34129C1E08C45200DA5E5E /* AquaNativeResources.swift */,
-				BB34129D1E08C45200DA5E5E /* AquaOptionPaneUI_AquaButtonAreaLayout.swift */,
-				BB34129E1E08C45200DA5E5E /* AquaOptionPaneUI.swift */,
-				BB34129F1E08C45200DA5E5E /* AquaPanelUI.swift */,
-				BB3412A01E08C45200DA5E5E /* AquaPopupMenuSeparatorUI.swift */,
-				BB3412A11E08C45200DA5E5E /* AquaPopupMenuUI.swift */,
-				BB3412A21E08C45200DA5E5E /* AquaProgressBarUI.swift */,
-				BB3412A31E08C45200DA5E5E /* AquaRootPaneUI.swift */,
-				BB3412A41E08C45200DA5E5E /* AquaScrollBarUI.swift */,
-				BB3412A51E08C45200DA5E5E /* AquaScrollPaneUI.swift */,
-				BB3412A61E08C45200DA5E5E /* AquaScrollRegionBorder.swift */,
-				BB3412A71E08C45200DA5E5E /* AquaSliderUI.swift */,
-				BB3412A81E08C45200DA5E5E /* AquaSpinnerUI.swift */,
-				BB3412A91E08C45200DA5E5E /* AquaSplitPaneDividerUI.swift */,
-				BB3412AA1E08C45200DA5E5E /* AquaSplitPaneUI.swift */,
-				BB3412AB1E08C45200DA5E5E /* AquaTabbedPaneContrastUI.swift */,
-				BB3412AC1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_FocusHandler.swift */,
-				BB3412AD1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_MouseHandler.swift */,
-				BB3412AE1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_PropertyChangeHandler.swift */,
-				BB3412AF1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_TabbedPaneLayout.swift */,
-				BB3412B01E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_TabSelectionHandler.swift */,
-				BB3412B11E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI.swift */,
-				BB3412B21E08C45200DA5E5E /* AquaTabbedPaneUI_MouseHandler.swift */,
-				BB3412B31E08C45200DA5E5E /* AquaTabbedPaneUI.swift */,
-				BB3412B41E08C45200DA5E5E /* AquaTableHeaderBorder.swift */,
-				BB3412B51E08C45200DA5E5E /* AquaTableHeaderUI.swift */,
-				BB3412B61E08C45200DA5E5E /* AquaTableUI_FocusHandler.swift */,
-				BB3412B71E08C45200DA5E5E /* AquaTableUI_MouseInputHandler.swift */,
-				BB3412B81E08C45200DA5E5E /* AquaTableUI.swift */,
-				BB3412B91E08C45200DA5E5E /* AquaTextAreaUI.swift */,
-				BB3412BA1E08C45200DA5E5E /* AquaTextFieldBorder.swift */,
-				BB3412BB1E08C45200DA5E5E /* AquaTextFieldFormattedUI.swift */,
-				BB3412BC1E08C45200DA5E5E /* AquaTextFieldSearch.swift */,
-				BB3412BD1E08C45200DA5E5E /* AquaTextFieldUI.swift */,
-				BB3412BE1E08C45200DA5E5E /* AquaTextPaneUI.swift */,
-				BB3412BF1E08C45200DA5E5E /* AquaTextPasswordFieldUI.swift */,
-				BB3412C01E08C45200DA5E5E /* AquaToolBarSeparatorUI.swift */,
-				BB3412C11E08C45200DA5E5E /* AquaToolBarUI.swift */,
-				BB3412C21E08C45200DA5E5E /* AquaToolTipUI.swift */,
-				BB3412C31E08C45200DA5E5E /* AquaTreeUI_MacPropertyChangeHandler.swift */,
-				BB3412C41E08C45200DA5E5E /* AquaTreeUI.swift */,
-				BB3412C51E08C45200DA5E5E /* AquaUtilControlSize_SizeDescriptor.swift */,
-				BB3412C61E08C45200DA5E5E /* AquaUtilControlSize_SizeVariant.swift */,
-				BB3412C71E08C45200DA5E5E /* AquaUtilControlSize.swift */,
-				BB3412C81E08C45200DA5E5E /* AquaUtils_LazyKeyedSingleton.swift */,
-				BB3412C91E08C45200DA5E5E /* AquaUtils_LazySingleton.swift */,
-				BB3412CA1E08C45200DA5E5E /* AquaUtils_LazySingletonFromDefaultConstructor.swift */,
-				BB3412CB1E08C45200DA5E5E /* AquaUtils_ShadowBorder.swift */,
-				BB3412CC1E08C45200DA5E5E /* AquaUtils_SlicedShadowBorder.swift */,
-				BB3412CD1E08C45200DA5E5E /* AquaUtils.swift */,
-				BB3412CE1E08C45200DA5E5E /* CocoaComponent.swift */,
-				BB3412CF1E08C45200DA5E5E /* Dispatch_Priority.swift */,
-				BB3412D01E08C45200DA5E5E /* Dispatch.swift */,
-				BB3412D11E08C45200DA5E5E /* FileManager.swift */,
-				BB3412D21E08C45200DA5E5E /* FullScreenAdapter.swift */,
-				BB3412D31E08C45200DA5E5E /* FullScreenListener.swift */,
-				BB3412D41E08C45200DA5E5E /* FullScreenUtilities.swift */,
-				BB3412D51E08C45200DA5E5E /* GestureAdapter.swift */,
-				BB3412D61E08C45200DA5E5E /* GestureEvent.swift */,
-				BB3412D71E08C45200DA5E5E /* GestureListener.swift */,
-				BB3412D81E08C45200DA5E5E /* GesturePhaseEvent.swift */,
-				BB3412D91E08C45200DA5E5E /* GesturePhaseListener.swift */,
-				BB3412DA1E08C45200DA5E5E /* GestureUtilities.swift */,
-				BB3412DB1E08C45200DA5E5E /* MacOSXResourceBundle.swift */,
-				BB3412DC1E08C45200DA5E5E /* MagnificationEvent.swift */,
-				BB3412DD1E08C45200DA5E5E /* MagnificationListener.swift */,
-				BB3412DE1E08C45200DA5E5E /* OpenFilesHandler.swift */,
-				BB3412DF1E08C45200DA5E5E /* OpenURIHandler.swift */,
-				BB3412E01E08C45200DA5E5E /* PreferencesHandler.swift */,
-				BB3412E11E08C45200DA5E5E /* PrintFilesHandler.swift */,
-				BB3412E21E08C45200DA5E5E /* QuitHandler.swift */,
-				BB3412E31E08C45200DA5E5E /* QuitResponse.swift */,
-				BB3412E41E08C45200DA5E5E /* QuitStrategy.swift */,
-				BB3412E51E08C45200DA5E5E /* RotationEvent.swift */,
-				BB3412E61E08C45200DA5E5E /* RotationListener.swift */,
-				BB3412E71E08C45200DA5E5E /* ScreenMenuBar.swift */,
-				BB3412E81E08C45200DA5E5E /* ScreenMenuBarProvider.swift */,
-				BB3412E91E08C45200DA5E5E /* ScreenMenuItemUI.swift */,
-				BB3412EA1E08C45200DA5E5E /* ScreenSleepListener.swift */,
-				BB3412EB1E08C45200DA5E5E /* SwipeEvent.swift */,
-				BB3412EC1E08C45200DA5E5E /* SwipeListener.swift */,
-				BB3412ED1E08C45200DA5E5E /* SystemSleepListener.swift */,
-				BB3412EE1E08C45200DA5E5E /* Usage.swift */,
-				BB3412EF1E08C45200DA5E5E /* UserSessionListener.swift */,
+				CE6BB07E1F33D9CD00CA6A8F /* AboutHandler.swift */,
+				CE6BB07F1F33D9CD00CA6A8F /* AppEvent_AboutEvent.swift */,
+				CE6BB0801F33D9CD00CA6A8F /* AppEvent_AppForegroundEvent.swift */,
+				CE6BB0811F33D9CD00CA6A8F /* AppEvent_AppHiddenEvent.swift */,
+				CE6BB0821F33D9CD00CA6A8F /* AppEvent_AppReOpenedEvent.swift */,
+				CE6BB0831F33D9CD00CA6A8F /* AppEvent_FilesEvent.swift */,
+				CE6BB0841F33D9CD00CA6A8F /* AppEvent_FullScreenEvent.swift */,
+				CE6BB0851F33D9CD00CA6A8F /* AppEvent_OpenFilesEvent.swift */,
+				CE6BB0861F33D9CD00CA6A8F /* AppEvent_OpenURIEvent.swift */,
+				CE6BB0871F33D9CD00CA6A8F /* AppEvent_PreferencesEvent.swift */,
+				CE6BB0881F33D9CD00CA6A8F /* AppEvent_PrintFilesEvent.swift */,
+				CE6BB0891F33D9CD00CA6A8F /* AppEvent_QuitEvent.swift */,
+				CE6BB08A1F33D9CD00CA6A8F /* AppEvent_ScreenSleepEvent.swift */,
+				CE6BB08B1F33D9CD00CA6A8F /* AppEvent_SystemSleepEvent.swift */,
+				CE6BB08C1F33D9CD00CA6A8F /* AppEvent_UserSessionEvent.swift */,
+				CE6BB08D1F33D9CD00CA6A8F /* AppEvent.swift */,
+				CE6BB08E1F33D9CD00CA6A8F /* AppEventListener.swift */,
+				CE6BB08F1F33D9CD00CA6A8F /* AppForegroundListener.swift */,
+				CE6BB0901F33D9CD00CA6A8F /* AppHiddenListener.swift */,
+				CE6BB0911F33D9CD00CA6A8F /* Application.swift */,
+				CE6BB0921F33D9CD00CA6A8F /* ApplicationAdapter.swift */,
+				CE6BB0931F33D9CD00CA6A8F /* ApplicationBeanInfo.swift */,
+				CE6BB0941F33D9CD00CA6A8F /* ApplicationEvent.swift */,
+				CE6BB0951F33D9CD00CA6A8F /* ApplicationListener.swift */,
+				CE6BB0961F33D9CD00CA6A8F /* AppReOpenedListener.swift */,
+				CE6BB0971F33D9CD00CA6A8F /* aqua_de.swift */,
+				CE6BB0981F33D9CD00CA6A8F /* aqua_es.swift */,
+				CE6BB0991F33D9CD00CA6A8F /* aqua_fr.swift */,
+				CE6BB09A1F33D9CD00CA6A8F /* aqua_it.swift */,
+				CE6BB09B1F33D9CD00CA6A8F /* aqua_ja.swift */,
+				CE6BB09C1F33D9CD00CA6A8F /* aqua_ko.swift */,
+				CE6BB09D1F33D9CD00CA6A8F /* aqua_pt_BR.swift */,
+				CE6BB09E1F33D9CD00CA6A8F /* aqua_sv.swift */,
+				CE6BB09F1F33D9CD00CA6A8F /* aqua_zh_CN.swift */,
+				CE6BB0A01F33D9CD00CA6A8F /* aqua_zh_TW.swift */,
+				CE6BB0A11F33D9CD00CA6A8F /* aqua.swift */,
+				CE6BB0A21F33D9CD00CA6A8F /* AquaBorder.swift */,
+				CE6BB0A31F33D9CD00CA6A8F /* AquaButtonBorder_Dynamic.swift */,
+				CE6BB0A41F33D9CD00CA6A8F /* AquaButtonBorder_Named.swift */,
+				CE6BB0A51F33D9CD00CA6A8F /* AquaButtonBorder_Toggle.swift */,
+				CE6BB0A61F33D9CD00CA6A8F /* AquaButtonBorder_Toolbar.swift */,
+				CE6BB0A71F33D9CD00CA6A8F /* AquaButtonBorder.swift */,
+				CE6BB0A81F33D9CD00CA6A8F /* AquaButtonCheckBoxUI_CheckBoxButtonBorder.swift */,
+				CE6BB0A91F33D9CD00CA6A8F /* AquaButtonCheckBoxUI.swift */,
+				CE6BB0AA1F33D9CD00CA6A8F /* AquaButtonExtendedTypes_SegmentedNamedBorder.swift */,
+				CE6BB0AB1F33D9CD00CA6A8F /* AquaButtonExtendedTypes.swift */,
+				CE6BB0AC1F33D9CD00CA6A8F /* AquaButtonLabeledUI_LabeledButtonBorder.swift */,
+				CE6BB0AD1F33D9CD00CA6A8F /* AquaButtonLabeledUI.swift */,
+				CE6BB0AE1F33D9CD00CA6A8F /* AquaButtonRadioUI_RadioButtonBorder.swift */,
+				CE6BB0AF1F33D9CD00CA6A8F /* AquaButtonRadioUI.swift */,
+				CE6BB0B01F33D9CD00CA6A8F /* AquaButtonToggleUI.swift */,
+				CE6BB0B11F33D9CD00CA6A8F /* AquaButtonUI.swift */,
+				CE6BB0B21F33D9CD00CA6A8F /* AquaCaret.swift */,
+				CE6BB0B31F33D9CD00CA6A8F /* AquaComboBoxUI.swift */,
+				CE6BB0B41F33D9CD00CA6A8F /* AquaEditorPaneUI.swift */,
+				CE6BB0B51F33D9CD00CA6A8F /* AquaFileChooserUI.swift */,
+				CE6BB0B61F33D9CD00CA6A8F /* AquaFocus.swift */,
+				CE6BB0B71F33D9CD00CA6A8F /* AquaFocusHandler.swift */,
+				CE6BB0B81F33D9CD00CA6A8F /* AquaFonts.swift */,
+				CE6BB0B91F33D9CD00CA6A8F /* AquaGroupBorder.swift */,
+				CE6BB0BA1F33D9CD00CA6A8F /* AquaHighlighter_AquaHighlightPainter.swift */,
+				CE6BB0BB1F33D9CD00CA6A8F /* AquaHighlighter.swift */,
+				CE6BB0BC1F33D9CD00CA6A8F /* AquaIcon_JRSUIControlSpec.swift */,
+				CE6BB0BD1F33D9CD00CA6A8F /* AquaIcon.swift */,
+				CE6BB0BE1F33D9CD00CA6A8F /* AquaImageFactory_NineSliceMetrics.swift */,
+				CE6BB0BF1F33D9CD00CA6A8F /* AquaImageFactory_RecyclableSlicedImageControl.swift */,
+				CE6BB0C01F33D9CD00CA6A8F /* AquaImageFactory_SlicedImageControl.swift */,
+				CE6BB0C11F33D9CD00CA6A8F /* AquaImageFactory.swift */,
+				CE6BB0C21F33D9CD00CA6A8F /* AquaInternalFrameBorder.swift */,
+				CE6BB0C31F33D9CD00CA6A8F /* AquaInternalFrameBorderMetrics.swift */,
+				CE6BB0C41F33D9CD00CA6A8F /* AquaInternalFrameDockIconUI.swift */,
+				CE6BB0C51F33D9CD00CA6A8F /* AquaInternalFrameManager.swift */,
+				CE6BB0C61F33D9CD00CA6A8F /* AquaInternalFramePaneUI.swift */,
+				CE6BB0C71F33D9CD00CA6A8F /* AquaInternalFrameUI.swift */,
+				CE6BB0C81F33D9CD00CA6A8F /* AquaKeyBindings.swift */,
+				CE6BB0C91F33D9CD00CA6A8F /* AquaLabelUI.swift */,
+				CE6BB0CA1F33D9CD00CA6A8F /* AquaListUI.swift */,
+				CE6BB0CB1F33D9CD00CA6A8F /* AquaLookAndFeel.swift */,
+				CE6BB0CC1F33D9CD00CA6A8F /* AquaMenuBarBorder.swift */,
+				CE6BB0CD1F33D9CD00CA6A8F /* AquaMenuBarUI.swift */,
+				CE6BB0CE1F33D9CD00CA6A8F /* AquaMenuBorder.swift */,
+				CE6BB0CF1F33D9CD00CA6A8F /* AquaMenuItemUI.swift */,
+				CE6BB0D01F33D9CD00CA6A8F /* AquaMenuPainter.swift */,
+				CE6BB0D11F33D9CD00CA6A8F /* AquaMenuUI.swift */,
+				CE6BB0D21F33D9CD00CA6A8F /* AquaMnemonicHandler.swift */,
+				CE6BB0D31F33D9CD00CA6A8F /* AquaNativeResources.swift */,
+				CE6BB0D41F33D9CD00CA6A8F /* AquaOptionPaneUI_AquaButtonAreaLayout.swift */,
+				CE6BB0D51F33D9CD00CA6A8F /* AquaOptionPaneUI.swift */,
+				CE6BB0D61F33D9CD00CA6A8F /* AquaPanelUI.swift */,
+				CE6BB0D71F33D9CD00CA6A8F /* AquaPopupMenuSeparatorUI.swift */,
+				CE6BB0D81F33D9CD00CA6A8F /* AquaPopupMenuUI.swift */,
+				CE6BB0D91F33D9CD00CA6A8F /* AquaProgressBarUI.swift */,
+				CE6BB0DA1F33D9CD00CA6A8F /* AquaRootPaneUI.swift */,
+				CE6BB0DB1F33D9CD00CA6A8F /* AquaScrollBarUI.swift */,
+				CE6BB0DC1F33D9CD00CA6A8F /* AquaScrollPaneUI.swift */,
+				CE6BB0DD1F33D9CD00CA6A8F /* AquaScrollRegionBorder.swift */,
+				CE6BB0DE1F33D9CD00CA6A8F /* AquaSliderUI.swift */,
+				CE6BB0DF1F33D9CD00CA6A8F /* AquaSpinnerUI.swift */,
+				CE6BB0E01F33D9CD00CA6A8F /* AquaSplitPaneDividerUI.swift */,
+				CE6BB0E11F33D9CD00CA6A8F /* AquaSplitPaneUI.swift */,
+				CE6BB0E21F33D9CD00CA6A8F /* AquaTabbedPaneContrastUI.swift */,
+				CE6BB0E31F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_FocusHandler.swift */,
+				CE6BB0E41F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_MouseHandler.swift */,
+				CE6BB0E51F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_PropertyChangeHandler.swift */,
+				CE6BB0E61F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_TabbedPaneLayout.swift */,
+				CE6BB0E71F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_TabSelectionHandler.swift */,
+				CE6BB0E81F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI.swift */,
+				CE6BB0E91F33D9CD00CA6A8F /* AquaTabbedPaneUI_MouseHandler.swift */,
+				CE6BB0EA1F33D9CD00CA6A8F /* AquaTabbedPaneUI.swift */,
+				CE6BB0EB1F33D9CD00CA6A8F /* AquaTableHeaderBorder.swift */,
+				CE6BB0EC1F33D9CD00CA6A8F /* AquaTableHeaderUI.swift */,
+				CE6BB0ED1F33D9CD00CA6A8F /* AquaTableUI_FocusHandler.swift */,
+				CE6BB0EE1F33D9CD00CA6A8F /* AquaTableUI_MouseInputHandler.swift */,
+				CE6BB0EF1F33D9CD00CA6A8F /* AquaTableUI.swift */,
+				CE6BB0F01F33D9CD00CA6A8F /* AquaTextAreaUI.swift */,
+				CE6BB0F11F33D9CD00CA6A8F /* AquaTextFieldBorder.swift */,
+				CE6BB0F21F33D9CD00CA6A8F /* AquaTextFieldFormattedUI.swift */,
+				CE6BB0F31F33D9CD00CA6A8F /* AquaTextFieldSearch.swift */,
+				CE6BB0F41F33D9CD00CA6A8F /* AquaTextFieldUI.swift */,
+				CE6BB0F51F33D9CD00CA6A8F /* AquaTextPaneUI.swift */,
+				CE6BB0F61F33D9CD00CA6A8F /* AquaTextPasswordFieldUI.swift */,
+				CE6BB0F71F33D9CD00CA6A8F /* AquaToolBarSeparatorUI.swift */,
+				CE6BB0F81F33D9CD00CA6A8F /* AquaToolBarUI.swift */,
+				CE6BB0F91F33D9CD00CA6A8F /* AquaToolTipUI.swift */,
+				CE6BB0FA1F33D9CD00CA6A8F /* AquaTreeUI_MacPropertyChangeHandler.swift */,
+				CE6BB0FB1F33D9CD00CA6A8F /* AquaTreeUI.swift */,
+				CE6BB0FC1F33D9CD00CA6A8F /* AquaUtilControlSize_SizeDescriptor.swift */,
+				CE6BB0FD1F33D9CD00CA6A8F /* AquaUtilControlSize_SizeVariant.swift */,
+				CE6BB0FE1F33D9CD00CA6A8F /* AquaUtilControlSize.swift */,
+				CE6BB0FF1F33D9CD00CA6A8F /* ClientPropertyApplicator_Property.swift */,
+				CE6BB1001F33D9CD00CA6A8F /* ClientPropertyApplicator.swift */,
+				CE6BB1011F33D9CD00CA6A8F /* Dispatch_Priority.swift */,
+				CE6BB1021F33D9CD00CA6A8F /* Dispatch.swift */,
+				CE6BB1031F33D9CD00CA6A8F /* FileManager.swift */,
+				CE6BB1041F33D9CD00CA6A8F /* FullScreenAdapter.swift */,
+				CE6BB1051F33D9CD00CA6A8F /* FullScreenListener.swift */,
+				CE6BB1061F33D9CD00CA6A8F /* FullScreenUtilities.swift */,
+				CE6BB1071F33D9CD00CA6A8F /* GestureAdapter.swift */,
+				CE6BB1081F33D9CD00CA6A8F /* GestureEvent.swift */,
+				CE6BB1091F33D9CD00CA6A8F /* GestureListener.swift */,
+				CE6BB10A1F33D9CD00CA6A8F /* GesturePhaseEvent.swift */,
+				CE6BB10B1F33D9CD00CA6A8F /* GesturePhaseListener.swift */,
+				CE6BB10C1F33D9CD00CA6A8F /* GestureUtilities.swift */,
+				CE6BB10D1F33D9CD00CA6A8F /* MagnificationEvent.swift */,
+				CE6BB10E1F33D9CD00CA6A8F /* MagnificationListener.swift */,
+				CE6BB10F1F33D9CD00CA6A8F /* OpenFilesHandler.swift */,
+				CE6BB1101F33D9CD00CA6A8F /* OpenURIHandler.swift */,
+				CE6BB1111F33D9CD00CA6A8F /* PreferencesHandler.swift */,
+				CE6BB1121F33D9CD00CA6A8F /* PrintFilesHandler.swift */,
+				CE6BB1131F33D9CD00CA6A8F /* QuitHandler.swift */,
+				CE6BB1141F33D9CD00CA6A8F /* QuitResponse.swift */,
+				CE6BB1151F33D9CD00CA6A8F /* QuitStrategy.swift */,
+				CE6BB1161F33D9CD00CA6A8F /* RotationEvent.swift */,
+				CE6BB1171F33D9CD00CA6A8F /* RotationListener.swift */,
+				CE6BB1181F33D9CD00CA6A8F /* ScreenMenuBar.swift */,
+				CE6BB1191F33D9CD00CA6A8F /* ScreenMenuBarProvider.swift */,
+				CE6BB11A1F33D9CD00CA6A8F /* ScreenMenuItemUI.swift */,
+				CE6BB11B1F33D9CD00CA6A8F /* ScreenSleepListener.swift */,
+				CE6BB11C1F33D9CD00CA6A8F /* SwipeEvent.swift */,
+				CE6BB11D1F33D9CD00CA6A8F /* SwipeListener.swift */,
+				CE6BB11E1F33D9CD00CA6A8F /* SystemSleepListener.swift */,
+				CE6BB11F1F33D9CD00CA6A8F /* UserSessionListener.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -592,7 +604,7 @@
 					BBBF38C71D49DAC7004142AE = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeamName = "John Holdsworth";
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -629,164 +641,168 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB3413061E08C45200DA5E5E /* ApplicationBeanInfo.swift in Sources */,
-				BB3413751E08C45300DA5E5E /* GestureListener.swift in Sources */,
-				BB34131B1E08C45200DA5E5E /* AquaCaret.swift in Sources */,
-				BB3413291E08C45200DA5E5E /* AquaInternalFrameBorder.swift in Sources */,
-				BB3413031E08C45200DA5E5E /* AppleSystemLog.swift in Sources */,
-				BB3412F81E08C45200DA5E5E /* AppEvent_OpenURIEvent.swift in Sources */,
-				BB3413241E08C45200DA5E5E /* AquaHighlighter.swift in Sources */,
-				BB3413331E08C45200DA5E5E /* AquaMenuBarBorder.swift in Sources */,
-				BB34134A1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_FocusHandler.swift in Sources */,
-				BB34132C1E08C45200DA5E5E /* AquaInternalFrameManager.swift in Sources */,
-				BB3413531E08C45300DA5E5E /* AquaTableHeaderUI.swift in Sources */,
-				BB34137D1E08C45300DA5E5E /* OpenURIHandler.swift in Sources */,
-				BB3413831E08C45300DA5E5E /* RotationEvent.swift in Sources */,
-				BB3413311E08C45200DA5E5E /* AquaListUI.swift in Sources */,
-				BB3413881E08C45300DA5E5E /* ScreenSleepListener.swift in Sources */,
-				BB3413171E08C45200DA5E5E /* AquaButtonRadioUI.swift in Sources */,
-				BB3413421E08C45200DA5E5E /* AquaScrollBarUI.swift in Sources */,
-				BB3413141E08C45200DA5E5E /* AquaButtonLabeledUI_LabeledButtonBorder.swift in Sources */,
-				BB34135C1E08C45300DA5E5E /* AquaTextPaneUI.swift in Sources */,
-				BB3413321E08C45200DA5E5E /* AquaLookAndFeel.swift in Sources */,
-				BB3413821E08C45300DA5E5E /* QuitStrategy.swift in Sources */,
-				BB3412FC1E08C45200DA5E5E /* AppEvent_ScreenSleepEvent.swift in Sources */,
-				BB34132E1E08C45200DA5E5E /* AquaInternalFrameUI.swift in Sources */,
-				BB3413521E08C45300DA5E5E /* AquaTableHeaderBorder.swift in Sources */,
-				BB34138A1E08C45300DA5E5E /* SwipeListener.swift in Sources */,
-				BB3412F01E08C45200DA5E5E /* AboutHandler.swift in Sources */,
-				BB34133F1E08C45200DA5E5E /* AquaPopupMenuUI.swift in Sources */,
-				BB34133B1E08C45200DA5E5E /* AquaOptionPaneUI_AquaButtonAreaLayout.swift in Sources */,
-				BB3413851E08C45300DA5E5E /* ScreenMenuBar.swift in Sources */,
-				BB3412F91E08C45200DA5E5E /* AppEvent_PreferencesEvent.swift in Sources */,
-				BB34134C1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_PropertyChangeHandler.swift in Sources */,
-				BB3413011E08C45200DA5E5E /* AppForegroundListener.swift in Sources */,
-				BB34136E1E08C45300DA5E5E /* Dispatch.swift in Sources */,
-				BB3413621E08C45300DA5E5E /* AquaTreeUI.swift in Sources */,
-				BB3413471E08C45200DA5E5E /* AquaSplitPaneDividerUI.swift in Sources */,
-				BB34136B1E08C45300DA5E5E /* AquaUtils.swift in Sources */,
-				BB34134D1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_TabbedPaneLayout.swift in Sources */,
-				BB3413781E08C45300DA5E5E /* GestureUtilities.swift in Sources */,
-				BB34132B1E08C45200DA5E5E /* AquaInternalFrameDockIconUI.swift in Sources */,
-				BB3413861E08C45300DA5E5E /* ScreenMenuBarProvider.swift in Sources */,
-				BB34132F1E08C45200DA5E5E /* AquaKeyBindings.swift in Sources */,
-				BB3413451E08C45200DA5E5E /* AquaSliderUI.swift in Sources */,
-				BB3413081E08C45200DA5E5E /* ApplicationListener.swift in Sources */,
-				BB3413111E08C45200DA5E5E /* AquaButtonCheckBoxUI.swift in Sources */,
-				BB3413661E08C45300DA5E5E /* AquaUtils_LazyKeyedSingleton.swift in Sources */,
-				BB34130A1E08C45200DA5E5E /* AquaBorder.swift in Sources */,
-				BB3413181E08C45200DA5E5E /* AquaButtonToggleUI.swift in Sources */,
-				BB34135D1E08C45300DA5E5E /* AquaTextPasswordFieldUI.swift in Sources */,
-				BB34137B1E08C45300DA5E5E /* MagnificationListener.swift in Sources */,
-				BB34136F1E08C45300DA5E5E /* FileManager.swift in Sources */,
-				BB3413721E08C45300DA5E5E /* FullScreenUtilities.swift in Sources */,
-				BB3413401E08C45200DA5E5E /* AquaProgressBarUI.swift in Sources */,
-				BB34130E1E08C45200DA5E5E /* AquaButtonBorder_Toolbar.swift in Sources */,
-				BB3413731E08C45300DA5E5E /* GestureAdapter.swift in Sources */,
-				BB3413391E08C45200DA5E5E /* AquaMnemonicHandler.swift in Sources */,
-				BB3413581E08C45300DA5E5E /* AquaTextFieldBorder.swift in Sources */,
-				BB34130D1E08C45200DA5E5E /* AquaButtonBorder_Toggle.swift in Sources */,
-				BB3412FA1E08C45200DA5E5E /* AppEvent_PrintFilesEvent.swift in Sources */,
-				BB3413791E08C45300DA5E5E /* MacOSXResourceBundle.swift in Sources */,
-				BB34131E1E08C45200DA5E5E /* AquaFileChooserUI.swift in Sources */,
-				BB34135A1E08C45300DA5E5E /* AquaTextFieldSearch.swift in Sources */,
-				BB3413871E08C45300DA5E5E /* ScreenMenuItemUI.swift in Sources */,
-				BB3413771E08C45300DA5E5E /* GesturePhaseListener.swift in Sources */,
-				BB34133C1E08C45200DA5E5E /* AquaOptionPaneUI.swift in Sources */,
-				BB34131F1E08C45200DA5E5E /* AquaFocus.swift in Sources */,
-				BB34135B1E08C45300DA5E5E /* AquaTextFieldUI.swift in Sources */,
-				BB3413891E08C45300DA5E5E /* SwipeEvent.swift in Sources */,
-				BB3412F71E08C45200DA5E5E /* AppEvent_OpenFilesEvent.swift in Sources */,
-				BB34131D1E08C45200DA5E5E /* AquaEditorPaneUI.swift in Sources */,
-				BB3413021E08C45200DA5E5E /* AppHiddenListener.swift in Sources */,
-				BB3413801E08C45300DA5E5E /* QuitHandler.swift in Sources */,
-				BB34134E1E08C45300DA5E5E /* AquaTabbedPaneCopyFromBasicUI_TabSelectionHandler.swift in Sources */,
-				BB34138C1E08C45300DA5E5E /* Usage.swift in Sources */,
-				BB3413231E08C45200DA5E5E /* AquaHighlighter_AquaHighlightPainter.swift in Sources */,
-				BB3413221E08C45200DA5E5E /* AquaGroupBorder.swift in Sources */,
-				BB3413101E08C45200DA5E5E /* AquaButtonCheckBoxUI_CheckBoxButtonBorder.swift in Sources */,
-				BB3413191E08C45200DA5E5E /* AquaButtonUI.swift in Sources */,
-				BB3413121E08C45200DA5E5E /* AquaButtonExtendedTypes_SegmentedNamedBorder.swift in Sources */,
-				BB3412F41E08C45200DA5E5E /* AppEvent_AppReOpenedEvent.swift in Sources */,
-				BB3413461E08C45200DA5E5E /* AquaSpinnerUI.swift in Sources */,
-				BB3413541E08C45300DA5E5E /* AquaTableUI_FocusHandler.swift in Sources */,
-				BB3413261E08C45200DA5E5E /* AquaIcon.swift in Sources */,
-				BB34134F1E08C45300DA5E5E /* AquaTabbedPaneCopyFromBasicUI.swift in Sources */,
-				BB3413271E08C45200DA5E5E /* AquaImageFactory_SlicedImageControl.swift in Sources */,
-				BB3412FB1E08C45200DA5E5E /* AppEvent_QuitEvent.swift in Sources */,
-				BB3413761E08C45300DA5E5E /* GesturePhaseEvent.swift in Sources */,
-				BB3413641E08C45300DA5E5E /* AquaUtilControlSize_SizeVariant.swift in Sources */,
-				BB3413371E08C45200DA5E5E /* AquaMenuPainter.swift in Sources */,
-				BB34130C1E08C45200DA5E5E /* AquaButtonBorder_Named.swift in Sources */,
-				BB3413341E08C45200DA5E5E /* AquaMenuBarUI.swift in Sources */,
-				BB3413601E08C45300DA5E5E /* AquaToolTipUI.swift in Sources */,
-				BB3413211E08C45200DA5E5E /* AquaFonts.swift in Sources */,
-				BB3413001E08C45200DA5E5E /* AppEventListener.swift in Sources */,
-				BB3412FD1E08C45200DA5E5E /* AppEvent_SystemSleepEvent.swift in Sources */,
-				BB3413631E08C45300DA5E5E /* AquaUtilControlSize_SizeDescriptor.swift in Sources */,
-				BB34136A1E08C45300DA5E5E /* AquaUtils_SlicedShadowBorder.swift in Sources */,
-				BB3413131E08C45200DA5E5E /* AquaButtonExtendedTypes.swift in Sources */,
-				BB34133A1E08C45200DA5E5E /* AquaNativeResources.swift in Sources */,
-				BB34130F1E08C45200DA5E5E /* AquaButtonBorder.swift in Sources */,
-				BB3412F61E08C45200DA5E5E /* AppEvent_FullScreenEvent.swift in Sources */,
-				BB3413201E08C45200DA5E5E /* AquaFocusHandler.swift in Sources */,
-				BB3412F31E08C45200DA5E5E /* AppEvent_AppHiddenEvent.swift in Sources */,
-				BB3413041E08C45200DA5E5E /* Application.swift in Sources */,
-				BB3412F21E08C45200DA5E5E /* AppEvent_AppForegroundEvent.swift in Sources */,
-				BB3412FF1E08C45200DA5E5E /* AppEvent.swift in Sources */,
-				BB34131A1E08C45200DA5E5E /* AquaCachingPainter.swift in Sources */,
-				BB3413671E08C45300DA5E5E /* AquaUtils_LazySingleton.swift in Sources */,
-				BB3413651E08C45300DA5E5E /* AquaUtilControlSize.swift in Sources */,
-				BB34134B1E08C45200DA5E5E /* AquaTabbedPaneCopyFromBasicUI_MouseHandler.swift in Sources */,
-				BB3413511E08C45300DA5E5E /* AquaTabbedPaneUI.swift in Sources */,
-				BB34137C1E08C45300DA5E5E /* OpenFilesHandler.swift in Sources */,
-				BB3413571E08C45300DA5E5E /* AquaTextAreaUI.swift in Sources */,
-				BB3413051E08C45200DA5E5E /* ApplicationAdapter.swift in Sources */,
-				BB3412F11E08C45200DA5E5E /* AppEvent_AboutEvent.swift in Sources */,
-				BB3413741E08C45300DA5E5E /* GestureEvent.swift in Sources */,
-				BB3413301E08C45200DA5E5E /* AquaLabelUI.swift in Sources */,
-				BB3412F51E08C45200DA5E5E /* AppEvent_FilesEvent.swift in Sources */,
-				BB3413701E08C45300DA5E5E /* FullScreenAdapter.swift in Sources */,
-				BB3413501E08C45300DA5E5E /* AquaTabbedPaneUI_MouseHandler.swift in Sources */,
-				BB3413611E08C45300DA5E5E /* AquaTreeUI_MacPropertyChangeHandler.swift in Sources */,
-				BB3413411E08C45200DA5E5E /* AquaRootPaneUI.swift in Sources */,
-				BB34138B1E08C45300DA5E5E /* SystemSleepListener.swift in Sources */,
-				BB34135F1E08C45300DA5E5E /* AquaToolBarUI.swift in Sources */,
-				BB34137F1E08C45300DA5E5E /* PrintFilesHandler.swift in Sources */,
-				BB3413281E08C45200DA5E5E /* AquaImageFactory.swift in Sources */,
-				BB3413551E08C45300DA5E5E /* AquaTableUI_MouseInputHandler.swift in Sources */,
-				BB34132D1E08C45200DA5E5E /* AquaInternalFramePaneUI.swift in Sources */,
-				BB3413561E08C45300DA5E5E /* AquaTableUI.swift in Sources */,
-				BB34135E1E08C45300DA5E5E /* AquaToolBarSeparatorUI.swift in Sources */,
-				BB3412FE1E08C45200DA5E5E /* AppEvent_UserSessionEvent.swift in Sources */,
-				BB3413481E08C45200DA5E5E /* AquaSplitPaneUI.swift in Sources */,
-				BB3413711E08C45300DA5E5E /* FullScreenListener.swift in Sources */,
-				BB3413071E08C45200DA5E5E /* ApplicationEvent.swift in Sources */,
-				BB34137A1E08C45300DA5E5E /* MagnificationEvent.swift in Sources */,
-				BB3413381E08C45200DA5E5E /* AquaMenuUI.swift in Sources */,
-				BB3413351E08C45200DA5E5E /* AquaMenuBorder.swift in Sources */,
-				BB34133E1E08C45200DA5E5E /* AquaPopupMenuSeparatorUI.swift in Sources */,
-				BB34131C1E08C45200DA5E5E /* AquaComboBoxUI.swift in Sources */,
-				BB34132A1E08C45200DA5E5E /* AquaInternalFrameBorderMetrics.swift in Sources */,
-				BB3413811E08C45300DA5E5E /* QuitResponse.swift in Sources */,
-				BB3413251E08C45200DA5E5E /* AquaIcon_JRSUIControlSpec.swift in Sources */,
-				BB3413491E08C45200DA5E5E /* AquaTabbedPaneContrastUI.swift in Sources */,
-				BB3413691E08C45300DA5E5E /* AquaUtils_ShadowBorder.swift in Sources */,
-				BB3413841E08C45300DA5E5E /* RotationListener.swift in Sources */,
-				BB3413161E08C45200DA5E5E /* AquaButtonRadioUI_RadioButtonBorder.swift in Sources */,
-				BB3413681E08C45300DA5E5E /* AquaUtils_LazySingletonFromDefaultConstructor.swift in Sources */,
-				BB34136C1E08C45300DA5E5E /* CocoaComponent.swift in Sources */,
-				BB3413591E08C45300DA5E5E /* AquaTextFieldFormattedUI.swift in Sources */,
-				BB34137E1E08C45300DA5E5E /* PreferencesHandler.swift in Sources */,
-				BB3413441E08C45200DA5E5E /* AquaScrollRegionBorder.swift in Sources */,
-				BB3413431E08C45200DA5E5E /* AquaScrollPaneUI.swift in Sources */,
-				BB3413361E08C45200DA5E5E /* AquaMenuItemUI.swift in Sources */,
-				BB34133D1E08C45200DA5E5E /* AquaPanelUI.swift in Sources */,
-				BB3413091E08C45200DA5E5E /* AppReOpenedListener.swift in Sources */,
-				BB34130B1E08C45200DA5E5E /* AquaButtonBorder_Dynamic.swift in Sources */,
-				BB34138D1E08C45300DA5E5E /* UserSessionListener.swift in Sources */,
-				BB3413151E08C45200DA5E5E /* AquaButtonLabeledUI.swift in Sources */,
-				BB34136D1E08C45300DA5E5E /* Dispatch_Priority.swift in Sources */,
+				CE6BB1331F33D9CD00CA6A8F /* Application.swift in Sources */,
+				CE6BB14C1F33D9CD00CA6A8F /* AquaButtonExtendedTypes_SegmentedNamedBorder.swift in Sources */,
+				CE6BB1461F33D9CD00CA6A8F /* AquaButtonBorder_Named.swift in Sources */,
+				CE6BB1B71F33D9CD00CA6A8F /* QuitStrategy.swift in Sources */,
+				CE6BB1951F33D9CD00CA6A8F /* AquaTextFieldSearch.swift in Sources */,
+				CE6BB1511F33D9CD00CA6A8F /* AquaButtonRadioUI.swift in Sources */,
+				CE6BB1691F33D9CD00CA6A8F /* AquaInternalFrameUI.swift in Sources */,
+				CE6BB1A61F33D9CD00CA6A8F /* FullScreenAdapter.swift in Sources */,
+				CE6BB1A91F33D9CD00CA6A8F /* GestureAdapter.swift in Sources */,
+				CE6BB1281F33D9CD00CA6A8F /* AppEvent_OpenURIEvent.swift in Sources */,
+				CE6BB1751F33D9CD00CA6A8F /* AquaNativeResources.swift in Sources */,
+				CE6BB16A1F33D9CD00CA6A8F /* AquaKeyBindings.swift in Sources */,
+				CE6BB14E1F33D9CD00CA6A8F /* AquaButtonLabeledUI_LabeledButtonBorder.swift in Sources */,
+				CE6BB12C1F33D9CD00CA6A8F /* AppEvent_ScreenSleepEvent.swift in Sources */,
+				CE6BB1861F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_MouseHandler.swift in Sources */,
+				CE6BB13B1F33D9CD00CA6A8F /* aqua_fr.swift in Sources */,
+				CE6BB19E1F33D9CD00CA6A8F /* AquaUtilControlSize_SizeDescriptor.swift in Sources */,
+				CE6BB1201F33D9CD00CA6A8F /* AboutHandler.swift in Sources */,
+				CE6BB1291F33D9CD00CA6A8F /* AppEvent_PreferencesEvent.swift in Sources */,
+				CE6BB1B11F33D9CD00CA6A8F /* OpenFilesHandler.swift in Sources */,
+				CE6BB1681F33D9CD00CA6A8F /* AquaInternalFramePaneUI.swift in Sources */,
+				CE6BB19F1F33D9CD00CA6A8F /* AquaUtilControlSize_SizeVariant.swift in Sources */,
+				CE6BB1311F33D9CD00CA6A8F /* AppForegroundListener.swift in Sources */,
+				CE6BB1AE1F33D9CD00CA6A8F /* GestureUtilities.swift in Sources */,
+				CE6BB17E1F33D9CD00CA6A8F /* AquaScrollPaneUI.swift in Sources */,
+				CE6BB16F1F33D9CD00CA6A8F /* AquaMenuBarUI.swift in Sources */,
+				CE6BB1351F33D9CD00CA6A8F /* ApplicationBeanInfo.swift in Sources */,
+				CE6BB1671F33D9CD00CA6A8F /* AquaInternalFrameManager.swift in Sources */,
+				CE6BB12A1F33D9CD00CA6A8F /* AppEvent_PrintFilesEvent.swift in Sources */,
+				CE6BB1821F33D9CD00CA6A8F /* AquaSplitPaneDividerUI.swift in Sources */,
+				CE6BB13F1F33D9CD00CA6A8F /* aqua_pt_BR.swift in Sources */,
+				CE6BB16C1F33D9CD00CA6A8F /* AquaListUI.swift in Sources */,
+				CE6BB18B1F33D9CD00CA6A8F /* AquaTabbedPaneUI_MouseHandler.swift in Sources */,
+				CE6BB1271F33D9CD00CA6A8F /* AppEvent_OpenFilesEvent.swift in Sources */,
+				CE6BB1B81F33D9CD00CA6A8F /* RotationEvent.swift in Sources */,
+				CE6BB15D1F33D9CD00CA6A8F /* AquaHighlighter.swift in Sources */,
+				CE6BB1451F33D9CD00CA6A8F /* AquaButtonBorder_Dynamic.swift in Sources */,
+				CE6BB1491F33D9CD00CA6A8F /* AquaButtonBorder.swift in Sources */,
+				CE6BB13D1F33D9CD00CA6A8F /* aqua_ja.swift in Sources */,
+				CE6BB1C11F33D9CD00CA6A8F /* UserSessionListener.swift in Sources */,
+				CE6BB19B1F33D9CD00CA6A8F /* AquaToolTipUI.swift in Sources */,
+				CE6BB1321F33D9CD00CA6A8F /* AppHiddenListener.swift in Sources */,
+				CE6BB1431F33D9CD00CA6A8F /* aqua.swift in Sources */,
+				CE6BB1A21F33D9CD00CA6A8F /* ClientPropertyApplicator.swift in Sources */,
+				CE6BB1391F33D9CD00CA6A8F /* aqua_de.swift in Sources */,
+				CE6BB1561F33D9CD00CA6A8F /* AquaEditorPaneUI.swift in Sources */,
+				CE6BB16D1F33D9CD00CA6A8F /* AquaLookAndFeel.swift in Sources */,
+				CE6BB1A11F33D9CD00CA6A8F /* ClientPropertyApplicator_Property.swift in Sources */,
+				CE6BB1421F33D9CD00CA6A8F /* aqua_zh_TW.swift in Sources */,
+				CE6BB18A1F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI.swift in Sources */,
+				CE6BB1831F33D9CD00CA6A8F /* AquaSplitPaneUI.swift in Sources */,
+				CE6BB1651F33D9CD00CA6A8F /* AquaInternalFrameBorderMetrics.swift in Sources */,
+				CE6BB1AA1F33D9CD00CA6A8F /* GestureEvent.swift in Sources */,
+				CE6BB1551F33D9CD00CA6A8F /* AquaComboBoxUI.swift in Sources */,
+				CE6BB1411F33D9CD00CA6A8F /* aqua_zh_CN.swift in Sources */,
+				CE6BB1591F33D9CD00CA6A8F /* AquaFocusHandler.swift in Sources */,
+				CE6BB17D1F33D9CD00CA6A8F /* AquaScrollBarUI.swift in Sources */,
+				CE6BB1871F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_PropertyChangeHandler.swift in Sources */,
+				CE6BB1991F33D9CD00CA6A8F /* AquaToolBarSeparatorUI.swift in Sources */,
+				CE6BB1711F33D9CD00CA6A8F /* AquaMenuItemUI.swift in Sources */,
+				CE6BB1781F33D9CD00CA6A8F /* AquaPanelUI.swift in Sources */,
+				CE6BB1471F33D9CD00CA6A8F /* AquaButtonBorder_Toggle.swift in Sources */,
+				CE6BB15A1F33D9CD00CA6A8F /* AquaFonts.swift in Sources */,
+				CE6BB17C1F33D9CD00CA6A8F /* AquaRootPaneUI.swift in Sources */,
+				CE6BB1961F33D9CD00CA6A8F /* AquaTextFieldUI.swift in Sources */,
+				CE6BB1B01F33D9CD00CA6A8F /* MagnificationListener.swift in Sources */,
+				CE6BB1B41F33D9CD00CA6A8F /* PrintFilesHandler.swift in Sources */,
+				CE6BB1241F33D9CD00CA6A8F /* AppEvent_AppReOpenedEvent.swift in Sources */,
+				CE6BB1341F33D9CD00CA6A8F /* ApplicationAdapter.swift in Sources */,
+				CE6BB12B1F33D9CD00CA6A8F /* AppEvent_QuitEvent.swift in Sources */,
+				CE6BB19C1F33D9CD00CA6A8F /* AquaTreeUI_MacPropertyChangeHandler.swift in Sources */,
+				CE6BB1971F33D9CD00CA6A8F /* AquaTextPaneUI.swift in Sources */,
+				CE6BB1AB1F33D9CD00CA6A8F /* GestureListener.swift in Sources */,
+				CE6BB1741F33D9CD00CA6A8F /* AquaMnemonicHandler.swift in Sources */,
+				CE6BB1981F33D9CD00CA6A8F /* AquaTextPasswordFieldUI.swift in Sources */,
+				CE6BB1761F33D9CD00CA6A8F /* AquaOptionPaneUI_AquaButtonAreaLayout.swift in Sources */,
+				CE6BB1641F33D9CD00CA6A8F /* AquaInternalFrameBorder.swift in Sources */,
+				CE6BB1731F33D9CD00CA6A8F /* AquaMenuUI.swift in Sources */,
+				CE6BB1631F33D9CD00CA6A8F /* AquaImageFactory.swift in Sources */,
+				CE6BB1301F33D9CD00CA6A8F /* AppEventListener.swift in Sources */,
+				CE6BB1B51F33D9CD00CA6A8F /* QuitHandler.swift in Sources */,
+				CE6BB1A41F33D9CD00CA6A8F /* Dispatch.swift in Sources */,
+				CE6BB14D1F33D9CD00CA6A8F /* AquaButtonExtendedTypes.swift in Sources */,
+				CE6BB12D1F33D9CD00CA6A8F /* AppEvent_SystemSleepEvent.swift in Sources */,
+				CE6BB1A31F33D9CD00CA6A8F /* Dispatch_Priority.swift in Sources */,
+				CE6BB1721F33D9CD00CA6A8F /* AquaMenuPainter.swift in Sources */,
+				CE6BB14A1F33D9CD00CA6A8F /* AquaButtonCheckBoxUI_CheckBoxButtonBorder.swift in Sources */,
+				CE6BB1581F33D9CD00CA6A8F /* AquaFocus.swift in Sources */,
+				CE6BB1BB1F33D9CD00CA6A8F /* ScreenMenuBarProvider.swift in Sources */,
+				CE6BB1531F33D9CD00CA6A8F /* AquaButtonUI.swift in Sources */,
+				CE6BB1BE1F33D9CD00CA6A8F /* SwipeEvent.swift in Sources */,
+				CE6BB1501F33D9CD00CA6A8F /* AquaButtonRadioUI_RadioButtonBorder.swift in Sources */,
+				CE6BB1521F33D9CD00CA6A8F /* AquaButtonToggleUI.swift in Sources */,
+				CE6BB19D1F33D9CD00CA6A8F /* AquaTreeUI.swift in Sources */,
+				CE6BB18C1F33D9CD00CA6A8F /* AquaTabbedPaneUI.swift in Sources */,
+				CE6BB1AC1F33D9CD00CA6A8F /* GesturePhaseEvent.swift in Sources */,
+				CE6BB19A1F33D9CD00CA6A8F /* AquaToolBarUI.swift in Sources */,
+				CE6BB1A81F33D9CD00CA6A8F /* FullScreenUtilities.swift in Sources */,
+				CE6BB1921F33D9CD00CA6A8F /* AquaTextAreaUI.swift in Sources */,
+				CE6BB1A71F33D9CD00CA6A8F /* FullScreenListener.swift in Sources */,
+				CE6BB1C01F33D9CD00CA6A8F /* SystemSleepListener.swift in Sources */,
+				CE6BB1261F33D9CD00CA6A8F /* AppEvent_FullScreenEvent.swift in Sources */,
+				CE6BB18F1F33D9CD00CA6A8F /* AquaTableUI_FocusHandler.swift in Sources */,
+				CE6BB1B61F33D9CD00CA6A8F /* QuitResponse.swift in Sources */,
+				CE6BB1881F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_TabbedPaneLayout.swift in Sources */,
+				CE6BB14F1F33D9CD00CA6A8F /* AquaButtonLabeledUI.swift in Sources */,
+				CE6BB1231F33D9CD00CA6A8F /* AppEvent_AppHiddenEvent.swift in Sources */,
+				CE6BB1851F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_FocusHandler.swift in Sources */,
+				CE6BB1A01F33D9CD00CA6A8F /* AquaUtilControlSize.swift in Sources */,
+				CE6BB13A1F33D9CD00CA6A8F /* aqua_es.swift in Sources */,
+				CE6BB1BD1F33D9CD00CA6A8F /* ScreenSleepListener.swift in Sources */,
+				CE6BB1931F33D9CD00CA6A8F /* AquaTextFieldBorder.swift in Sources */,
+				CE6BB1791F33D9CD00CA6A8F /* AquaPopupMenuSeparatorUI.swift in Sources */,
+				CE6BB15B1F33D9CD00CA6A8F /* AquaGroupBorder.swift in Sources */,
+				CE6BB1B21F33D9CD00CA6A8F /* OpenURIHandler.swift in Sources */,
+				CE6BB1841F33D9CD00CA6A8F /* AquaTabbedPaneContrastUI.swift in Sources */,
+				CE6BB1481F33D9CD00CA6A8F /* AquaButtonBorder_Toolbar.swift in Sources */,
+				CE6BB1611F33D9CD00CA6A8F /* AquaImageFactory_RecyclableSlicedImageControl.swift in Sources */,
+				CE6BB1B91F33D9CD00CA6A8F /* RotationListener.swift in Sources */,
+				CE6BB1221F33D9CD00CA6A8F /* AppEvent_AppForegroundEvent.swift in Sources */,
+				CE6BB16E1F33D9CD00CA6A8F /* AquaMenuBarBorder.swift in Sources */,
+				CE6BB1A51F33D9CD00CA6A8F /* FileManager.swift in Sources */,
+				CE6BB17A1F33D9CD00CA6A8F /* AquaPopupMenuUI.swift in Sources */,
+				CE6BB12F1F33D9CD00CA6A8F /* AppEvent.swift in Sources */,
+				CE6BB1361F33D9CD00CA6A8F /* ApplicationEvent.swift in Sources */,
+				CE6BB1211F33D9CD00CA6A8F /* AppEvent_AboutEvent.swift in Sources */,
+				CE6BB1BF1F33D9CD00CA6A8F /* SwipeListener.swift in Sources */,
+				CE6BB1B31F33D9CD00CA6A8F /* PreferencesHandler.swift in Sources */,
+				CE6BB15C1F33D9CD00CA6A8F /* AquaHighlighter_AquaHighlightPainter.swift in Sources */,
+				CE6BB1381F33D9CD00CA6A8F /* AppReOpenedListener.swift in Sources */,
+				CE6BB1901F33D9CD00CA6A8F /* AquaTableUI_MouseInputHandler.swift in Sources */,
+				CE6BB1941F33D9CD00CA6A8F /* AquaTextFieldFormattedUI.swift in Sources */,
+				CE6BB13C1F33D9CD00CA6A8F /* aqua_it.swift in Sources */,
+				CE6BB18E1F33D9CD00CA6A8F /* AquaTableHeaderUI.swift in Sources */,
+				CE6BB1251F33D9CD00CA6A8F /* AppEvent_FilesEvent.swift in Sources */,
+				CE6BB14B1F33D9CD00CA6A8F /* AquaButtonCheckBoxUI.swift in Sources */,
+				CE6BB1401F33D9CD00CA6A8F /* aqua_sv.swift in Sources */,
+				CE6BB17F1F33D9CD00CA6A8F /* AquaScrollRegionBorder.swift in Sources */,
+				CE6BB1601F33D9CD00CA6A8F /* AquaImageFactory_NineSliceMetrics.swift in Sources */,
+				CE6BB1441F33D9CD00CA6A8F /* AquaBorder.swift in Sources */,
+				CE6BB18D1F33D9CD00CA6A8F /* AquaTableHeaderBorder.swift in Sources */,
+				CE6BB16B1F33D9CD00CA6A8F /* AquaLabelUI.swift in Sources */,
+				CE6BB1571F33D9CD00CA6A8F /* AquaFileChooserUI.swift in Sources */,
+				CE6BB1811F33D9CD00CA6A8F /* AquaSpinnerUI.swift in Sources */,
+				CE6BB1701F33D9CD00CA6A8F /* AquaMenuBorder.swift in Sources */,
+				CE6BB15F1F33D9CD00CA6A8F /* AquaIcon.swift in Sources */,
+				CE6BB15E1F33D9CD00CA6A8F /* AquaIcon_JRSUIControlSpec.swift in Sources */,
+				CE6BB1BA1F33D9CD00CA6A8F /* ScreenMenuBar.swift in Sources */,
+				CE6BB13E1F33D9CD00CA6A8F /* aqua_ko.swift in Sources */,
+				CE6BB1621F33D9CD00CA6A8F /* AquaImageFactory_SlicedImageControl.swift in Sources */,
+				CE6BB1661F33D9CD00CA6A8F /* AquaInternalFrameDockIconUI.swift in Sources */,
+				CE6BB1911F33D9CD00CA6A8F /* AquaTableUI.swift in Sources */,
+				CE6BB1891F33D9CD00CA6A8F /* AquaTabbedPaneCopyFromBasicUI_TabSelectionHandler.swift in Sources */,
+				CE6BB1AD1F33D9CD00CA6A8F /* GesturePhaseListener.swift in Sources */,
+				CE6BB1801F33D9CD00CA6A8F /* AquaSliderUI.swift in Sources */,
+				CE6BB1771F33D9CD00CA6A8F /* AquaOptionPaneUI.swift in Sources */,
+				CE6BB1371F33D9CD00CA6A8F /* ApplicationListener.swift in Sources */,
+				CE6BB1541F33D9CD00CA6A8F /* AquaCaret.swift in Sources */,
+				CE6BB17B1F33D9CD00CA6A8F /* AquaProgressBarUI.swift in Sources */,
+				CE6BB1AF1F33D9CD00CA6A8F /* MagnificationEvent.swift in Sources */,
+				CE6BB12E1F33D9CD00CA6A8F /* AppEvent_UserSessionEvent.swift in Sources */,
+				CE6BB1BC1F33D9CD00CA6A8F /* ScreenMenuItemUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
