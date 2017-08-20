@@ -37,22 +37,22 @@ java_util.EventObject:7:14: note: overridden declaration is here
     open var source: java_swift.JavaObject! { get set }
              ^
 com_apple/Sources/AquaButtonBorder.swift:63:14: error: overriding declaration requires an 'override' keyword
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaBorder.swift:28:14: note: overridden declaration is here
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaButtonBorder_Named.swift:36:14: error: overriding declaration requires an 'override' keyword
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaButtonBorder.swift:63:14: note: overridden declaration is here
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaButtonExtendedTypes_SegmentedNamedBorder.swift:34:14: error: overriding declaration requires an 'override' keyword
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaButtonBorder_Named.swift:36:14: note: overridden declaration is here
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaButtonBorder.swift:75:14: error: overriding declaration requires an 'override' keyword
     open var sizeDescriptor: AquaUtilControlSize_SizeDescriptor! {
@@ -98,16 +98,16 @@ com_apple/Sources/AquaButtonBorder.swift:249:15: note: overridden declaration is
     open func isSelectionPressing() -> Bool {
               ^
 com_apple/Sources/AquaButtonBorder.swift:63:14: error: overriding declaration requires an 'override' keyword
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaBorder.swift:28:14: note: overridden declaration is here
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaButtonBorder_Named.swift:36:14: error: overriding declaration requires an 'override' keyword
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaButtonBorder.swift:63:14: note: overridden declaration is here
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaButtonBorder.swift:75:14: error: overriding declaration requires an 'override' keyword
     open var sizeDescriptor: AquaUtilControlSize_SizeDescriptor! {
@@ -282,10 +282,10 @@ javax_swing.BasicInternalFrameUI:8:14: note: overridden declaration is here
     open var borderListener: javax_swing.MouseInputAdapter! { get set }
              ^
 com_apple/Sources/AquaInternalFrameUI.swift:151:14: error: overriding declaration requires an 'override' keyword
-    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 javax_swing.BasicInternalFrameUI:9:14: note: overridden declaration is here
-    open var propertyChangeListener: UnclassedProtocol! { get set }
+    open var propertyChangeListener: UnavailableProtocol! { get set }
              ^
 com_apple/Sources/AquaInternalFrameUI.swift:168:14: error: overriding declaration requires an 'override' keyword
     open var internalFrameLayout: java_awt.LayoutManager! {
@@ -992,10 +992,10 @@ com_apple/Sources/AppEvent.swift:29:23: note: overridden declaration is here
 Build settings from command line:
     SYMROOT = /tmp
 com_apple/Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift:36:14: error: overriding declaration requires an 'override' keyword
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaButtonBorder.swift:63:23: note: overridden declaration is here
-    override open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    override open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
                       ^
 com_apple/Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift:48:14: error: overriding declaration requires an 'override' keyword
     open var sizeDescriptor: AquaUtilControlSize_SizeDescriptor! {
@@ -1010,11 +1010,11 @@ com_apple/Sources/AquaButtonBorder.swift:87:23: note: overridden declaration is 
     override open var sizeVariant: AquaUtilControlSize_SizeVariant! {
                       ^
 com_apple/Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift:111:15: error: overriding declaration requires an 'override' keyword
-    open func createPainter() -> /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open func createPainter() -> /* com.apple.laf.AquaPainter */ UnavailableObject! {
               ^
          override 
 com_apple/Sources/AquaBorder.swift:146:15: note: overridden declaration is here
-    open func createPainter() -> /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open func createPainter() -> /* com.apple.laf.AquaPainter */ UnavailableObject! {
               ^
 com_apple/Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift:124:15: error: overriding declaration requires an 'override' keyword
     open func doButtonPaint( arg0: javax_swing.AbstractButton?, arg1: javax_swing.ButtonModel?, arg2: java_awt.Graphics?, arg3: Int, arg4: Int, arg5: Int, arg6: Int ) {
@@ -1031,18 +1031,18 @@ com_apple/Sources/AquaButtonBorder.swift:153:15: note: overridden declaration is
     open func doButtonPaint( _ _arg0: javax_swing.AbstractButton?, _ _arg1: javax_swing.ButtonModel?, _ _arg2: java_awt.Graphics?, _ _arg3: Int, _ _arg4: Int, _ _arg5: Int, _ _arg6: Int ) {
               ^
 com_apple/Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift:145:15: error: overriding declaration requires an 'override' keyword
-    open func getButtonState( arg0: javax_swing.AbstractButton?, arg1: javax_swing.ButtonModel? ) -> /* apple.laf.JRSUIConstants$State */ UnclassedObject! {
+    open func getButtonState( arg0: javax_swing.AbstractButton?, arg1: javax_swing.ButtonModel? ) -> /* apple.laf.JRSUIConstants$State */ UnavailableObject! {
               ^
          override 
 com_apple/Sources/AquaButtonBorder.swift:161:15: note: overridden declaration is here
-    open func getButtonState( arg0: javax_swing.AbstractButton?, arg1: javax_swing.ButtonModel? ) -> /* apple.laf.JRSUIConstants$State */ UnclassedObject! {
+    open func getButtonState( arg0: javax_swing.AbstractButton?, arg1: javax_swing.ButtonModel? ) -> /* apple.laf.JRSUIConstants$State */ UnavailableObject! {
               ^
 com_apple/Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift:155:15: error: overriding declaration requires an 'override' keyword
-    open func getButtonState( _ _arg0: javax_swing.AbstractButton?, _ _arg1: javax_swing.ButtonModel? ) -> /* apple.laf.JRSUIConstants$State */ UnclassedObject! {
+    open func getButtonState( _ _arg0: javax_swing.AbstractButton?, _ _arg1: javax_swing.ButtonModel? ) -> /* apple.laf.JRSUIConstants$State */ UnavailableObject! {
               ^
          override 
 com_apple/Sources/AquaButtonBorder.swift:171:15: note: overridden declaration is here
-    open func getButtonState( _ _arg0: javax_swing.AbstractButton?, _ _arg1: javax_swing.ButtonModel? ) -> /* apple.laf.JRSUIConstants$State */ UnclassedObject! {
+    open func getButtonState( _ _arg0: javax_swing.AbstractButton?, _ _arg1: javax_swing.ButtonModel? ) -> /* apple.laf.JRSUIConstants$State */ UnavailableObject! {
               ^
 com_apple/Sources/AquaTabbedPaneCopyFromBasicUI_MouseHandler.swift:53:15: error: overriding declaration requires an 'override' keyword
     open func mousePressed( _ _arg0: java_awt.MouseEvent? ) {
@@ -1173,10 +1173,10 @@ javax_swing.BasicScrollPaneUI:10:14: note: overridden declaration is here
     open var viewportChangeListener: ChangeListener! { get set }
              ^
 com_apple/Sources/AquaScrollPaneUI.swift:96:14: error: overriding declaration requires an 'override' keyword
-    open var spPropertyChangeListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var spPropertyChangeListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 javax_swing.BasicScrollPaneUI:11:14: note: overridden declaration is here
-    open var spPropertyChangeListener: UnclassedProtocol! { get set }
+    open var spPropertyChangeListener: UnavailableProtocol! { get set }
              ^
 com_apple/Sources/AquaScrollPaneUI.swift:188:21: error: overriding declaration requires an 'override' keyword
     open class func createUI( _ _arg0: javax_swing.JComponent? ) -> javax_swing.ComponentUI! {
@@ -1281,10 +1281,10 @@ javax_swing.DefaultDesktopManager:21:15: note: overridden declaration is here
     open func activateFrame(_ _f: javax_swing.JInternalFrame?)
               ^
 com_apple/Sources/AquaSplitPaneDividerUI.swift:38:14: error: overriding declaration requires an 'override' keyword
-    open var dragger: /* javax.swing.plaf.basic.BasicSplitPaneDivider$DragController */ UnclassedObject! {
+    open var dragger: /* javax.swing.plaf.basic.BasicSplitPaneDivider$DragController */ UnavailableObject! {
              ^
 javax_swing.BasicSplitPaneDivider:7:14: note: overridden declaration is here
-    open var dragger: java_swift.UnclassedObject! { get set }
+    open var dragger: java_swift.UnavailableObject! { get set }
              ^
 com_apple/Sources/AquaSplitPaneDividerUI.swift:55:14: error: overriding declaration requires an 'override' keyword
     open var splitPaneUI: javax_swing.BasicSplitPaneUI! {
@@ -1311,10 +1311,10 @@ javax_swing.BasicSplitPaneDivider:11:14: note: overridden declaration is here
     open var splitPane: javax_swing.JSplitPane! { get set }
              ^
 com_apple/Sources/AquaSplitPaneDividerUI.swift:123:14: error: overriding declaration requires an 'override' keyword
-    open var mouseHandler: /* javax.swing.plaf.basic.BasicSplitPaneDivider$MouseHandler */ UnclassedObject! {
+    open var mouseHandler: /* javax.swing.plaf.basic.BasicSplitPaneDivider$MouseHandler */ UnavailableObject! {
              ^
 javax_swing.BasicSplitPaneDivider:12:14: note: overridden declaration is here
-    open var mouseHandler: java_swift.UnclassedObject! { get set }
+    open var mouseHandler: java_swift.UnavailableObject! { get set }
              ^
 com_apple/Sources/AquaSplitPaneDividerUI.swift:140:14: error: overriding declaration requires an 'override' keyword
     open var orientation: Int {
@@ -1335,17 +1335,17 @@ javax_swing.BasicSplitPaneDivider:15:14: note: overridden declaration is here
     open var rightButton: javax_swing.JButton! { get set }
              ^
 com_apple/Sources/AquaSplitPaneDividerUI.swift:451:14: error: overriding declaration requires an 'override' keyword
-    open var accessibleContext: /* javax.accessibility.AccessibleContext */ UnclassedObject! {
+    open var accessibleContext: /* javax.accessibility.AccessibleContext */ UnavailableObject! {
              ^
 javax_swing.BasicSplitPaneDivider:16:23: note: overridden declaration is here
-    override open var accessibleContext: java_swift.UnclassedObject! { get set }
+    override open var accessibleContext: java_swift.UnavailableObject! { get set }
                       ^
 com_apple/Sources/AquaSplitPaneDividerUI.swift:537:15: error: overriding declaration requires an 'override' keyword
-    open func propertyChange( _ _arg0: /* java.beans.PropertyChangeEvent */ UnclassedObject? ) {
+    open func propertyChange( _ _arg0: /* java.beans.PropertyChangeEvent */ UnavailableObject? ) {
               ^
          override 
 javax_swing.BasicSplitPaneDivider:42:15: note: overridden declaration is here
-    open func propertyChange(_ _evt: java_swift.UnclassedObject?)
+    open func propertyChange(_ _evt: java_swift.UnavailableObject?)
               ^
 com_apple/Sources/AquaSplitPaneDividerUI.swift:576:15: error: overriding declaration requires an 'override' keyword
     open func createLeftOneTouchButton() -> javax_swing.JButton! {
@@ -1425,10 +1425,10 @@ javax_swing.BasicListUI:12:14: note: overridden declaration is here
     open var listDataListener: ListDataListener! { get set }
              ^
 com_apple/Sources/AquaListUI.swift:132:14: error: overriding declaration requires an 'override' keyword
-    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 javax_swing.BasicListUI:13:14: note: overridden declaration is here
-    open var propertyChangeListener: UnclassedProtocol! { get set }
+    open var propertyChangeListener: UnavailableProtocol! { get set }
              ^
 com_apple/Sources/AquaListUI.swift:151:14: error: overriding declaration requires an 'override' keyword
     open var cellHeights: [Int32]! {
@@ -1476,11 +1476,11 @@ javax_swing.BasicListUI:29:15: note: overridden declaration is here
     open func createMouseInputListener() -> MouseInputListener!
               ^
 com_apple/Sources/AquaListUI.swift:387:15: error: overriding declaration requires an 'override' keyword
-    open func createPropertyChangeListener() -> /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open func createPropertyChangeListener() -> /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
               ^
          override 
 javax_swing.BasicListUI:30:15: note: overridden declaration is here
-    open func createPropertyChangeListener() -> UnclassedProtocol!
+    open func createPropertyChangeListener() -> UnavailableProtocol!
               ^
 com_apple/Sources/AquaListUI.swift:417:15: error: overriding declaration requires an 'override' keyword
     open func createFocusListener() -> java_awt.FocusListener! {
@@ -1511,10 +1511,10 @@ java_awt.MouseAdapter:21:15: note: overridden declaration is here
     open func mouseDragged(_ _e: java_awt.MouseEvent?)
               ^
 com_apple/Sources/AquaButtonBorder_Dynamic.swift:42:14: error: overriding declaration requires an 'override' keyword
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaButtonBorder.swift:63:23: note: overridden declaration is here
-    override open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    override open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
                       ^
 com_apple/Sources/AquaButtonBorder_Dynamic.swift:54:14: error: overriding declaration requires an 'override' keyword
     open var sizeDescriptor: AquaUtilControlSize_SizeDescriptor! {
@@ -1543,18 +1543,18 @@ com_apple/Sources/AquaButtonBorder.swift:153:15: note: overridden declaration is
     open func doButtonPaint( _ _arg0: javax_swing.AbstractButton?, _ _arg1: javax_swing.ButtonModel?, _ _arg2: java_awt.Graphics?, _ _arg3: Int, _ _arg4: Int, _ _arg5: Int, _ _arg6: Int ) {
               ^
 com_apple/Sources/AquaButtonBorder_Dynamic.swift:133:15: error: overriding declaration requires an 'override' keyword
-    open func getButtonState( arg0: javax_swing.AbstractButton?, arg1: javax_swing.ButtonModel? ) -> /* apple.laf.JRSUIConstants$State */ UnclassedObject! {
+    open func getButtonState( arg0: javax_swing.AbstractButton?, arg1: javax_swing.ButtonModel? ) -> /* apple.laf.JRSUIConstants$State */ UnavailableObject! {
               ^
          override 
 com_apple/Sources/AquaButtonBorder.swift:161:15: note: overridden declaration is here
-    open func getButtonState( arg0: javax_swing.AbstractButton?, arg1: javax_swing.ButtonModel? ) -> /* apple.laf.JRSUIConstants$State */ UnclassedObject! {
+    open func getButtonState( arg0: javax_swing.AbstractButton?, arg1: javax_swing.ButtonModel? ) -> /* apple.laf.JRSUIConstants$State */ UnavailableObject! {
               ^
 com_apple/Sources/AquaButtonBorder_Dynamic.swift:143:15: error: overriding declaration requires an 'override' keyword
-    open func getButtonState( _ _arg0: javax_swing.AbstractButton?, _ _arg1: javax_swing.ButtonModel? ) -> /* apple.laf.JRSUIConstants$State */ UnclassedObject! {
+    open func getButtonState( _ _arg0: javax_swing.AbstractButton?, _ _arg1: javax_swing.ButtonModel? ) -> /* apple.laf.JRSUIConstants$State */ UnavailableObject! {
               ^
          override 
 com_apple/Sources/AquaButtonBorder.swift:171:15: note: overridden declaration is here
-    open func getButtonState( _ _arg0: javax_swing.AbstractButton?, _ _arg1: javax_swing.ButtonModel? ) -> /* apple.laf.JRSUIConstants$State */ UnclassedObject! {
+    open func getButtonState( _ _arg0: javax_swing.AbstractButton?, _ _arg1: javax_swing.ButtonModel? ) -> /* apple.laf.JRSUIConstants$State */ UnavailableObject! {
               ^
 com_apple/Sources/aqua_ja.swift:37:14: error: overriding declaration requires an 'override' keyword
     open var parent: java_util.ResourceBundle! {
@@ -1795,10 +1795,10 @@ javax_swing.BasicSplitPaneUI:9:14: note: overridden declaration is here
     open var divider: javax_swing.BasicSplitPaneDivider! { get set }
              ^
 com_apple/Sources/AquaSplitPaneUI.swift:86:14: error: overriding declaration requires an 'override' keyword
-    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 javax_swing.BasicSplitPaneUI:10:14: note: overridden declaration is here
-    open var propertyChangeListener: UnclassedProtocol! { get set }
+    open var propertyChangeListener: UnavailableProtocol! { get set }
              ^
 com_apple/Sources/AquaSplitPaneUI.swift:103:14: error: overriding declaration requires an 'override' keyword
     open var focusListener: java_awt.FocusListener! {
@@ -1978,10 +1978,10 @@ javax_swing.BasicComboBoxUI:15:14: note: overridden declaration is here
     open var focusListener: FocusListener! { get set }
              ^
 com_apple/Sources/AquaComboBoxUI.swift:213:14: error: overriding declaration requires an 'override' keyword
-    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 javax_swing.BasicComboBoxUI:16:14: note: overridden declaration is here
-    open var propertyChangeListener: UnclassedProtocol! { get set }
+    open var propertyChangeListener: UnavailableProtocol! { get set }
              ^
 com_apple/Sources/AquaComboBoxUI.swift:230:14: error: overriding declaration requires an 'override' keyword
     open var itemListener: java_awt.ItemListener! {
@@ -2317,10 +2317,10 @@ com_apple/Sources/AquaTabbedPaneCopyFromBasicUI.swift:410:14: note: overridden d
     open var tabChangeListener: javax_swing.ChangeListener! {
              ^
 com_apple/Sources/AquaTabbedPaneUI.swift:574:14: error: overriding declaration requires an 'override' keyword
-    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 com_apple/Sources/AquaTabbedPaneCopyFromBasicUI.swift:427:14: note: overridden declaration is here
-    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 com_apple/Sources/AquaTabbedPaneUI.swift:591:14: error: overriding declaration requires an 'override' keyword
     open var mouseListener: java_awt.MouseListener! {
@@ -2383,11 +2383,11 @@ com_apple/Sources/AquaTabbedPaneCopyFromBasicUI.swift:889:15: note: overridden d
     open func uninstallDefaults() {
               ^
 com_apple/Sources/AquaTabbedPaneUI.swift:821:15: error: overriding declaration requires an 'override' keyword
-    open func createPropertyChangeListener() -> /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open func createPropertyChangeListener() -> /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
               ^
          override 
 com_apple/Sources/AquaTabbedPaneCopyFromBasicUI.swift:912:15: note: overridden declaration is here
-    open func createPropertyChangeListener() -> /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open func createPropertyChangeListener() -> /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
               ^
 com_apple/Sources/AquaTabbedPaneUI.swift:834:15: error: overriding declaration requires an 'override' keyword
     open func createFocusListener() -> java_awt.FocusListener! {
@@ -2719,10 +2719,10 @@ javax_swing.BasicMenuItemUI:18:14: note: overridden declaration is here
     open var menuKeyListener: MenuKeyListener! { get set }
              ^
 com_apple/Sources/AquaMenuItemUI.swift:248:14: error: overriding declaration requires an 'override' keyword
-    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 javax_swing.BasicMenuItemUI:19:14: note: overridden declaration is here
-    open var propertyChangeListener: UnclassedProtocol! { get set }
+    open var propertyChangeListener: UnavailableProtocol! { get set }
              ^
 com_apple/Sources/AquaMenuItemUI.swift:267:14: error: overriding declaration requires an 'override' keyword
     open var arrowIcon: javax_swing.Icon! {
@@ -2813,10 +2813,10 @@ javax_swing.BasicPanelUI:9:30: note: overridden declaration is here
     override open class func createUI(_ _c: javax_swing.JComponent?) -> javax_swing.ComponentUI!
                              ^
 com_apple/Sources/AquaButtonBorder_Toggle.swift:36:14: error: overriding declaration requires an 'override' keyword
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaButtonBorder.swift:63:23: note: overridden declaration is here
-    override open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    override open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
                       ^
 com_apple/Sources/AquaButtonBorder_Toggle.swift:48:14: error: overriding declaration requires an 'override' keyword
     open var sizeDescriptor: AquaUtilControlSize_SizeDescriptor! {
@@ -2852,11 +2852,11 @@ javax_swing.ComponentUI:9:15: note: overridden declaration is here
     open func update(_ _g: java_awt.Graphics?, _ _c: javax_swing.JComponent?)
               ^
 com_apple/Sources/AquaRootPaneUI.swift:75:15: error: overriding declaration requires an 'override' keyword
-    open func propertyChange( _ _arg0: /* java.beans.PropertyChangeEvent */ UnclassedObject? ) {
+    open func propertyChange( _ _arg0: /* java.beans.PropertyChangeEvent */ UnavailableObject? ) {
               ^
          override 
 javax_swing.BasicRootPaneUI:27:15: note: overridden declaration is here
-    open func propertyChange(_ _evt: java_swift.UnclassedObject?)
+    open func propertyChange(_ _evt: java_swift.UnavailableObject?)
               ^
 com_apple/Sources/AquaRootPaneUI.swift:92:21: error: overriding declaration requires an 'override' keyword
     open class func createUI( _ _arg0: javax_swing.JComponent? ) -> javax_swing.ComponentUI! {
@@ -2957,11 +2957,11 @@ javax_swing.BasicTextUI:49:15: note: overridden declaration is here
     open func getVisibleEditorRect() -> java_awt.Rectangle!
               ^
 com_apple/Sources/AquaTreeUI_MacPropertyChangeHandler.swift:55:15: error: overriding declaration requires an 'override' keyword
-    open func propertyChange( _ _arg0: /* java.beans.PropertyChangeEvent */ UnclassedObject? ) {
+    open func propertyChange( _ _arg0: /* java.beans.PropertyChangeEvent */ UnavailableObject? ) {
               ^
          override 
 javax_swing.BasicTreeUI_PropertyChangeHandler:10:15: note: overridden declaration is here
-    open func propertyChange(_ _evt: java_swift.UnclassedObject?)
+    open func propertyChange(_ _evt: java_swift.UnavailableObject?)
               ^
 com_apple/Sources/AquaTextPaneUI.swift:74:21: error: overriding declaration requires an 'override' keyword
     open class func createUI( _ _arg0: javax_swing.JComponent? ) -> javax_swing.ComponentUI! {
@@ -3020,10 +3020,10 @@ javax_swing.BasicTextUI:44:15: note: overridden declaration is here
     open func createHighlighter() -> Highlighter!
               ^
 com_apple/Sources/AquaTextPasswordFieldUI.swift:30:14: error: overriding declaration requires an 'override' keyword
-    open var delegate: /* com.apple.laf.AquaUtils$JComponentPainter */ UnclassedProtocol! {
+    open var delegate: /* com.apple.laf.AquaUtils$JComponentPainter */ UnavailableProtocol! {
              ^
 com_apple/Sources/AquaTextFieldUI.swift:28:14: note: overridden declaration is here
-    open var delegate: /* com.apple.laf.AquaUtils$JComponentPainter */ UnclassedProtocol! {
+    open var delegate: /* com.apple.laf.AquaUtils$JComponentPainter */ UnavailableProtocol! {
              ^
 com_apple/Sources/AquaTextPasswordFieldUI.swift:47:14: error: overriding declaration requires an 'override' keyword
     open var handler: AquaFocusHandler! {
@@ -3218,10 +3218,10 @@ javax_swing.BasicMenuUI:20:23: note: overridden declaration is here
     override open var menuKeyListener: MenuKeyListener! { get set }
                       ^
 com_apple/Sources/AquaMenuUI.swift:278:14: error: overriding declaration requires an 'override' keyword
-    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 javax_swing.BasicMenuUI:21:23: note: overridden declaration is here
-    override open var propertyChangeListener: UnclassedProtocol! { get set }
+    override open var propertyChangeListener: UnavailableProtocol! { get set }
                       ^
 com_apple/Sources/AquaMenuUI.swift:297:14: error: overriding declaration requires an 'override' keyword
     open var arrowIcon: javax_swing.Icon! {
@@ -3291,10 +3291,10 @@ javax_swing.BasicMenuUI:44:24: note: overridden declaration is here
     override open func createMenuDragMouseListener(_ _c: javax_swing.JComponent?) -> MenuDragMouseListener!
                        ^
 com_apple/Sources/AquaButtonCheckBoxUI_CheckBoxButtonBorder.swift:34:14: error: overriding declaration requires an 'override' keyword
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift:36:23: note: overridden declaration is here
-    override open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    override open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
                       ^
 com_apple/Sources/AquaButtonCheckBoxUI_CheckBoxButtonBorder.swift:46:14: error: overriding declaration requires an 'override' keyword
     open var sizeDescriptor: AquaUtilControlSize_SizeDescriptor! {
@@ -3316,10 +3316,10 @@ java_awt.MenuComponent:24:15: note: overridden declaration is here
     open func setFont(_ _f: java_awt.Font?)
               ^
 com_apple/Sources/AquaButtonRadioUI_RadioButtonBorder.swift:34:14: error: overriding declaration requires an 'override' keyword
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift:36:23: note: overridden declaration is here
-    override open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    override open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
                       ^
 com_apple/Sources/AquaButtonRadioUI_RadioButtonBorder.swift:46:14: error: overriding declaration requires an 'override' keyword
     open var sizeDescriptor: AquaUtilControlSize_SizeDescriptor! {
@@ -3510,11 +3510,11 @@ javax_swing.BasicTreeUI:71:15: note: overridden declaration is here
     open func installKeyboardActions()
               ^
 com_apple/Sources/AquaTreeUI.swift:762:15: error: overriding declaration requires an 'override' keyword
-    open func createPropertyChangeListener() -> /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open func createPropertyChangeListener() -> /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
               ^
          override 
 javax_swing.BasicTreeUI:76:15: note: overridden declaration is here
-    open func createPropertyChangeListener() -> UnclassedProtocol!
+    open func createPropertyChangeListener() -> UnavailableProtocol!
               ^
 com_apple/Sources/AquaTreeUI.swift:775:15: error: overriding declaration requires an 'override' keyword
     open func createFocusListener() -> java_awt.FocusListener! {
@@ -3725,10 +3725,10 @@ com_apple/Sources/AquaTabbedPaneCopyFromBasicUI.swift:410:14: note: overridden d
     open var tabChangeListener: javax_swing.ChangeListener! {
              ^
 com_apple/Sources/AquaTabbedPaneUI.swift:574:14: error: overriding declaration requires an 'override' keyword
-    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 com_apple/Sources/AquaTabbedPaneCopyFromBasicUI.swift:427:14: note: overridden declaration is here
-    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 com_apple/Sources/AquaTabbedPaneUI.swift:591:14: error: overriding declaration requires an 'override' keyword
     open var mouseListener: java_awt.MouseListener! {
@@ -3791,11 +3791,11 @@ com_apple/Sources/AquaTabbedPaneCopyFromBasicUI.swift:889:15: note: overridden d
     open func uninstallDefaults() {
               ^
 com_apple/Sources/AquaTabbedPaneUI.swift:821:15: error: overriding declaration requires an 'override' keyword
-    open func createPropertyChangeListener() -> /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open func createPropertyChangeListener() -> /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
               ^
          override 
 com_apple/Sources/AquaTabbedPaneCopyFromBasicUI.swift:912:15: note: overridden declaration is here
-    open func createPropertyChangeListener() -> /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open func createPropertyChangeListener() -> /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
               ^
 com_apple/Sources/AquaTabbedPaneUI.swift:834:15: error: overriding declaration requires an 'override' keyword
     open func createFocusListener() -> java_awt.FocusListener! {
@@ -3965,10 +3965,10 @@ javax_swing.BasicToolBarUI:7:14: note: overridden declaration is here
     open var toolBar: javax_swing.JToolBar! { get set }
              ^
 com_apple/Sources/AquaToolBarUI.swift:57:14: error: overriding declaration requires an 'override' keyword
-    open var dragWindow: /* javax.swing.plaf.basic.BasicToolBarUI$DragWindow */ UnclassedObject! {
+    open var dragWindow: /* javax.swing.plaf.basic.BasicToolBarUI$DragWindow */ UnavailableObject! {
              ^
 javax_swing.BasicToolBarUI:8:14: note: overridden declaration is here
-    open var dragWindow: java_swift.UnclassedObject! { get set }
+    open var dragWindow: java_swift.UnavailableObject! { get set }
              ^
 com_apple/Sources/AquaToolBarUI.swift:78:14: error: overriding declaration requires an 'override' keyword
     open var focusedCompIndex: Int {
@@ -4007,10 +4007,10 @@ javax_swing.BasicToolBarUI:14:14: note: overridden declaration is here
     open var dockingListener: MouseInputListener! { get set }
              ^
 com_apple/Sources/AquaToolBarUI.swift:180:14: error: overriding declaration requires an 'override' keyword
-    open var propertyListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var propertyListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 javax_swing.BasicToolBarUI:15:14: note: overridden declaration is here
-    open var propertyListener: UnclassedProtocol! { get set }
+    open var propertyListener: UnavailableProtocol! { get set }
              ^
 com_apple/Sources/AquaToolBarUI.swift:197:14: error: overriding declaration requires an 'override' keyword
     open var toolBarContListener: java_awt.ContainerListener! {
@@ -4194,10 +4194,10 @@ java_util.ListResourceBundle:12:15: note: overridden declaration is here
     open func getContents() -> [[java_swift.JavaObject]]!
               ^
 com_apple/Sources/AquaTextFieldBorder.swift:30:14: error: overriding declaration requires an 'override' keyword
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaBorder.swift:28:14: note: overridden declaration is here
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaTextFieldBorder.swift:42:14: error: overriding declaration requires an 'override' keyword
     open var sizeDescriptor: AquaUtilControlSize_SizeDescriptor! {
@@ -4212,18 +4212,18 @@ com_apple/Sources/AquaBorder.swift:52:14: note: overridden declaration is here
     open var sizeVariant: AquaUtilControlSize_SizeVariant! {
              ^
 com_apple/Sources/AquaTextFieldBorder.swift:117:15: error: overriding declaration requires an 'override' keyword
-    open func setSize( arg0: /* apple.laf.JRSUIConstants$Size */ UnclassedObject? ) {
+    open func setSize( arg0: /* apple.laf.JRSUIConstants$Size */ UnavailableObject? ) {
               ^
          override 
 com_apple/Sources/AquaBorder.swift:103:15: note: overridden declaration is here
-    open func setSize( arg0: /* apple.laf.JRSUIConstants$Size */ UnclassedObject? ) {
+    open func setSize( arg0: /* apple.laf.JRSUIConstants$Size */ UnavailableObject? ) {
               ^
 com_apple/Sources/AquaTextFieldBorder.swift:124:15: error: overriding declaration requires an 'override' keyword
-    open func setSize( _ _arg0: /* apple.laf.JRSUIConstants$Size */ UnclassedObject? ) {
+    open func setSize( _ _arg0: /* apple.laf.JRSUIConstants$Size */ UnavailableObject? ) {
               ^
          override 
 com_apple/Sources/AquaBorder.swift:110:15: note: overridden declaration is here
-    open func setSize( _ _arg0: /* apple.laf.JRSUIConstants$Size */ UnclassedObject? ) {
+    open func setSize( _ _arg0: /* apple.laf.JRSUIConstants$Size */ UnavailableObject? ) {
               ^
 com_apple/Sources/AquaPopupMenuSeparatorUI.swift:30:14: error: overriding declaration requires an 'override' keyword
     open var shadow: java_awt.Color! {
@@ -4266,10 +4266,10 @@ javax_swing.ComponentUI:19:15: note: overridden declaration is here
     open func paint(_ _g: java_awt.Graphics?, _ _c: javax_swing.JComponent?)
               ^
 com_apple/Sources/AquaGroupBorder.swift:33:14: error: overriding declaration requires an 'override' keyword
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaBorder.swift:28:14: note: overridden declaration is here
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaGroupBorder.swift:45:14: error: overriding declaration requires an 'override' keyword
     open var sizeDescriptor: AquaUtilControlSize_SizeDescriptor! {
@@ -4326,16 +4326,16 @@ com_apple/Sources/AquaTabbedPaneUI.swift:124:14: note: overridden declaration is
     open var hasAvoidedFirstFocus: Bool {
              ^
 com_apple/Sources/AquaTabbedPaneContrastUI.swift:141:14: error: overriding declaration requires an 'override' keyword
-    open var visibleTabState: /* com.apple.laf.AquaTabbedPaneTabState */ UnclassedObject! {
+    open var visibleTabState: /* com.apple.laf.AquaTabbedPaneTabState */ UnavailableObject! {
              ^
 com_apple/Sources/AquaTabbedPaneUI.swift:141:14: note: overridden declaration is here
-    open var visibleTabState: /* com.apple.laf.AquaTabbedPaneTabState */ UnclassedObject! {
+    open var visibleTabState: /* com.apple.laf.AquaTabbedPaneTabState */ UnavailableObject! {
              ^
 com_apple/Sources/AquaTabbedPaneContrastUI.swift:153:14: error: overriding declaration requires an 'override' keyword
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaTabbedPaneUI.swift:153:14: note: overridden declaration is here
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaTabbedPaneUI.swift:175:14: error: overriding declaration requires an 'override' keyword
     open var tabPane: javax_swing.JTabbedPane! {
@@ -4614,16 +4614,16 @@ com_apple/Sources/AquaTabbedPaneUI.swift:557:14: note: overridden declaration is
     open var tabChangeListener: javax_swing.ChangeListener! {
              ^
 com_apple/Sources/AquaTabbedPaneUI.swift:574:14: error: overriding declaration requires an 'override' keyword
-    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 com_apple/Sources/AquaTabbedPaneCopyFromBasicUI.swift:427:14: note: overridden declaration is here
-    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 com_apple/Sources/AquaTabbedPaneContrastUI.swift:574:14: error: overriding declaration requires an 'override' keyword
-    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 com_apple/Sources/AquaTabbedPaneUI.swift:574:14: note: overridden declaration is here
-    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 com_apple/Sources/AquaTabbedPaneUI.swift:591:14: error: overriding declaration requires an 'override' keyword
     open var mouseListener: java_awt.MouseListener! {
@@ -4662,18 +4662,18 @@ com_apple/Sources/AquaTabbedPaneUI.swift:641:14: note: overridden declaration is
     open var calcRect: java_awt.Rectangle! {
              ^
 com_apple/Sources/AquaTabbedPaneContrastUI.swift:726:15: error: overriding declaration requires an 'override' keyword
-    open func getState( arg0: Int, arg1: Bool, arg2: Bool ) -> /* apple.laf.JRSUIConstants$State */ UnclassedObject! {
+    open func getState( arg0: Int, arg1: Bool, arg2: Bool ) -> /* apple.laf.JRSUIConstants$State */ UnavailableObject! {
               ^
          override 
 com_apple/Sources/AquaTabbedPaneUI.swift:726:15: note: overridden declaration is here
-    open func getState( arg0: Int, arg1: Bool, arg2: Bool ) -> /* apple.laf.JRSUIConstants$State */ UnclassedObject! {
+    open func getState( arg0: Int, arg1: Bool, arg2: Bool ) -> /* apple.laf.JRSUIConstants$State */ UnavailableObject! {
               ^
 com_apple/Sources/AquaTabbedPaneContrastUI.swift:737:15: error: overriding declaration requires an 'override' keyword
-    open func getState( _ _arg0: Int, _ _arg1: Bool, _ _arg2: Bool ) -> /* apple.laf.JRSUIConstants$State */ UnclassedObject! {
+    open func getState( _ _arg0: Int, _ _arg1: Bool, _ _arg2: Bool ) -> /* apple.laf.JRSUIConstants$State */ UnavailableObject! {
               ^
          override 
 com_apple/Sources/AquaTabbedPaneUI.swift:737:15: note: overridden declaration is here
-    open func getState( _ _arg0: Int, _ _arg1: Bool, _ _arg2: Bool ) -> /* apple.laf.JRSUIConstants$State */ UnclassedObject! {
+    open func getState( _ _arg0: Int, _ _arg1: Bool, _ _arg2: Bool ) -> /* apple.laf.JRSUIConstants$State */ UnavailableObject! {
               ^
 com_apple/Sources/AquaTabbedPaneUI.swift:758:21: error: overriding declaration requires an 'override' keyword
     open class func createUI( arg0: javax_swing.JComponent? ) -> javax_swing.ComponentUI! {
@@ -4725,32 +4725,32 @@ com_apple/Sources/AquaTabbedPaneUI.swift:880:15: note: overridden declaration is
     open func shouldRepaintSelectedTabOnMouseDown() -> Bool {
               ^
 com_apple/Sources/AquaTabbedPaneContrastUI.swift:858:15: error: overriding declaration requires an 'override' keyword
-    open func getSegmentTrailingSeparator( arg0: Int, arg1: Int, arg2: Bool ) -> /* apple.laf.JRSUIConstants$SegmentTrailingSeparator */ UnclassedObject! {
+    open func getSegmentTrailingSeparator( arg0: Int, arg1: Int, arg2: Bool ) -> /* apple.laf.JRSUIConstants$SegmentTrailingSeparator */ UnavailableObject! {
               ^
          override 
 com_apple/Sources/AquaTabbedPaneUI.swift:892:15: note: overridden declaration is here
-    open func getSegmentTrailingSeparator( arg0: Int, arg1: Int, arg2: Bool ) -> /* apple.laf.JRSUIConstants$SegmentTrailingSeparator */ UnclassedObject! {
+    open func getSegmentTrailingSeparator( arg0: Int, arg1: Int, arg2: Bool ) -> /* apple.laf.JRSUIConstants$SegmentTrailingSeparator */ UnavailableObject! {
               ^
 com_apple/Sources/AquaTabbedPaneContrastUI.swift:869:15: error: overriding declaration requires an 'override' keyword
-    open func getSegmentTrailingSeparator( _ _arg0: Int, _ _arg1: Int, _ _arg2: Bool ) -> /* apple.laf.JRSUIConstants$SegmentTrailingSeparator */ UnclassedObject! {
+    open func getSegmentTrailingSeparator( _ _arg0: Int, _ _arg1: Int, _ _arg2: Bool ) -> /* apple.laf.JRSUIConstants$SegmentTrailingSeparator */ UnavailableObject! {
               ^
          override 
 com_apple/Sources/AquaTabbedPaneUI.swift:903:15: note: overridden declaration is here
-    open func getSegmentTrailingSeparator( _ _arg0: Int, _ _arg1: Int, _ _arg2: Bool ) -> /* apple.laf.JRSUIConstants$SegmentTrailingSeparator */ UnclassedObject! {
+    open func getSegmentTrailingSeparator( _ _arg0: Int, _ _arg1: Int, _ _arg2: Bool ) -> /* apple.laf.JRSUIConstants$SegmentTrailingSeparator */ UnavailableObject! {
               ^
 com_apple/Sources/AquaTabbedPaneContrastUI.swift:877:15: error: overriding declaration requires an 'override' keyword
-    open func getSegmentLeadingSeparator( arg0: Int, arg1: Int, arg2: Bool ) -> /* apple.laf.JRSUIConstants$SegmentLeadingSeparator */ UnclassedObject! {
+    open func getSegmentLeadingSeparator( arg0: Int, arg1: Int, arg2: Bool ) -> /* apple.laf.JRSUIConstants$SegmentLeadingSeparator */ UnavailableObject! {
               ^
          override 
 com_apple/Sources/AquaTabbedPaneUI.swift:911:15: note: overridden declaration is here
-    open func getSegmentLeadingSeparator( arg0: Int, arg1: Int, arg2: Bool ) -> /* apple.laf.JRSUIConstants$SegmentLeadingSeparator */ UnclassedObject! {
+    open func getSegmentLeadingSeparator( arg0: Int, arg1: Int, arg2: Bool ) -> /* apple.laf.JRSUIConstants$SegmentLeadingSeparator */ UnavailableObject! {
               ^
 com_apple/Sources/AquaTabbedPaneContrastUI.swift:888:15: error: overriding declaration requires an 'override' keyword
-    open func getSegmentLeadingSeparator( _ _arg0: Int, _ _arg1: Int, _ _arg2: Bool ) -> /* apple.laf.JRSUIConstants$SegmentLeadingSeparator */ UnclassedObject! {
+    open func getSegmentLeadingSeparator( _ _arg0: Int, _ _arg1: Int, _ _arg2: Bool ) -> /* apple.laf.JRSUIConstants$SegmentLeadingSeparator */ UnavailableObject! {
               ^
          override 
 com_apple/Sources/AquaTabbedPaneUI.swift:922:15: note: overridden declaration is here
-    open func getSegmentLeadingSeparator( _ _arg0: Int, _ _arg1: Int, _ _arg2: Bool ) -> /* apple.laf.JRSUIConstants$SegmentLeadingSeparator */ UnclassedObject! {
+    open func getSegmentLeadingSeparator( _ _arg0: Int, _ _arg1: Int, _ _arg2: Bool ) -> /* apple.laf.JRSUIConstants$SegmentLeadingSeparator */ UnavailableObject! {
               ^
 Build settings from command line:
     SYMROOT = /tmp
@@ -4820,10 +4820,10 @@ javax_swing.BasicTableUI:23:15: note: overridden declaration is here
     open func createFocusListener() -> FocusListener!
               ^
 com_apple/Sources/AquaButtonBorder_Toolbar.swift:36:14: error: overriding declaration requires an 'override' keyword
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaButtonBorder.swift:63:23: note: overridden declaration is here
-    override open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    override open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
                       ^
 com_apple/Sources/AquaButtonBorder_Toolbar.swift:48:14: error: overriding declaration requires an 'override' keyword
     open var sizeDescriptor: AquaUtilControlSize_SizeDescriptor! {
@@ -4958,10 +4958,10 @@ javax_swing.BasicTableUI:23:15: note: overridden declaration is here
     open func createFocusListener() -> FocusListener!
               ^
 com_apple/Sources/AquaTextFieldFormattedUI.swift:28:14: error: overriding declaration requires an 'override' keyword
-    open var delegate: /* com.apple.laf.AquaUtils$JComponentPainter */ UnclassedProtocol! {
+    open var delegate: /* com.apple.laf.AquaUtils$JComponentPainter */ UnavailableProtocol! {
              ^
 com_apple/Sources/AquaTextFieldUI.swift:28:14: note: overridden declaration is here
-    open var delegate: /* com.apple.laf.AquaUtils$JComponentPainter */ UnclassedProtocol! {
+    open var delegate: /* com.apple.laf.AquaUtils$JComponentPainter */ UnavailableProtocol! {
              ^
 com_apple/Sources/AquaTextFieldFormattedUI.swift:45:14: error: overriding declaration requires an 'override' keyword
     open var handler: AquaFocusHandler! {
@@ -5144,10 +5144,10 @@ java_util.ListResourceBundle:12:15: note: overridden declaration is here
     open func getContents() -> [[java_swift.JavaObject]]!
               ^
 com_apple/Sources/AquaScrollRegionBorder.swift:29:14: error: overriding declaration requires an 'override' keyword
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaBorder.swift:28:14: note: overridden declaration is here
-    open var painter: /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open var painter: /* com.apple.laf.AquaPainter */ UnavailableObject! {
              ^
 com_apple/Sources/AquaScrollRegionBorder.swift:41:14: error: overriding declaration requires an 'override' keyword
     open var sizeDescriptor: AquaUtilControlSize_SizeDescriptor! {
@@ -5162,11 +5162,11 @@ com_apple/Sources/AquaBorder.swift:52:14: note: overridden declaration is here
     open var sizeVariant: AquaUtilControlSize_SizeVariant! {
              ^
 com_apple/Sources/AquaScrollRegionBorder.swift:112:15: error: overriding declaration requires an 'override' keyword
-    open func createPainter() -> /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open func createPainter() -> /* com.apple.laf.AquaPainter */ UnavailableObject! {
               ^
          override 
 com_apple/Sources/AquaBorder.swift:146:15: note: overridden declaration is here
-    open func createPainter() -> /* com.apple.laf.AquaPainter */ UnclassedObject! {
+    open func createPainter() -> /* com.apple.laf.AquaPainter */ UnavailableObject! {
               ^
 com_apple/Sources/AquaTableHeaderBorder.swift:197:15: error: overriding declaration requires an 'override' keyword
     open func paintBorder( _ _arg0: java_awt.Component?, _ _arg1: java_awt.Graphics?, _ _arg2: Int, _ _arg3: Int, _ _arg4: Int, _ _arg5: Int ) {
@@ -5232,11 +5232,11 @@ javax_swing.ComponentUI:13:21: note: overridden declaration is here
     open class func createUI(_ _c: javax_swing.JComponent?) -> javax_swing.ComponentUI!
                     ^
 com_apple/Sources/AquaFileChooserUI.swift:1155:15: error: overriding declaration requires an 'override' keyword
-    open func ensureFileIsVisible( _ _arg0: javax_swing.JFileChooser?, _ _arg1: /* java.io.File */ UnclassedObject? ) {
+    open func ensureFileIsVisible( _ _arg0: javax_swing.JFileChooser?, _ _arg1: /* java.io.File */ UnavailableObject? ) {
               ^
          override 
 javax_swing.FileChooserUI:17:15: note: overridden declaration is here
-    open func ensureFileIsVisible(_ _fc: javax_swing.JFileChooser?, _ _f: java_swift.UnclassedObject?)
+    open func ensureFileIsVisible(_ _fc: javax_swing.JFileChooser?, _ _f: java_swift.UnavailableObject?)
               ^
 com_apple/Sources/AquaFileChooserUI.swift:1222:15: error: overriding declaration requires an 'override' keyword
     open func getApproveButtonText( _ _arg0: javax_swing.JFileChooser? ) -> String! {
@@ -5566,10 +5566,10 @@ javax_swing.BasicSliderUI:27:14: note: overridden declaration is here
     open var scrollListener: javax_swing.BasicSliderUI_ScrollListener! { get set }
              ^
 com_apple/Sources/AquaSliderUI.swift:392:14: error: overriding declaration requires an 'override' keyword
-    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 javax_swing.BasicSliderUI:28:14: note: overridden declaration is here
-    open var propertyChangeListener: UnclassedProtocol! { get set }
+    open var propertyChangeListener: UnavailableProtocol! { get set }
              ^
 com_apple/Sources/AquaSliderUI.swift:469:15: error: overriding declaration requires an 'override' keyword
     open func createChangeListener( _ _arg0: javax_swing.JSlider? ) -> javax_swing.ChangeListener! {
@@ -5679,10 +5679,10 @@ javax_swing.BasicOptionPaneUI:13:14: note: overridden declaration is here
     open var hasCustomComponents: Bool { get set }
              ^
 com_apple/Sources/AquaOptionPaneUI.swift:127:14: error: overriding declaration requires an 'override' keyword
-    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnclassedProtocol! {
+    open var propertyChangeListener: /* java.beans.PropertyChangeListener */ UnavailableProtocol! {
              ^
 javax_swing.BasicOptionPaneUI:14:14: note: overridden declaration is here
-    open var propertyChangeListener: UnclassedProtocol! { get set }
+    open var propertyChangeListener: UnavailableProtocol! { get set }
              ^
 com_apple/Sources/AquaOptionPaneUI.swift:167:21: error: overriding declaration requires an 'override' keyword
     open class func createUI( _ _arg0: javax_swing.JComponent? ) -> javax_swing.ComponentUI! {
@@ -5842,21 +5842,552 @@ ProcessInfoPlistFile /tmp/Debug/java_lang.framework/Versions/A/Resources/Info.pl
     builtin-infoPlistUtility java_lang/Info.plist -expandbuildsettings -platform macosx -o /tmp/Debug/java_lang.framework/Versions/A/Resources/Info.plist
 Build settings from command line:
     SYMROOT = /tmp
+Build settings from command line:
+    SYMROOT = /tmp
+Write auxiliary files
+write-file /tmp/com_apple.build/Debug/com_apple.build/com_apple-project-headers.hmap
+/bin/mkdir -p /tmp/com_apple.build/Debug/com_apple.build/DerivedSources
+write-file /tmp/com_apple.build/Debug/com_apple.build/DerivedSources/com_apple_vers.c
+write-file /tmp/com_apple.build/Debug/com_apple.build/module.modulemap
+write-file /tmp/com_apple.build/Debug/com_apple.build/unextended-module-overlay.yaml
+write-file /tmp/com_apple.build/Debug/com_apple.build/com_apple.hmap
+write-file /tmp/com_apple.build/Debug/com_apple.build/unextended-module.modulemap
+write-file /tmp/com_apple.build/Debug/com_apple.build/com_apple-own-target-headers.hmap
+/bin/mkdir -p /tmp/com_apple.build/Debug/com_apple.build/Objects-normal/x86_64
+write-file /tmp/com_apple.build/Debug/com_apple.build/Objects-normal/x86_64/com_apple.LinkFileList
+write-file /tmp/com_apple.build/Debug/com_apple.build/Objects-normal/x86_64/com_apple-OutputFileMap.json
+write-file /tmp/com_apple.build/Debug/com_apple.build/swift-overrides.hmap
+write-file /tmp/com_apple.build/Debug/com_apple.build/com_apple-generated-files.hmap
+write-file /tmp/com_apple.build/Debug/com_apple.build/com_apple-all-target-headers.hmap
+write-file /tmp/com_apple.build/Debug/com_apple.build/com_apple-all-non-framework-target-headers.hmap
+write-file /tmp/com_apple.build/all-product-headers.yaml
+Create product structure
+/bin/mkdir -p /tmp/Debug/com_apple.framework/Versions/A/Modules
+/bin/ln -sfh Versions/Current/Modules /tmp/Debug/com_apple.framework/Modules
+/bin/mkdir -p /tmp/Debug/com_apple.framework/Versions/A/Headers
+/bin/mkdir -p /tmp/Debug/com_apple.framework/Versions/A/Resources
+/bin/ln -sfh A /tmp/Debug/com_apple.framework/Versions/Current
+/bin/ln -sfh Versions/Current/Resources /tmp/Debug/com_apple.framework/Resources
+/bin/ln -sfh Versions/Current/Headers /tmp/Debug/com_apple.framework/Headers
+/bin/ln -sfh Versions/Current/com_apple /tmp/Debug/com_apple.framework/com_apple
+ProcessInfoPlistFile /tmp/Debug/com_apple.framework/Versions/A/Resources/Info.plist Info.plist
+    builtin-infoPlistUtility com_apple/Info.plist -expandbuildsettings -platform macosx -o /tmp/Debug/com_apple.framework/Versions/A/Resources/Info.plist
+com_apple/Sources/AquaButtonBorder.swift:60:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaBorder.swift:25:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder_Named.swift:33:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonExtendedTypes_SegmentedNamedBorder.swift:31:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder_Named.swift:33:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaBorder.swift:25:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder_Named.swift:33:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaBorder.swift:25:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaInternalFrameUI.swift:262:14: error: overriding declaration requires an 'override' keyword
+    open var propertyChangeListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+javax_swing.BasicInternalFrameUI:13:14: note: overridden declaration is here
+    open var propertyChangeListener: UnavailableProtocol! { get set }
+             ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaBorder.swift:25:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift:33:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift:108:15: error: overriding declaration requires an 'override' keyword
+    open func createPainter() -> /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+              ^
+         override 
+com_apple/Sources/AquaBorder.swift:100:15: note: overridden declaration is here
+    open func createPainter() -> /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+              ^
+com_apple/Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift:142:15: error: overriding declaration requires an 'override' keyword
+    open func getButtonState( arg0: javax_swing.AbstractButton?, arg1: javax_swing.ButtonModel? ) -> /* class apple.laf.JRSUIConstants$State */ UnavailableObject! {
+              ^
+         override 
+com_apple/Sources/AquaButtonBorder.swift:186:15: note: overridden declaration is here
+    open func getButtonState( arg0: javax_swing.AbstractButton?, arg1: javax_swing.ButtonModel? ) -> /* class apple.laf.JRSUIConstants$State */ UnavailableObject! {
+              ^
+com_apple/Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift:152:15: error: overriding declaration requires an 'override' keyword
+    open func getButtonState( _ _arg0: javax_swing.AbstractButton?, _ _arg1: javax_swing.ButtonModel? ) -> /* class apple.laf.JRSUIConstants$State */ UnavailableObject! {
+              ^
+         override 
+com_apple/Sources/AquaButtonBorder.swift:196:15: note: overridden declaration is here
+    open func getButtonState( _ _arg0: javax_swing.AbstractButton?, _ _arg1: javax_swing.ButtonModel? ) -> /* class apple.laf.JRSUIConstants$State */ UnavailableObject! {
+              ^
+com_apple/Sources/AquaScrollPaneUI.swift:69:14: error: overriding declaration requires an 'override' keyword
+    open var spPropertyChangeListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+javax_swing.BasicScrollPaneUI:7:14: note: overridden declaration is here
+    open var spPropertyChangeListener: UnavailableProtocol! { get set }
+             ^
+com_apple/Sources/AquaSplitPaneDividerUI.swift:56:14: error: overriding declaration requires an 'override' keyword
+    open var dragger: /* class javax.swing.plaf.basic.BasicSplitPaneDivider$DragController */ UnavailableObject! {
+             ^
+javax_swing.BasicSplitPaneDivider:6:14: note: overridden declaration is here
+    open var dragger: java_swift.UnavailableObject! { get set }
+             ^
+com_apple/Sources/AquaSplitPaneDividerUI.swift:107:14: error: overriding declaration requires an 'override' keyword
+    open var mouseHandler: /* class javax.swing.plaf.basic.BasicSplitPaneDivider$MouseHandler */ UnavailableObject! {
+             ^
+javax_swing.BasicSplitPaneDivider:9:14: note: overridden declaration is here
+    open var mouseHandler: java_swift.UnavailableObject! { get set }
+             ^
+com_apple/Sources/AquaSplitPaneDividerUI.swift:276:14: error: overriding declaration requires an 'override' keyword
+    open var accessibleContext: /* class javax.accessibility.AccessibleContext */ UnavailableObject! {
+             ^
+javax_swing.BasicSplitPaneDivider:14:23: note: overridden declaration is here
+    override open var accessibleContext: java_swift.UnavailableObject! { get set }
+                      ^
+com_apple/Sources/AquaSplitPaneDividerUI.swift:610:15: error: overriding declaration requires an 'override' keyword
+    open func propertyChange( _ _arg0: /* class java.beans.PropertyChangeEvent */ UnavailableObject? ) {
+              ^
+         override 
+javax_swing.BasicSplitPaneDivider:32:15: note: overridden declaration is here
+    open func propertyChange(_ _evt: java_swift.UnavailableObject?)
+              ^
+com_apple/Sources/AquaListUI.swift:205:14: error: overriding declaration requires an 'override' keyword
+    open var propertyChangeListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+javax_swing.BasicListUI:13:14: note: overridden declaration is here
+    open var propertyChangeListener: UnavailableProtocol! { get set }
+             ^
+com_apple/Sources/AquaListUI.swift:304:15: error: overriding declaration requires an 'override' keyword
+    open func createPropertyChangeListener() -> /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+              ^
+         override 
+javax_swing.BasicListUI:25:15: note: overridden declaration is here
+    open func createPropertyChangeListener() -> UnavailableProtocol!
+              ^
+com_apple/Sources/AquaTabbedPaneUI.swift:400:14: error: overriding declaration requires an 'override' keyword
+    open var propertyChangeListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+com_apple/Sources/AquaTabbedPaneCopyFromBasicUI.swift:253:14: note: overridden declaration is here
+    open var propertyChangeListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+com_apple/Sources/AquaTabbedPaneUI.swift:808:15: error: overriding declaration requires an 'override' keyword
+    open func createPropertyChangeListener() -> /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+              ^
+         override 
+com_apple/Sources/AquaTabbedPaneCopyFromBasicUI.swift:972:15: note: overridden declaration is here
+    open func createPropertyChangeListener() -> /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+              ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaBorder.swift:25:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder_Dynamic.swift:39:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder_Dynamic.swift:130:15: error: overriding declaration requires an 'override' keyword
+    open func getButtonState( arg0: javax_swing.AbstractButton?, arg1: javax_swing.ButtonModel? ) -> /* class apple.laf.JRSUIConstants$State */ UnavailableObject! {
+              ^
+         override 
+com_apple/Sources/AquaButtonBorder.swift:186:15: note: overridden declaration is here
+    open func getButtonState( arg0: javax_swing.AbstractButton?, arg1: javax_swing.ButtonModel? ) -> /* class apple.laf.JRSUIConstants$State */ UnavailableObject! {
+              ^
+com_apple/Sources/AquaButtonBorder_Dynamic.swift:140:15: error: overriding declaration requires an 'override' keyword
+    open func getButtonState( _ _arg0: javax_swing.AbstractButton?, _ _arg1: javax_swing.ButtonModel? ) -> /* class apple.laf.JRSUIConstants$State */ UnavailableObject! {
+              ^
+         override 
+com_apple/Sources/AquaButtonBorder.swift:196:15: note: overridden declaration is here
+    open func getButtonState( _ _arg0: javax_swing.AbstractButton?, _ _arg1: javax_swing.ButtonModel? ) -> /* class apple.laf.JRSUIConstants$State */ UnavailableObject! {
+              ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaBorder.swift:25:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaSplitPaneUI.swift:345:14: error: overriding declaration requires an 'override' keyword
+    open var propertyChangeListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+javax_swing.BasicSplitPaneUI:22:14: note: overridden declaration is here
+    open var propertyChangeListener: UnavailableProtocol! { get set }
+             ^
+com_apple/Sources/AquaComboBoxUI.swift:362:14: error: overriding declaration requires an 'override' keyword
+    open var propertyChangeListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+javax_swing.BasicComboBoxUI:22:14: note: overridden declaration is here
+    open var propertyChangeListener: UnavailableProtocol! { get set }
+             ^
+com_apple/Sources/AquaMenuItemUI.swift:270:14: error: overriding declaration requires an 'override' keyword
+    open var propertyChangeListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+javax_swing.BasicMenuItemUI:18:14: note: overridden declaration is here
+    open var propertyChangeListener: UnavailableProtocol! { get set }
+             ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaBorder.swift:25:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder_Toggle.swift:33:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaRootPaneUI.swift:163:15: error: overriding declaration requires an 'override' keyword
+    open func propertyChange( _ _arg0: /* class java.beans.PropertyChangeEvent */ UnavailableObject? ) {
+              ^
+         override 
+javax_swing.BasicRootPaneUI:17:15: note: overridden declaration is here
+    open func propertyChange(_ _evt: java_swift.UnavailableObject?)
+              ^
+com_apple/Sources/AquaTreeUI_MacPropertyChangeHandler.swift:52:15: error: overriding declaration requires an 'override' keyword
+    open func propertyChange( _ _arg0: /* class java.beans.PropertyChangeEvent */ UnavailableObject? ) {
+              ^
+         override 
+javax_swing.BasicTreeUI_PropertyChangeHandler:8:15: note: overridden declaration is here
+    open func propertyChange(_ _evt: java_swift.UnavailableObject?)
+              ^
+com_apple/Sources/AquaTextPasswordFieldUI.swift:27:14: error: overriding declaration requires an 'override' keyword
+    open var delegate: /* interface com.apple.laf.AquaUtils$JComponentPainter */ UnavailableProtocol! {
+             ^
+com_apple/Sources/AquaTextFieldUI.swift:25:14: note: overridden declaration is here
+    open var delegate: /* interface com.apple.laf.AquaUtils$JComponentPainter */ UnavailableProtocol! {
+             ^
+com_apple/Sources/AquaMenuUI.swift:300:14: error: overriding declaration requires an 'override' keyword
+    open var propertyChangeListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+javax_swing.BasicMenuUI:20:23: note: overridden declaration is here
+    override open var propertyChangeListener: UnavailableProtocol! { get set }
+                      ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaBorder.swift:25:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift:33:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonCheckBoxUI_CheckBoxButtonBorder.swift:31:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift:33:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaBorder.swift:25:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaBorder.swift:25:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift:33:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonRadioUI_RadioButtonBorder.swift:31:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonLabeledUI_LabeledButtonBorder.swift:33:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaBorder.swift:25:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaTreeUI.swift:739:15: error: overriding declaration requires an 'override' keyword
+    open func createPropertyChangeListener() -> /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+              ^
+         override 
+javax_swing.BasicTreeUI:51:15: note: overridden declaration is here
+    open func createPropertyChangeListener() -> UnavailableProtocol!
+              ^
+com_apple/Sources/AquaTabbedPaneUI.swift:400:14: error: overriding declaration requires an 'override' keyword
+    open var propertyChangeListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+com_apple/Sources/AquaTabbedPaneCopyFromBasicUI.swift:253:14: note: overridden declaration is here
+    open var propertyChangeListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+com_apple/Sources/AquaTabbedPaneUI.swift:808:15: error: overriding declaration requires an 'override' keyword
+    open func createPropertyChangeListener() -> /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+              ^
+         override 
+com_apple/Sources/AquaTabbedPaneCopyFromBasicUI.swift:972:15: note: overridden declaration is here
+    open func createPropertyChangeListener() -> /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+              ^
+com_apple/Sources/AquaToolBarUI.swift:122:14: error: overriding declaration requires an 'override' keyword
+    open var dragWindow: /* class javax.swing.plaf.basic.BasicToolBarUI$DragWindow */ UnavailableObject! {
+             ^
+javax_swing.BasicToolBarUI:10:14: note: overridden declaration is here
+    open var dragWindow: java_swift.UnavailableObject! { get set }
+             ^
+com_apple/Sources/AquaToolBarUI.swift:223:14: error: overriding declaration requires an 'override' keyword
+    open var propertyListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+javax_swing.BasicToolBarUI:15:14: note: overridden declaration is here
+    open var propertyListener: UnavailableProtocol! { get set }
+             ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaBorder.swift:25:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaTextFieldBorder.swift:27:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaBorder.swift:25:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaTextFieldBorder.swift:167:15: error: overriding declaration requires an 'override' keyword
+    open func setSize( arg0: /* class apple.laf.JRSUIConstants$Size */ UnavailableObject? ) {
+              ^
+         override 
+com_apple/Sources/AquaBorder.swift:210:15: note: overridden declaration is here
+    open func setSize( arg0: /* class apple.laf.JRSUIConstants$Size */ UnavailableObject? ) {
+              ^
+com_apple/Sources/AquaTextFieldBorder.swift:174:15: error: overriding declaration requires an 'override' keyword
+    open func setSize( _ _arg0: /* class apple.laf.JRSUIConstants$Size */ UnavailableObject? ) {
+              ^
+         override 
+com_apple/Sources/AquaBorder.swift:217:15: note: overridden declaration is here
+    open func setSize( _ _arg0: /* class apple.laf.JRSUIConstants$Size */ UnavailableObject? ) {
+              ^
+com_apple/Sources/AquaGroupBorder.swift:30:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaBorder.swift:25:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaTabbedPaneContrastUI.swift:114:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaTabbedPaneUI.swift:114:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaTabbedPaneContrastUI.swift:160:14: error: overriding declaration requires an 'override' keyword
+    open var visibleTabState: /* class com.apple.laf.AquaTabbedPaneTabState */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaTabbedPaneUI.swift:160:14: note: overridden declaration is here
+    open var visibleTabState: /* class com.apple.laf.AquaTabbedPaneTabState */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaTabbedPaneUI.swift:400:14: error: overriding declaration requires an 'override' keyword
+    open var propertyChangeListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+com_apple/Sources/AquaTabbedPaneCopyFromBasicUI.swift:253:14: note: overridden declaration is here
+    open var propertyChangeListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+com_apple/Sources/AquaTabbedPaneContrastUI.swift:400:14: error: overriding declaration requires an 'override' keyword
+    open var propertyChangeListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+com_apple/Sources/AquaTabbedPaneUI.swift:400:14: note: overridden declaration is here
+    open var propertyChangeListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+com_apple/Sources/AquaTabbedPaneContrastUI.swift:753:15: error: overriding declaration requires an 'override' keyword
+    open func getSegmentLeadingSeparator( arg0: Int, arg1: Int, arg2: Bool ) -> /* class apple.laf.JRSUIConstants$SegmentLeadingSeparator */ UnavailableObject! {
+              ^
+         override 
+com_apple/Sources/AquaTabbedPaneUI.swift:958:15: note: overridden declaration is here
+    open func getSegmentLeadingSeparator( arg0: Int, arg1: Int, arg2: Bool ) -> /* class apple.laf.JRSUIConstants$SegmentLeadingSeparator */ UnavailableObject! {
+              ^
+com_apple/Sources/AquaTabbedPaneContrastUI.swift:764:15: error: overriding declaration requires an 'override' keyword
+    open func getSegmentLeadingSeparator( _ _arg0: Int, _ _arg1: Int, _ _arg2: Bool ) -> /* class apple.laf.JRSUIConstants$SegmentLeadingSeparator */ UnavailableObject! {
+              ^
+         override 
+com_apple/Sources/AquaTabbedPaneUI.swift:969:15: note: overridden declaration is here
+    open func getSegmentLeadingSeparator( _ _arg0: Int, _ _arg1: Int, _ _arg2: Bool ) -> /* class apple.laf.JRSUIConstants$SegmentLeadingSeparator */ UnavailableObject! {
+              ^
+com_apple/Sources/AquaTabbedPaneContrastUI.swift:772:15: error: overriding declaration requires an 'override' keyword
+    open func getSegmentTrailingSeparator( arg0: Int, arg1: Int, arg2: Bool ) -> /* class apple.laf.JRSUIConstants$SegmentTrailingSeparator */ UnavailableObject! {
+              ^
+         override 
+com_apple/Sources/AquaTabbedPaneUI.swift:996:15: note: overridden declaration is here
+    open func getSegmentTrailingSeparator( arg0: Int, arg1: Int, arg2: Bool ) -> /* class apple.laf.JRSUIConstants$SegmentTrailingSeparator */ UnavailableObject! {
+              ^
+com_apple/Sources/AquaTabbedPaneContrastUI.swift:783:15: error: overriding declaration requires an 'override' keyword
+    open func getSegmentTrailingSeparator( _ _arg0: Int, _ _arg1: Int, _ _arg2: Bool ) -> /* class apple.laf.JRSUIConstants$SegmentTrailingSeparator */ UnavailableObject! {
+              ^
+         override 
+com_apple/Sources/AquaTabbedPaneUI.swift:1007:15: note: overridden declaration is here
+    open func getSegmentTrailingSeparator( _ _arg0: Int, _ _arg1: Int, _ _arg2: Bool ) -> /* class apple.laf.JRSUIConstants$SegmentTrailingSeparator */ UnavailableObject! {
+              ^
+com_apple/Sources/AquaTabbedPaneContrastUI.swift:826:15: error: overriding declaration requires an 'override' keyword
+    open func getState( arg0: Int, arg1: Bool, arg2: Bool ) -> /* class apple.laf.JRSUIConstants$State */ UnavailableObject! {
+              ^
+         override 
+com_apple/Sources/AquaTabbedPaneUI.swift:1015:15: note: overridden declaration is here
+    open func getState( arg0: Int, arg1: Bool, arg2: Bool ) -> /* class apple.laf.JRSUIConstants$State */ UnavailableObject! {
+              ^
+com_apple/Sources/AquaTabbedPaneContrastUI.swift:837:15: error: overriding declaration requires an 'override' keyword
+    open func getState( _ _arg0: Int, _ _arg1: Bool, _ _arg2: Bool ) -> /* class apple.laf.JRSUIConstants$State */ UnavailableObject! {
+              ^
+         override 
+com_apple/Sources/AquaTabbedPaneUI.swift:1026:15: note: overridden declaration is here
+    open func getState( _ _arg0: Int, _ _arg1: Bool, _ _arg2: Bool ) -> /* class apple.laf.JRSUIConstants$State */ UnavailableObject! {
+              ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaBorder.swift:25:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder_Toolbar.swift:33:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaTextFieldFormattedUI.swift:25:14: error: overriding declaration requires an 'override' keyword
+    open var delegate: /* interface com.apple.laf.AquaUtils$JComponentPainter */ UnavailableProtocol! {
+             ^
+com_apple/Sources/AquaTextFieldUI.swift:25:14: note: overridden declaration is here
+    open var delegate: /* interface com.apple.laf.AquaUtils$JComponentPainter */ UnavailableProtocol! {
+             ^
+com_apple/Sources/AquaButtonBorder.swift:60:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaBorder.swift:25:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaScrollRegionBorder.swift:26:14: error: overriding declaration requires an 'override' keyword
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaBorder.swift:25:14: note: overridden declaration is here
+    open var painter: /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+             ^
+com_apple/Sources/AquaScrollRegionBorder.swift:79:15: error: overriding declaration requires an 'override' keyword
+    open func createPainter() -> /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+              ^
+         override 
+com_apple/Sources/AquaBorder.swift:100:15: note: overridden declaration is here
+    open func createPainter() -> /* class com.apple.laf.AquaPainter */ UnavailableObject! {
+              ^
+com_apple/Sources/AquaFileChooserUI.swift:1098:15: error: overriding declaration requires an 'override' keyword
+    open func ensureFileIsVisible( _ _arg0: javax_swing.JFileChooser?, _ _arg1: /* class java.io.File */ UnavailableObject? ) {
+              ^
+         override 
+javax_swing.FileChooserUI:7:15: note: overridden declaration is here
+    open func ensureFileIsVisible(_ _fc: javax_swing.JFileChooser?, _ _f: java_swift.UnavailableObject?)
+              ^
+com_apple/Sources/AquaSliderUI.swift:263:14: error: overriding declaration requires an 'override' keyword
+    open var propertyChangeListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+javax_swing.BasicSliderUI:18:14: note: overridden declaration is here
+    open var propertyChangeListener: UnavailableProtocol! { get set }
+             ^
+com_apple/Sources/AquaOptionPaneUI.swift:126:14: error: overriding declaration requires an 'override' keyword
+    open var propertyChangeListener: /* interface java.beans.PropertyChangeListener */ UnavailableProtocol! {
+             ^
+javax_swing.BasicOptionPaneUI:12:14: note: overridden declaration is here
+    open var propertyChangeListener: UnavailableProtocol! { get set }
+             ^
+Build settings from command line:
+    SYMROOT = /tmp
+MergeSwiftModule normal x86_64 /tmp/com_apple.build/Debug/com_apple.build/Objects-normal/x86_64/com_apple.swiftmodule
+Ditto /tmp/Debug/com_apple.framework/Versions/A/Headers/com_apple-Swift.h /tmp/com_apple.build/Debug/com_apple.build/Objects-normal/x86_64/com_apple-Swift.h
+    /usr/bin/ditto -rsrc /tmp/com_apple.build/Debug/com_apple.build/Objects-normal/x86_64/com_apple-Swift.h /tmp/Debug/com_apple.framework/Versions/A/Headers/com_apple-Swift.h
+Ditto /tmp/Debug/com_apple.framework/Versions/A/Modules/com_apple.swiftmodule/x86_64.swiftmodule /tmp/com_apple.build/Debug/com_apple.build/Objects-normal/x86_64/com_apple.swiftmodule
+    /usr/bin/ditto -rsrc /tmp/com_apple.build/Debug/com_apple.build/Objects-normal/x86_64/com_apple.swiftmodule /tmp/Debug/com_apple.framework/Versions/A/Modules/com_apple.swiftmodule/x86_64.swiftmodule
+CompileC /tmp/com_apple.build/Debug/com_apple.build/Objects-normal/x86_64/com_apple_vers.o /tmp/com_apple.build/Debug/com_apple.build/DerivedSources/com_apple_vers.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+Ditto /tmp/Debug/com_apple.framework/Versions/A/Modules/com_apple.swiftmodule/x86_64.swiftdoc /tmp/com_apple.build/Debug/com_apple.build/Objects-normal/x86_64/com_apple.swiftdoc
+    /usr/bin/ditto -rsrc /tmp/com_apple.build/Debug/com_apple.build/Objects-normal/x86_64/com_apple.swiftdoc /tmp/Debug/com_apple.framework/Versions/A/Modules/com_apple.swiftmodule/x86_64.swiftdoc
+Ld /tmp/Debug/com_apple.framework/Versions/A/com_apple normal x86_64
+CpHeader com_apple.h /tmp/Debug/com_apple.framework/Versions/A/Headers/com_apple.h
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks com_apple/com_apple.h /tmp/Debug/com_apple.framework/Versions/A/Headers
+Ditto /tmp/com_apple.build/Debug/com_apple.build/module.modulemap /tmp/Debug/com_apple.framework/Versions/A/Modules/module.modulemap
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /tmp/com_apple.build/Debug/com_apple.build/module.modulemap /tmp/Debug/com_apple.framework/Versions/A/Modules
+Touch /tmp/Debug/com_apple.framework
+    /usr/bin/touch -c /tmp/Debug/com_apple.framework
+** BUILD SUCCEEDED **
+Build settings from command line:
+    SYMROOT = /tmp
+** BUILD SUCCEEDED **
+Build settings from command line:
+    SYMROOT = /tmp
+** BUILD SUCCEEDED **
+Build settings from command line:
+    SYMROOT = /tmp
+** BUILD SUCCEEDED **
+Build settings from command line:
+    SYMROOT = /tmp
+** BUILD SUCCEEDED **
+Build settings from command line:
+    SYMROOT = /tmp
+** BUILD SUCCEEDED **
+Build settings from command line:
+    SYMROOT = /tmp
+** BUILD SUCCEEDED **
+Build settings from command line:
+    SYMROOT = /tmp
+Build settings from command line:
+    SYMROOT = /tmp
+Build settings from command line:
+    SYMROOT = /tmp
+Build settings from command line:
+    SYMROOT = /tmp
+Build settings from command line:
+    SYMROOT = /tmp
+Build settings from command line:
+    SYMROOT = /tmp
+ProcessInfoPlistFile /tmp/Debug/java_swift.framework/Versions/A/Resources/Info.plist Info.plist
+    builtin-infoPlistUtility java_swift/Info.plist -expandbuildsettings -platform macosx -o /tmp/Debug/java_swift.framework/Versions/A/Resources/Info.plist
+java_swift/Sources/JNICore.swift:118:17: warning: 'JNI_CreateJavaVM' is deprecated
+                JNI_CreateJavaVM( &self.jvm, $0, &vmArgs )
+                ^
+java_swift/Sources/JNICore.swift:118:17: warning: 'JNI_CreateJavaVM' is deprecated
+                JNI_CreateJavaVM( &self.jvm, $0, &vmArgs )
+                ^
+Build settings from command line:
+    SYMROOT = /tmp
+Build settings from command line:
+    SYMROOT = /tmp
+Build settings from command line:
+    SYMROOT = /tmp
+Build settings from command line:
+    SYMROOT = /tmp
 
-=== BUILD TARGET CJavaVM OF PROJECT CJavaVM WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-=== BUILD TARGET java_swift OF PROJECT java_swift WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-CompileSwiftSources normal x86_64 com.apple.xcode.tools.swift.compiler
-    cd /Users/user/SwiftJava/java_swift
-    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
-    export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -incremental -module-name java_swift -Onone -DDEBUG -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -target x86_64-apple-macosx10.10 -g -Xfrontend -serialize-debugging-options -enable-testing -I /tmp/Debug -F /tmp/Debug -c -j8 /Users/user/SwiftJava/java_swift/Sources/JNIProxy.swift /Users/user/SwiftJava/java_swift/Sources/JavaMap.swift /Users/user/SwiftJava/java_swift/Sources/JNICore.swift /Users/user/SwiftJava/java_swift/Sources/JNIObject.swift /Users/user/SwiftJava/java_swift/Sources/JavaClass.swift /Users/user/SwiftJava/java_swift/Sources/JavaObject.swift /Users/user/SwiftJava/java_swift/Sources/JNIField.swift /Users/user/SwiftJava/java_swift/Sources/JNIMethod.swift /Users/user/SwiftJava/java_swift/Sources/JNIType.swift /Users/user/SwiftJava/java_swift/Sources/JavaSet.swift /Users/user/SwiftJava/java_swift/Sources/Runnable.swift /Users/user/SwiftJava/java_swift/Sources/Throwable.swift /Users/user/SwiftJava/java_swift/Sources/HashMap.swift -output-file-map /tmp/java_swift.build/Debug/java_swift.build/Objects-normal/x86_64/java_swift-OutputFileMap.json -parseable-output -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /tmp/java_swift.build/Debug/java_swift.build/Objects-normal/x86_64/java_swift.swiftmodule -Xcc -I/tmp/java_swift.build/Debug/java_swift.build/swift-overrides.hmap -Xcc -iquote -Xcc /tmp/java_swift.build/Debug/java_swift.build/java_swift-generated-files.hmap -Xcc -I/tmp/java_swift.build/Debug/java_swift.build/java_swift-own-target-headers.hmap -Xcc -I/tmp/java_swift.build/Debug/java_swift.build/java_swift-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /tmp/java_swift.build/all-product-headers.yaml -Xcc -iquote -Xcc /tmp/java_swift.build/Debug/java_swift.build/java_swift-project-headers.hmap -Xcc -I/tmp/Debug/include -Xcc -I/tmp/java_swift.build/Debug/java_swift.build/DerivedSources/x86_64 -Xcc -I/tmp/java_swift.build/Debug/java_swift.build/DerivedSources -Xcc -DDEBUG=1 -emit-objc-header -emit-objc-header-path /tmp/java_swift.build/Debug/java_swift.build/Objects-normal/x86_64/java_swift-Swift.h -import-underlying-module -Xcc -ivfsoverlay -Xcc /tmp/java_swift.build/Debug/java_swift.build/unextended-module-overlay.yaml -Xcc -working-directory/Users/user/SwiftJava/java_swift
-
-CompileSwift normal x86_64 /Users/user/SwiftJava/java_swift/Sources/JNIProxy.swift
-    cd /Users/user/SwiftJava/java_swift
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -frontend -c -primary-file /Users/user/SwiftJava/java_swift/Sources/JNIProxy.swift /Users/user/SwiftJava/java_swift/Sources/JavaMap.swift /Users/user/SwiftJava/java_swift/Sources/JNICore.swift /Users/user/SwiftJava/java_swift/Sources/JNIObject.swift /Users/user/SwiftJava/java_swift/Sources/JavaClass.swift /Users/user/SwiftJava/java_swift/Sources/JavaObject.swift /Users/user/SwiftJava/java_swift/Sources/JNIField.swift /Users/user/SwiftJava/java_swift/Sources/JNIMethod.swift /Users/user/SwiftJava/java_swift/Sources/JNIType.swift /Users/user/SwiftJava/java_swift/Sources/JavaSet.swift /Users/user/SwiftJava/java_swift/Sources/Runnable.swift /Users/user/SwiftJava/java_swift/Sources/Throwable.swift /Users/user/SwiftJava/java_swift/Sources/HashMap.swift -target x86_64-apple-macosx10.10 -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -I /tmp/Debug -F /tmp/Debug -enable-testing -g -import-underlying-module -D DEBUG -serialize-debugging-options -Xcc -I/tmp/java_swift.build/Debug/java_swift.build/swift-overrides.hmap -Xcc -iquote -Xcc /tmp/java_swift.build/Debug/java_swift.build/java_swift-generated-files.hmap -Xcc -I/tmp/java_swift.build/Debug/java_swift.build/java_swift-own-target-headers.hmap -Xcc -I/tmp/java_swift.build/Debug/java_swift.build/java_swift-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /tmp/java_swift.build/all-product-headers.yaml -Xcc -iquote -Xcc /tmp/java_swift.build/Debug/java_swift.build/java_swift-project-headers.hmap -Xcc -I/tmp/Debug/include -Xcc -I/tmp/java_swift.build/Debug/java_swift.build/DerivedSources/x86_64 -Xcc -I/tmp/java_swift.build/Debug/java_swift.build/DerivedSources -Xcc -DDEBUG=1 -Xcc -ivfsoverlay -Xcc /tmp/java_swift.build/Debug/java_swift.build/unextended-module-overlay.yaml -Xcc -working-directory/Users/user/SwiftJava/java_swift -emit-module-doc-path /tmp/java_swift.build/Debug/java_swift.build/Objects-normal/x86_64/JNIProxy~partial.swiftdoc -serialize-diagnostics-path /tmp/java_swift.build/Debug/java_swift.build/Objects-normal/x86_64/JNIProxy.dia -Onone -module-name java_swift -emit-module-path /tmp/java_swift.build/Debug/java_swift.build/Objects-normal/x86_64/JNIProxy~partial.swiftmodule -emit-dependencies-path /tmp/java_swift.build/Debug/java_swift.build/Objects-normal/x86_64/JNIProxy.d -emit-reference-dependencies-path /tmp/java_swift.build/Debug/java_swift.build/Objects-normal/x86_64/JNIProxy.swiftdeps -o /tmp/java_swift.build/Debug/java_swift.build/Objects-normal/x86_64/JNIProxy.o
