@@ -9,7 +9,7 @@ public enum QuitStrategy: Int, JNIObjectProtocol, JNIObjectInit {
 
     case SYSTEM_EXIT_0, CLOSE_ALL_WINDOWS
 
-    static let enumConstants = try! JavaClass.forName("com.apple.eawt.QuitStrategy")
+    static let enumConstants = JavaClass(loading: "com.apple.eawt.QuitStrategy")
         .getEnumConstants()!.map { QuitStrategyForward( javaObject: $0.javaObject ) }
 
     public func underlier() -> QuitStrategyForward {

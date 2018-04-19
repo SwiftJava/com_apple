@@ -6390,4 +6390,67 @@ Build settings from command line:
     SYMROOT = /tmp
 Build settings from command line:
     SYMROOT = /tmp
-
+Build settings from command line:
+    SYMROOT = /tmp
+MergeSwiftModule normal x86_64 /tmp/java_lang.build/Debug/java_lang.build/Objects-normal/x86_64/java_lang.swiftmodule
+Ditto /tmp/Debug/java_lang.framework/Versions/A/Modules/java_lang.swiftmodule/x86_64.swiftdoc /tmp/java_lang.build/Debug/java_lang.build/Objects-normal/x86_64/java_lang.swiftdoc
+    /usr/bin/ditto -rsrc /tmp/java_lang.build/Debug/java_lang.build/Objects-normal/x86_64/java_lang.swiftdoc /tmp/Debug/java_lang.framework/Versions/A/Modules/java_lang.swiftmodule/x86_64.swiftdoc
+Ditto /tmp/Debug/java_lang.framework/Versions/A/Modules/java_lang.swiftmodule/x86_64.swiftmodule /tmp/java_lang.build/Debug/java_lang.build/Objects-normal/x86_64/java_lang.swiftmodule
+    /usr/bin/ditto -rsrc /tmp/java_lang.build/Debug/java_lang.build/Objects-normal/x86_64/java_lang.swiftmodule /tmp/Debug/java_lang.framework/Versions/A/Modules/java_lang.swiftmodule/x86_64.swiftmodule
+Ld /tmp/Debug/java_lang.framework/Versions/A/java_lang normal x86_64
+Touch /tmp/Debug/java_lang.framework
+    /usr/bin/touch -c /tmp/Debug/java_lang.framework
+java_util/Sources/TreeSet.swift:9:92: error: redundant conformance of 'TreeSet' to protocol 'UnavailableProtocol'
+open class TreeSet: AbstractSet, java_lang.Cloneable, /* interface java.io.Serializable */ UnavailableProtocol {
+                                                                                           ^
+java_util/Sources/TreeSet.swift:9:12: note: 'TreeSet' inherits conformance to protocol 'UnavailableProtocol' from superclass here
+open class TreeSet: AbstractSet, java_lang.Cloneable, /* interface java.io.Serializable */ UnavailableProtocol {
+           ^
+java_util/Sources/Attributes.swift:9:12: error: type 'Attributes' does not conform to protocol 'JavaMap'
+open class Attributes: java_swift.JavaObject, java_swift.JavaMap, java_lang.Cloneable {
+           ^
+java_util/Sources/Attributes.swift:349:15: note: candidate has non-matching type '(JavaObject?, BiFunction?) -> JavaObject!'
+    open func compute( arg0: java_swift.JavaObject?, arg1: BiFunction? ) -> java_swift.JavaObject! {
+              ^
+java_util/Sources/Attributes.swift:367:15: note: candidate has non-matching type '(JavaObject?, Function?) -> JavaObject!'
+    open func computeIfAbsent( arg0: java_swift.JavaObject?, arg1: Function? ) -> java_swift.JavaObject! {
+              ^
+java_util/Sources/Attributes.swift:385:15: note: candidate has non-matching type '(JavaObject?, BiFunction?) -> JavaObject!'
+    open func computeIfPresent( arg0: java_swift.JavaObject?, arg1: BiFunction? ) -> java_swift.JavaObject! {
+              ^
+java_util/Sources/Attributes.swift:407:15: note: candidate has non-matching type '(BiConsumer?) -> ()'
+    open func forEach( arg0: BiConsumer? ) {
+              ^
+java_util/Sources/Attributes.swift:444:15: note: candidate has non-matching type '(JavaObject?, JavaObject?, BiFunction?) -> JavaObject!'
+    open func merge( arg0: java_swift.JavaObject?, arg1: java_swift.JavaObject?, arg2: BiFunction? ) -> java_swift.JavaObject! {
+              ^
+java_util/Sources/Attributes.swift:534:15: note: candidate has non-matching type '(BiFunction?) -> ()'
+    open func replaceAll( arg0: BiFunction? ) {
+              ^
+java_util/Sources/Attributes.swift:9:12: note: do you want to add protocol stubs?
+open class Attributes: java_swift.JavaObject, java_swift.JavaMap, java_lang.Cloneable {
+           ^
+java_util/Sources/HashSet.swift:9:92: error: redundant conformance of 'HashSet' to protocol 'UnavailableProtocol'
+open class HashSet: AbstractSet, java_lang.Cloneable, /* interface java.io.Serializable */ UnavailableProtocol {
+                                                                                           ^
+java_util/Sources/HashSet.swift:9:12: note: 'HashSet' inherits conformance to protocol 'UnavailableProtocol' from superclass here
+open class HashSet: AbstractSet, java_lang.Cloneable, /* interface java.io.Serializable */ UnavailableProtocol {
+           ^
+java_util/Sources/AbstractSet.swift:8:12: error: type 'AbstractSet' does not conform to protocol 'JavaSet'
+open class AbstractSet: AbstractCollection, java_swift.JavaSet {
+           ^
+java_util/Sources/AbstractCollection.swift:57:15: note: candidate has non-matching type '(Collection?) -> Bool'
+    open func addAll( c: Collection? ) -> Bool {
+              ^
+java_util/Sources/AbstractCollection.swift:100:15: note: candidate has non-matching type '(Collection?) -> Bool'
+    open func containsAll( c: Collection? ) -> Bool {
+              ^
+java_util/Sources/AbstractCollection.swift:157:15: note: candidate has non-matching type '(Collection?) -> Bool'
+    open func removeAll( c: Collection? ) -> Bool {
+              ^
+java_util/Sources/AbstractCollection.swift:173:15: note: candidate has non-matching type '(Collection?) -> Bool'
+    open func retainAll( c: Collection? ) -> Bool {
+              ^
+java_util/Sources/AbstractSet.swift:8:12: note: do you want to add protocol stubs?
+open class AbstractSet: AbstractCollection, java_swift.JavaSet {
+           ^

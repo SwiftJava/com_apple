@@ -9,7 +9,7 @@ public enum Dispatch_Priority: Int, JNIObjectProtocol, JNIObjectInit {
 
     case LOW, NORMAL, HIGH
 
-    static let enumConstants = try! JavaClass.forName("com.apple.concurrent.Dispatch$Priority")
+    static let enumConstants = JavaClass(loading: "com.apple.concurrent.Dispatch$Priority")
         .getEnumConstants()!.map { Dispatch_PriorityForward( javaObject: $0.javaObject ) }
 
     public func underlier() -> Dispatch_PriorityForward {
