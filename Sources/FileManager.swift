@@ -20,7 +20,7 @@ open class FileManager: java_swift.JavaObject {
 
     private static var kLocalDomain_FieldID: jfieldID?
 
-    open static var kLocalDomain: Int16 {
+    public static var kLocalDomain: Int16 {
         get {
             let __value = JNIField.GetStaticShortField( fieldName: "kLocalDomain", fieldType: "S", fieldCache: &kLocalDomain_FieldID, className: "com/apple/eio/FileManager", classCache: &FileManagerJNIClass )
             return __value
@@ -31,7 +31,7 @@ open class FileManager: java_swift.JavaObject {
 
     private static var kNetworkDomain_FieldID: jfieldID?
 
-    open static var kNetworkDomain: Int16 {
+    public static var kNetworkDomain: Int16 {
         get {
             let __value = JNIField.GetStaticShortField( fieldName: "kNetworkDomain", fieldType: "S", fieldCache: &kNetworkDomain_FieldID, className: "com/apple/eio/FileManager", classCache: &FileManagerJNIClass )
             return __value
@@ -42,7 +42,7 @@ open class FileManager: java_swift.JavaObject {
 
     private static var kOnAppropriateDisk_FieldID: jfieldID?
 
-    open static var kOnAppropriateDisk: Int16 {
+    public static var kOnAppropriateDisk: Int16 {
         get {
             let __value = JNIField.GetStaticShortField( fieldName: "kOnAppropriateDisk", fieldType: "S", fieldCache: &kOnAppropriateDisk_FieldID, className: "com/apple/eio/FileManager", classCache: &FileManagerJNIClass )
             return __value
@@ -53,7 +53,7 @@ open class FileManager: java_swift.JavaObject {
 
     private static var kSystemDomain_FieldID: jfieldID?
 
-    open static var kSystemDomain: Int16 {
+    public static var kSystemDomain: Int16 {
         get {
             let __value = JNIField.GetStaticShortField( fieldName: "kSystemDomain", fieldType: "S", fieldCache: &kSystemDomain_FieldID, className: "com/apple/eio/FileManager", classCache: &FileManagerJNIClass )
             return __value
@@ -64,7 +64,7 @@ open class FileManager: java_swift.JavaObject {
 
     private static var kUserDomain_FieldID: jfieldID?
 
-    open static var kUserDomain: Int16 {
+    public static var kUserDomain: Int16 {
         get {
             let __value = JNIField.GetStaticShortField( fieldName: "kUserDomain", fieldType: "S", fieldCache: &kUserDomain_FieldID, className: "com/apple/eio/FileManager", classCache: &FileManagerJNIClass )
             return __value

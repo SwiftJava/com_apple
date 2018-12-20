@@ -56,7 +56,7 @@ open class Dispatch_PriorityForward: JNIObjectForward {
 
     private static var HIGH_FieldID: jfieldID?
 
-    open static var HIGH: Dispatch_Priority! {
+    public static var HIGH: Dispatch_Priority! {
         get {
             let __value = JNIField.GetStaticObjectField( fieldName: "HIGH", fieldType: "Lcom/apple/concurrent/Dispatch$Priority;", fieldCache: &HIGH_FieldID, className: "com/apple/concurrent/Dispatch$Priority", classCache: &Dispatch_PriorityJNIClass )
             defer { JNI.DeleteLocalRef( __value ) }
@@ -68,7 +68,7 @@ open class Dispatch_PriorityForward: JNIObjectForward {
 
     private static var LOW_FieldID: jfieldID?
 
-    open static var LOW: Dispatch_Priority! {
+    public static var LOW: Dispatch_Priority! {
         get {
             let __value = JNIField.GetStaticObjectField( fieldName: "LOW", fieldType: "Lcom/apple/concurrent/Dispatch$Priority;", fieldCache: &LOW_FieldID, className: "com/apple/concurrent/Dispatch$Priority", classCache: &Dispatch_PriorityJNIClass )
             defer { JNI.DeleteLocalRef( __value ) }
@@ -80,7 +80,7 @@ open class Dispatch_PriorityForward: JNIObjectForward {
 
     private static var NORMAL_FieldID: jfieldID?
 
-    open static var NORMAL: Dispatch_Priority! {
+    public static var NORMAL: Dispatch_Priority! {
         get {
             let __value = JNIField.GetStaticObjectField( fieldName: "NORMAL", fieldType: "Lcom/apple/concurrent/Dispatch$Priority;", fieldCache: &NORMAL_FieldID, className: "com/apple/concurrent/Dispatch$Priority", classCache: &Dispatch_PriorityJNIClass )
             defer { JNI.DeleteLocalRef( __value ) }

@@ -22,7 +22,7 @@ open class AquaButtonBorder: AquaBorder {
 
     private static var fBevel_FieldID: jfieldID?
 
-    open static var fBevel: /* class com.apple.laf.AquaUtils$RecyclableSingleton */ UnavailableObject! {
+    public static var fBevel: /* class com.apple.laf.AquaUtils$RecyclableSingleton */ UnavailableObject! {
         get {
             let __value = JNIField.GetStaticObjectField( fieldName: "fBevel", fieldType: "Lcom/apple/laf/AquaUtils$RecyclableSingleton;", fieldCache: &fBevel_FieldID, className: "com/apple/laf/AquaButtonBorder", classCache: &AquaButtonBorderJNIClass )
             defer { JNI.DeleteLocalRef( __value ) }
@@ -34,7 +34,7 @@ open class AquaButtonBorder: AquaBorder {
 
     private static var fDynamic_FieldID: jfieldID?
 
-    open static var fDynamic: /* class com.apple.laf.AquaUtils$RecyclableSingleton */ UnavailableObject! {
+    public static var fDynamic: /* class com.apple.laf.AquaUtils$RecyclableSingleton */ UnavailableObject! {
         get {
             let __value = JNIField.GetStaticObjectField( fieldName: "fDynamic", fieldType: "Lcom/apple/laf/AquaUtils$RecyclableSingleton;", fieldCache: &fDynamic_FieldID, className: "com/apple/laf/AquaButtonBorder", classCache: &AquaButtonBorderJNIClass )
             defer { JNI.DeleteLocalRef( __value ) }
@@ -48,7 +48,7 @@ open class AquaButtonBorder: AquaBorder {
 
     private static var fToolBar_FieldID: jfieldID?
 
-    open static var fToolBar: /* class com.apple.laf.AquaUtils$RecyclableSingleton */ UnavailableObject! {
+    public static var fToolBar: /* class com.apple.laf.AquaUtils$RecyclableSingleton */ UnavailableObject! {
         get {
             let __value = JNIField.GetStaticObjectField( fieldName: "fToolBar", fieldType: "Lcom/apple/laf/AquaUtils$RecyclableSingleton;", fieldCache: &fToolBar_FieldID, className: "com/apple/laf/AquaButtonBorder", classCache: &AquaButtonBorderJNIClass )
             defer { JNI.DeleteLocalRef( __value ) }

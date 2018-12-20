@@ -56,7 +56,7 @@ open class QuitStrategyForward: JNIObjectForward {
 
     private static var CLOSE_ALL_WINDOWS_FieldID: jfieldID?
 
-    open static var CLOSE_ALL_WINDOWS: QuitStrategy! {
+    public static var CLOSE_ALL_WINDOWS: QuitStrategy! {
         get {
             let __value = JNIField.GetStaticObjectField( fieldName: "CLOSE_ALL_WINDOWS", fieldType: "Lcom/apple/eawt/QuitStrategy;", fieldCache: &CLOSE_ALL_WINDOWS_FieldID, className: "com/apple/eawt/QuitStrategy", classCache: &QuitStrategyJNIClass )
             defer { JNI.DeleteLocalRef( __value ) }
@@ -68,7 +68,7 @@ open class QuitStrategyForward: JNIObjectForward {
 
     private static var SYSTEM_EXIT_0_FieldID: jfieldID?
 
-    open static var SYSTEM_EXIT_0: QuitStrategy! {
+    public static var SYSTEM_EXIT_0: QuitStrategy! {
         get {
             let __value = JNIField.GetStaticObjectField( fieldName: "SYSTEM_EXIT_0", fieldType: "Lcom/apple/eawt/QuitStrategy;", fieldCache: &SYSTEM_EXIT_0_FieldID, className: "com/apple/eawt/QuitStrategy", classCache: &QuitStrategyJNIClass )
             defer { JNI.DeleteLocalRef( __value ) }
