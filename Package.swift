@@ -1,3 +1,4 @@
+// swift-tools-version:5.0
 //
 //  Package.swift
 //  SwiftJava
@@ -10,7 +11,13 @@ import PackageDescription
 
 let package = Package(
     name: "com_apple",
+    products: [
+        .library(name: "com_apple", targets: ["javax_swing"]),
+    ],
     dependencies: [
-        .Package(url: "https://github.com/SwiftJava/javax_swing.git", versions: Version(2,1,0)..<Version(3,0,0)),
-        ]
+        .package(url: "https://github.com/SwiftJava/javax_swing.git", .branch("master")),
+        ],
+    targets: [
+        .target(name: "com_apple", dependencies: ["javax_swing"], path: "Sources/"),
+    ]
 )
